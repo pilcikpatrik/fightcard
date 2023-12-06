@@ -1,33 +1,72 @@
-import { Browser } from "puppeteer";
-const puppeteer = require("puppeteer");
-const fs = require("fs");
+import puppeteer, { Browser } from "puppeteer";
+import fs from "fs";
 
 const url = "https://oktagonmma.com/cs/fighters/";
+
+interface Fighter {
+  title: string;
+  score: string;
+  imgSrc: string;
+}
+
+interface FighterData {
+  [category: string]: Fighter[];
+}
 
 const main = async () => {
   const browser: Browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   await page.goto(url);
 
-  const fighterData = await page.evaluate((url) => {
-    const fighterWraps = Array.from(document.querySelectorAll(".fighter-wrap"));
-    const data = fighterWraps.map((fighter: any) => ({
-      title: fighter.querySelector(".fighter-big-name")?.textContent.trim(),
-      score: fighter.querySelector(".fighter-score-label")?.textContent.trim(),
-      imgSrc: url + fighter.querySelector("img").getAttribute("src"),
-    }));
+  const categories = [
+    "Heavyweight - 120.2kg/265lbs",
+    "Light heavyweight - 93kg/205lbs",
+    "Middleweight - 83.9kg/185lbs",
+  ];
 
-    return data;
-  }, url);
+  const allFightersData: FighterData = {};
 
-  console.log(fighterData);
+  for (const category of categories) {
+    // Vyčištění a zadání hodnoty do input elementu
+    await page.click("#weight-class", { clickCount: 3 });
+    await page.type("#weight-class", category);
+
+    // Stisknout Enter pro potvrzení výběru
+    await page.keyboard.press("Enter");
+
+    // Počkejte na načtení dat
+    await page.waitForSelector(".fighter-wrap", { visible: true });
+
+    const fighterData: Fighter[] = await page.evaluate(() => {
+      const fighterWraps = Array.from(
+        document.querySelectorAll(".fighter-wrap")
+      );
+      return fighterWraps.map((fighter) => ({
+        title:
+          fighter?.querySelector(".fighter-big-name")?.textContent?.trim() ||
+          "",
+        score:
+          fighter?.querySelector(".fighter-score-label")?.textContent?.trim() ||
+          "",
+        imgSrc: fighter?.querySelector("img")?.src || "",
+      }));
+    });
+
+    allFightersData[category] = fighterData;
+  }
+
+  console.log(allFightersData);
 
   await browser.close();
 
-  fs.writeFile("data.json", JSON.stringify(fighterData), (err: any) => {
-    if (err) throw err;
-    console.log("succes");
-  });
+  fs.writeFile(
+    "fightersData.json",
+    JSON.stringify(allFightersData, null, 2),
+    (err) => {
+      if (err) throw err;
+      console.log("Data úspěšně uložena.");
+    }
+  );
 };
 
 main();
