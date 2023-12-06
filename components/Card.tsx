@@ -1,53 +1,50 @@
 import React from "react";
 import Image from "next/image";
-import { useFightersStore } from "@/store/fightCardStore";
 
-const Card = () => {
-  const fighters = useFightersStore((state) => state.fighters);
+const defaultImageSrc = "https://oktagonmma.com/img/fight-card/arnold.png"; // Nahraďte cestou k vašemu defaultnímu obrázku
 
-  // Funkce pro získání příjmení z celého jména
-  const getSurname = (fullName) => fullName.split(" ").slice(-1)[0];
+interface Fighter {
+  title: string;
+  score: string;
+  imgSrc: string;
+}
+
+interface CardProps {
+  pair: [Fighter | null, Fighter | null];
+}
+
+const Card: React.FC<CardProps> = ({ pair }) => {
+  // Funkce pro extrakci příjmení z celého jména
+  const getSurname = (fullName: string) => fullName.split(" ").slice(-1)[0];
+
+  const getFighterImage = (fighter: Fighter | null) =>
+    fighter ? fighter.imgSrc : defaultImageSrc;
+  const getFighterSurname = (fighter: Fighter | null) =>
+    fighter ? getSurname(fighter.title) : "Unknown";
+
+  const [fighterOne, fighterTwo] = pair;
 
   return (
-    <div>
-      {fighters.map((fighter, index) => {
-        // Přeskočit každého druhého bojovníka, protože je přidáváme po párech
-        if (index % 2 !== 0) return null;
-
-        const nextFighter = fighters[index + 1];
-
-        return (
-          <div
-            key={fighter.title}
-            className="relative z-0 flex h-24 w-16 border-2 border-white bg-yellow-400 md:h-48 md:w-32 lg:h-56 lg:w-36"
-          >
-            <Image
-              src={fighter.imgSrc}
-              alt={fighter.title}
-              width={150}
-              height={150}
-              className="absolute bottom-0 right-3 w-36 md:w-60"
-            />
-            {nextFighter && (
-              <Image
-                src={nextFighter.imgSrc}
-                alt={nextFighter.title}
-                width={150}
-                height={150}
-                className="absolute bottom-0 left-3 w-36 md:w-60"
-              />
-            )}
-            <div className="absolute bottom-0 z-30 w-full bg-transparent p-2">
-              <h3 className="text-xxs text-center font-bold uppercase text-white md:text-base">
-                {getSurname(fighter.title)}
-                <br />
-                <span className="lowercase text-yellow-400">vs </span>
-                {nextFighter ? getSurname(nextFighter.title) : "Unknown"}
-              </h3>
-            </div>
-          </div>
-        );
-      })}
+    <div className="relative z-0 flex h-24 w-16 border-2 border-white bg-yellow-400 md:h-48 md:w-32 lg:h-56 lg:w-36">
+      <Image
+        src={getFighterImage(fighterOne)}
+        alt={getFighterSurname(fighterOne)}
+        width={150}
+        height={150}
+        className="absolute bottom-0 right-3 w-36 md:right-6 md:w-60"
+      />
+      <Image
+        src={getFighterImage(fighterTwo)}
+        alt={getFighterSurname(fighterTwo)}
+        width={150}
+        height={150}
+        className="absolute bottom-0 left-3 w-36 md:left-6 md:w-60"
+      />
+      <div className="absolute bottom-0 z-30 w-full bg-transparent p-2">
+        <h3 className="text-xxs text-center font-bold uppercase text-white md:text-base">
+          {getFighterSurname(fighterOne)} vs {getFighterSurname(fighterTwo)}
+        </h3>
+      </div>
     </div>
   );
 };

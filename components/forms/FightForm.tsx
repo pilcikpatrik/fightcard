@@ -1,5 +1,5 @@
 "use client";
-import * as React from "react";
+import React, { useState } from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -24,16 +24,19 @@ interface Fighter {
   imgSrc: string;
 }
 
-const FightForm = () => {
-  const [open, setOpen] = React.useState(false);
-  const addFighter = useFightersStore((state) => state.addFighter);
-  const [selectFighter, setSelectFighter] = React.useState<Fighter | null>(
-    null
-  );
+interface FightFormProps {
+  pairIndex: number; // Index páru, pro který je tento form
+  fighterIndex: 0 | 1; // Index bojovníka v páru (0 nebo 1)
+}
+
+const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
+  const [open, setOpen] = useState(false);
+  const updateFightPair = useFightersStore((state) => state.updateFightPair);
+  const [selectFighter, setSelectFighter] = useState<Fighter | null>(null);
 
   const handleSelectFighter = (fighter: Fighter) => {
     setSelectFighter(fighter);
-    addFighter(fighter);
+    updateFightPair(pairIndex, fighterIndex, fighter);
   };
 
   return (
