@@ -1,9 +1,9 @@
-import { UserButton } from "@clerk/nextjs";
+import FightCard from "@/components/FightCard";
 
 const Home = () => {
   return (
-    <div>
-      <UserButton afterSignOutUrl="/" />
+    <div className="flex flex-col">
+      <FightCard />
     </div>
   );
 };

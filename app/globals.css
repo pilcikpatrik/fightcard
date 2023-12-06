@@ -19,3 +19,18 @@ body {
     @apply flex justify-start items-center;
   }
 }
+
+.no-focus {
+  @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
+}
+
+.text-xxs {
+  font-size: 8px;
+}
+
+.bg {
+  background-image: url("/assets/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
