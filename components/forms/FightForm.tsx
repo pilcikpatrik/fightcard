@@ -31,6 +31,11 @@ interface FightFormProps {
 
 const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
   const [open, setOpen] = useState(false);
+  const selectedCategory = useFightersStore(
+    (state) => state.selectedCategories[pairIndex]
+  );
+  const fightersInCategory =
+    selectedCategory in fightersData ? fightersData[selectedCategory] : []; // Filtruje bojovníky na základě vybrané kategorie
   const updateFightPair = useFightersStore((state) => state.updateFightPair);
   const [selectFighter, setSelectFighter] = useState<Fighter | null>(null);
 
@@ -38,6 +43,9 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
     setSelectFighter(fighter);
     updateFightPair(pairIndex, fighterIndex, fighter);
   };
+
+  /*   console.log("Selected Category:", selectedCategory);
+  console.log("Fighters in Selected Category:", fightersInCategory); */
 
   return (
     <div className="flex flex-col gap-2">
@@ -58,7 +66,7 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
             <CommandInput placeholder="Search fighter..." />
             <CommandEmpty>No fighter found.</CommandEmpty>
             <CommandGroup>
-              {fightersData.map((fighter) => (
+              {fightersInCategory.map((fighter: any) => (
                 <CommandItem
                   key={fighter.title}
                   value={fighter.title}

@@ -6,21 +6,22 @@ interface Fighter {
   imgSrc: string;
 }
 
-// Definujeme typ pro pár bojovníků
 type FighterPair = [Fighter | null, Fighter | null];
 
 interface FightersState {
   fightPairs: FighterPair[];
+  selectedCategories: Record<number, string>; // Přidáno pro sledování vybraných kategorií
   updateFightPair: (
     pairIndex: number,
     fighterIndex: 0 | 1,
     fighter: Fighter
   ) => void;
+  selectCategory: (pairIndex: number, category: string) => void; // Přidáno pro aktualizaci vybrané kategorie
 }
 
 export const useFightersStore = create<FightersState>((set) => ({
-  // Inicializujeme 12 párů, každý pár je [null, null]
-  fightPairs: Array(12).fill([null, null]),
+  fightPairs: Array(10).fill([null, null]),
+  selectedCategories: {}, // Inicializace prázdného objektu pro kategorie
 
   updateFightPair: (pairIndex, fighterIndex, fighter) =>
     set((state) => {
@@ -29,6 +30,15 @@ export const useFightersStore = create<FightersState>((set) => ({
       updatedPair[fighterIndex] = fighter;
 
       updatedPairs[pairIndex] = updatedPair as FighterPair;
-      return { fightPairs: updatedPairs };
+      return { ...state, fightPairs: updatedPairs };
     }),
+
+  selectCategory: (pairIndex, category) =>
+    set((state) => ({
+      ...state,
+      selectedCategories: {
+        ...state.selectedCategories,
+        [pairIndex]: category,
+      },
+    })),
 }));

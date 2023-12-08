@@ -25,22 +25,23 @@ const Card: React.FC<CardProps> = ({ pair }) => {
   const [fighterOne, fighterTwo] = pair;
 
   return (
-    <div className="relative z-0 flex h-24 w-16 border-2 border-white bg-yellow-400 md:h-48 md:w-32 lg:h-56 lg:w-36">
+    <div className="relative z-0 flex h-28 w-20 border-2 border-white bg-yellow-400 md:h-48 md:w-32 lg:h-56 lg:w-36">
       <Image
         src={getFighterImage(fighterOne)}
         alt={getFighterSurname(fighterOne)}
         width={150}
         height={150}
-        className="absolute bottom-0 right-3 w-36 md:right-6 md:w-60"
+        className="f_image_1"
       />
       <Image
         src={getFighterImage(fighterTwo)}
         alt={getFighterSurname(fighterTwo)}
         width={150}
         height={150}
-        className="absolute bottom-0 left-3 w-36 md:left-6 md:w-60"
+        className="f_image_2"
       />
-      <div className="absolute bottom-0 z-30 w-full bg-transparent p-2">
+      <div className="card_gradient absolute bottom-0 z-20 h-[30%] w-full"></div>
+      <div className="absolute bottom-0 z-30 w-full p-2">
         <h3 className="text-xxs text-center font-bold uppercase text-white md:text-base">
           {getFighterSurname(fighterOne)} vs {getFighterSurname(fighterTwo)}
         </h3>
