@@ -61,7 +61,7 @@ const SaveDialog = ({ mongoUserId }: Props) => {
       await createCard({
         title: values.title,
         fighters: fightersToSave,
-        author: mongoUserId,
+        author: JSON.parse(mongoUserId),
         path: pathname,
       });
 
