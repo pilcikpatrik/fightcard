@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { BiTrash, BiSolidShare } from "react-icons/bi";
+import { BiTrash, BiEdit } from "react-icons/bi";
 import { FaRegEye } from "react-icons/fa";
 import { Separator } from "@/components/ui/separator";
 
@@ -17,7 +17,7 @@ const CardList = () => {
             <FaRegEye />
           </Button>
           <Button className="no-focus bg-black text-lg text-white">
-            <BiSolidShare />
+            <BiEdit />
           </Button>
           <Button className="no-focus bg-black text-lg text-white">
             <BiTrash />
