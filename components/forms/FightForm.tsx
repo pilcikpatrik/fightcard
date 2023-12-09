@@ -29,13 +29,18 @@ interface FightFormProps {
   fighterIndex: 0 | 1; // Index bojovníka v páru (0 nebo 1)
 }
 
+interface FightersData {
+  [category: string]: Fighter[];
+}
+
 const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
   const [open, setOpen] = useState(false);
   const selectedCategory = useFightersStore(
     (state) => state.selectedCategories[pairIndex]
   );
   const fightersInCategory =
-    selectedCategory in fightersData ? fightersData[selectedCategory] : []; // Filtruje bojovníky na základě vybrané kategorie
+    (fightersData as FightersData)[selectedCategory] ?? [];
+  // Filtruje bojovníky na základě vybrané kategorie
   const updateFightPair = useFightersStore((state) => state.updateFightPair);
   const [selectFighter, setSelectFighter] = useState<Fighter | null>(null);
 
