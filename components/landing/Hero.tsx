@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative flex h-screen w-full items-center justify-center p-10 md:p-40">
+    <div className="relative flex h-[90vh] w-full items-center justify-center p-10 md:p-40">
       <video
         autoPlay
         loop
