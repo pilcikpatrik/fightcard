@@ -9,8 +9,55 @@ import {
   DeleteCardParams,
   EditCardParams,
   GetUserCardsParams,
+  GetCardsParams,
 } from "./shared.types";
 import User from "@/database/user.model";
+import { FilterQuery } from "mongoose";
+
+export async function getCards(params: GetCardsParams) {
+  try {
+    connectToDatabase();
+
+    const { searchQuery, filter, page = 1, pageSize = 10 } = params;
+
+    // Calculcate the number of posts to skip based on the page number and page size
+    const skipAmount = (page - 1) * pageSize;
+
+    const query: FilterQuery<typeof Card> = { isVisible: true };
+
+    if (searchQuery) {
+      query.$or = [{ title: { $regex: new RegExp(searchQuery, "i") } }];
+    }
+
+    let sortOptions = {};
+
+    switch (filter) {
+      case "newest":
+        sortOptions = { createdAt: -1 };
+        break;
+      case "frequent":
+        sortOptions = { views: -1 };
+        break;
+      default:
+        break;
+    }
+
+    const cards = await Card.find(query)
+      .populate({ path: "author", model: User })
+      .skip(skipAmount)
+      .limit(pageSize)
+      .sort(sortOptions);
+
+    const totalCards = await Card.countDocuments(query);
+
+    const isNext = totalCards > skipAmount + cards.length;
+
+    return { cards, isNext };
+  } catch (error) {
+    console.log(error);
+    throw error;
+  }
+}
 
 export async function getSavedCards(params: GetUserCardsParams) {
   try {
@@ -130,5 +177,29 @@ export async function editCard(params: EditCardParams) {
     revalidatePath(path);
   } catch (error) {
     console.log(error);
+  }
+}
+
+export async function setVisibleCard(params: { cardId: string; path: string }) {
+  try {
+    connectToDatabase();
+
+    const { cardId, path } = params;
+
+    const card = await Card.findById(cardId);
+
+    if (!card) {
+      throw new Error("Card not found");
+    }
+
+    // Set isVisible to true
+    card.isVisible = true;
+
+    await card.save();
+
+    revalidatePath(path);
+  } catch (error) {
+    console.log(error);
+    throw error; // It's often a good practice to rethrow the error so the caller knows something went wrong
   }
 }

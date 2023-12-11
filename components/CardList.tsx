@@ -11,13 +11,18 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
-import { BiTrash, BiEdit, BiDotsVerticalRounded } from "react-icons/bi";
+import {
+  BiTrash,
+  BiEdit,
+  BiDotsVerticalRounded,
+  BiShare,
+} from "react-icons/bi";
 import { FaRegEye } from "react-icons/fa";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import { getTimestamp } from "@/lib/utils";
-import { deleteCard } from "@/lib/actions/card.action";
-import { usePathname } from "next/navigation";
+import { deleteCard, setVisibleCard } from "@/lib/actions/card.action";
+import { usePathname, useRouter } from "next/navigation";
 import { useToast } from "@/components/ui/use-toast";
 import {
   DropdownMenu,
@@ -35,6 +40,7 @@ interface Props {
 
 const CardList = ({ _id, title, createdAt }: Props) => {
   const pathname = usePathname();
+  const router = useRouter();
   const { toast } = useToast();
 
   const handleDelete = async () => {
@@ -45,6 +51,17 @@ const CardList = ({ _id, title, createdAt }: Props) => {
     toast({
       description: "Card has been deleted.",
     });
+  };
+
+  const handleShare = async () => {
+    await setVisibleCard({
+      cardId: JSON.parse(_id),
+      path: pathname,
+    });
+    toast({
+      description: "Card has been published.",
+    });
+    router.push(`/card/${JSON.parse(_id)}`);
   };
 
   const urlId = JSON.parse(_id);
@@ -75,6 +92,7 @@ const CardList = ({ _id, title, createdAt }: Props) => {
                 <Link href={`/card/${urlId}`}>
                   <DropdownMenuItem>View</DropdownMenuItem>
                 </Link>
+                <DropdownMenuItem onClick={handleShare}>Share</DropdownMenuItem>
                 <Link href={`/create-card/${urlId}`}>
                   <DropdownMenuItem>Edit</DropdownMenuItem>
                 </Link>
@@ -96,6 +114,32 @@ const CardList = ({ _id, title, createdAt }: Props) => {
                 <BiEdit />
               </Button>
             </Link>
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button className="btn no-focus text-lg">
+                  <BiShare />
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent className="bg-white">
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    This action will publish your FightCard.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel className="no-focus btn">
+                    Cancel
+                  </AlertDialogCancel>
+                  <AlertDialogAction
+                    onClick={handleShare}
+                    className="no-focus btn"
+                  >
+                    Continue
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
             <AlertDialog>
               <AlertDialogTrigger asChild>
                 <Button className="btn no-focus text-lg">

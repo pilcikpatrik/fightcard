@@ -14,23 +14,18 @@ const Hero = () => {
           height={300}
         />
         <h1 className="text-center text-2xl font-bold uppercase">
-          Poskládej si vlastní oktagon fightcard
+          Create and configure your own FIGHT CARD
         </h1>
         <p className="text-center">
-          Poskládej svoji vysněnou FightCard a sdílej ji mezi ostatní. Dej nám
-          vědět jaké zápasy by se ti na turnaji OKTAGON líbili. Můžeš také
-          procházet karty ostatních fanouškú a dávat jim upvoty.
+          Buil your dream OKTAGON FIGHTCARD and share it with others. Let us
+          know what fights you would like to see.
         </p>
         <div className="flex flex-col items-center justify-center gap-3 xs:flex-row">
           <Link href="/sign-in">
-            <Button className="no-focus bg-black text-white">
-              Přihlásit se
-            </Button>
+            <Button className="no-focus bg-black text-white">Sign in</Button>
           </Link>
           <Link href="/sign-up">
-            <Button className="no-focus bg-black text-white">
-              Registrovat se
-            </Button>
+            <Button className="no-focus bg-black text-white">Sign up</Button>
           </Link>
         </div>
       </div>

@@ -4,6 +4,7 @@ import MainEvent from "./MainEvent";
 import Card from "./Card";
 import Prelims from "./Prelims";
 import EditDelete from "./EditDelete";
+import Link from "next/link";
 
 interface Fighter {
   title: string;
@@ -63,7 +64,9 @@ const FightCard = ({
     return (
       <div className="flex items-center justify-center gap-2 sm:gap-4 md:gap-10">
         {group.map((pair: any, idx: any) => (
-          <Component key={idx} pair={pair} />
+          <Link key={idx} href={`/fight/${JSON.parse(itemId)}`}>
+            <Component key={idx} pair={pair} />
+          </Link>
         ))}
       </div>
     );
