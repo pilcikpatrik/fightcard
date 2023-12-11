@@ -3,11 +3,11 @@ import React from "react";
 import Image from "next/image";
 import HomeForm from "./HomeForm";
 
-const Home = () => {
+const Home = ({ savedCards }: any) => {
   return (
     <div className="relative flex items-center justify-center overflow-hidden">
       <div className="flex-center grow flex-col">
-        <HomeForm />
+        <HomeForm savedCards={savedCards} />
       </div>
 
       <div className="bg flex h-[90vh] w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20">

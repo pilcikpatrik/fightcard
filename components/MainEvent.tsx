@@ -31,15 +31,15 @@ const MainEvent: React.FC<MainEventProps> = ({ pair }) => {
         alt={getFighterSurname(fighterOne)}
         width={150}
         height={150}
-        className="w-36 md:w-60"
+        className="w-24 xs:w-32 sm:w-36 md:w-60"
       />
-      <div className="flex flex-col items-center justify-center gap-2">
-        <div className="sheet w-32 bg-yellow-400 py-0.5 md:w-32 md:py-1">
-          <h2 className="text-center text-xs uppercase text-white md:text-sm">
+      <div className="relative -top-2 flex flex-col items-center justify-center gap-1 xs:top-0 xs:gap-2">
+        <div className="sheet w-20 bg-yellow-400 py-0.5 sm:w-32 md:w-32 md:py-1">
+          <h2 className="text-xxs text-center uppercase text-white sm:text-xs md:text-sm">
             #Main event
           </h2>
         </div>
-        <h3 className="text-center text-2xl font-bold uppercase text-white md:text-4xl">
+        <h3 className="text-center text-base font-bold uppercase text-white xs:text-lg sm:text-2xl md:text-4xl">
           {getFighterSurname(fighterOne)}
           <br /> vs <br />
           {getFighterSurname(fighterTwo)}
@@ -50,7 +50,7 @@ const MainEvent: React.FC<MainEventProps> = ({ pair }) => {
         alt={getFighterSurname(fighterTwo)}
         width={150}
         height={150}
-        className="relative md:w-60"
+        className="w-24 xs:w-32 sm:w-36 md:w-60"
       />
     </div>
   );

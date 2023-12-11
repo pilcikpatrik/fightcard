@@ -8,56 +8,105 @@ import {
   GetCardByIdParams,
   DeleteCardParams,
   EditCardParams,
+  GetUserCardsParams,
 } from "./shared.types";
+import User from "@/database/user.model";
 
-export async function getCardsByUserId(params: GetCardByIdParams) {
+export async function getSavedCards(params: GetUserCardsParams) {
   try {
     await connectToDatabase();
+    const { clerkId } = params;
 
-    const { userId } = params;
+    // Najde uživatele
+    const user = await User.findOne({ clerkId });
+    if (!user) {
+      throw new Error("User not found");
+    }
 
-    // Najděte všechny karty, které mají 'author' roven 'userId'
-    const cards = await Card.find({ author: userId });
+    // Získá pole ID karet z uživatele
+    const savedCardIds = user.saved;
 
-    return cards;
+    // Provede dotaz na získání specifických informací o kartách
+    const savedCards = await Card.find({
+      _id: { $in: savedCardIds },
+    }).select("_id title createdAt");
+
+    return savedCards;
   } catch (error) {
     console.error(error);
-    return [];
+    throw error;
+  }
+}
+
+export async function getCardById(params: GetCardByIdParams) {
+  try {
+    connectToDatabase();
+
+    const { cardId } = params;
+
+    const card = await Card.findById(cardId).populate({
+      path: "author",
+      model: User,
+      select: "_id clerkId name picture",
+    });
+
+    return card;
+  } catch (error) {
+    console.log(error);
+    throw error;
   }
 }
 
 export async function createCard(params: CreateCardParams) {
   try {
-    connectToDatabase();
+    await connectToDatabase();
 
     const { title, fighters, author, path } = params;
-
-    // Odfiltrování null hodnot z fighters
     const filteredFighters = fighters.filter((fighter) => fighter !== null);
 
-    await Card.create({
+    // Vytvoření karty
+    const newCard = await Card.create({
       title,
       fighters: filteredFighters,
       author,
     });
 
-    revalidatePath(path);
+    // Aktualizace uživatelského modelu
+    await User.findByIdAndUpdate(author, {
+      $push: { saved: newCard._id },
+    });
+
+    await revalidatePath(path);
   } catch (error) {
-    console.log(error);
+    console.error(error);
+    // Zde můžete přidat další zpracování chyb
   }
 }
 
 export async function deleteCard(params: DeleteCardParams) {
   try {
-    connectToDatabase();
+    await connectToDatabase();
 
     const { cardId, path } = params;
 
+    // Nejprve získáme kartu, abychom zjistili, kdo je autorem
+    const card = await Card.findById(cardId);
+    if (!card) {
+      throw new Error("Card not found");
+    }
+
+    // Smazání karty
     await Card.deleteOne({ _id: cardId });
 
-    revalidatePath(path);
+    // Odstranění ID karty z pole 'saved' uživatele
+    await User.findByIdAndUpdate(card.author, {
+      $pull: { saved: cardId },
+    });
+
+    await revalidatePath(path);
   } catch (error) {
     console.log(error);
+    // Zde můžete přidat další zpracování chyb
   }
 }
 

@@ -5,17 +5,8 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative flex h-[90vh] w-full items-center justify-center p-10 md:p-40">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="video_filter absolute left-0 top-0 h-full w-full object-cover"
-      >
-        <source src="/assets/videos/preview.mp4" type="video/mp4" />
-      </video>
-      <div className="z-10 flex max-w-[600px] flex-col items-center justify-center gap-5 rounded-lg bg-white p-10 drop-shadow-md">
+    <div className="bg relative flex h-[90vh] w-full items-center justify-center">
+      <div className="z-10 flex max-w-[400px] flex-col items-center justify-center gap-5 rounded-lg bg-white p-8 drop-shadow-md sm:p-10 md:max-w-[600px]">
         <Image
           src="/assets/images/oktagonmma.png"
           alt="oktagonmma"
@@ -30,7 +21,7 @@ const Hero = () => {
           vědět jaké zápasy by se ti na turnaji OKTAGON líbili. Můžeš také
           procházet karty ostatních fanouškú a dávat jim upvoty.
         </p>
-        <div className="flex items-center justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-3 xs:flex-row">
           <Link href="/sign-in">
             <Button className="no-focus bg-black text-white">
               Přihlásit se

@@ -1,5 +1,6 @@
 import Navbar from "@/components/navs/Navbar";
 import React from "react";
+import { Toaster } from "@/components/ui/toaster";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -13,6 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </div>
         </section>
       </div>
+      <Toaster />
     </main>
   );
 };

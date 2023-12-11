@@ -1,19 +1,24 @@
 import CreateFightCard from "@/components/CreateFightCard";
 import { getUserById } from "@/lib/actions/user.action";
+import { getCardById } from "@/lib/actions/card.action";
 import { auth } from "@clerk/nextjs";
-import { redirect } from "next/navigation";
 import React from "react";
 
-const page = async () => {
+const page = async ({ params }: any) => {
   const { userId } = auth();
 
-  if (!userId) redirect("/sign-in");
+  if (!userId) return null;
 
   const mongoUser = await getUserById({ userId });
+  const result = await getCardById({ cardId: params.id });
 
   return (
     <div className="flex w-full flex-col">
-      <CreateFightCard mongoUserId={JSON.stringify(mongoUser?._id)} />
+      <CreateFightCard
+        type="Edit"
+        mongoUserId={JSON.stringify(mongoUser?._id)}
+        cardDetails={JSON.stringify(result)}
+      />
     </div>
   );
 };

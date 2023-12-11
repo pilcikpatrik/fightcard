@@ -34,12 +34,12 @@ const Prelims: React.FC<PrelimsProps> = ({ pair }) => {
         className="w-20 md:w-40"
       />
       <div className="flex flex-col items-center justify-center gap-2">
-        <div className="sheet w-32 bg-yellow-400 py-0.5 md:w-32 md:py-1">
-          <h2 className="text-center text-xs uppercase text-white md:text-sm">
+        <div className="sheet w-20 bg-yellow-400 py-0.5 sm:w-32 md:w-32 md:py-1">
+          <h2 className="text-xxs text-center uppercase text-white sm:text-xs md:text-sm">
             #Free prelims
           </h2>
         </div>
-        <h3 className="text-center text-base font-bold uppercase text-white md:text-3xl">
+        <h3 className="text-center text-sm font-bold uppercase text-white sm:text-base md:text-3xl">
           {getFighterSurname(fighterOne)}
           <br /> vs <br />
           {getFighterSurname(fighterTwo)}

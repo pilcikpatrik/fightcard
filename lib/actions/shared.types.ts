@@ -9,15 +9,19 @@ export interface CreateCardParams {
   path: string;
 }
 
-export interface GetCardByIdParams {
-  userId: string;
-}
-
 export interface EditCardParams {
   cardId: string;
   title: string;
   fighters: { title: string; imgSrc: string }[];
   path: string;
+}
+
+export interface GetUserCardsParams {
+  clerkId: string;
+}
+
+export interface GetCardByIdParams {
+  cardId: string;
 }
 
 export interface DeleteCardParams {

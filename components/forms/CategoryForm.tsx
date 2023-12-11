@@ -43,13 +43,13 @@ const CategoryForm: React.FC<CategoryFormProps> = ({ pairIndex }) => {
             variant="outline"
             role="combobox"
             aria-expanded={open}
-            className="w-[300px] justify-between"
+            className="w-[250px] justify-between xs:w-[300px]"
           >
             {selectedCategory || "Select category..."}
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[300px] bg-white p-0">
+        <PopoverContent className="w-[250px] bg-white p-0 xs:w-[300px]">
           <Command>
             <CommandInput placeholder="Search fighter..." />
             <CommandEmpty>No fighter found.</CommandEmpty>

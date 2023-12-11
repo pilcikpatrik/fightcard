@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -38,16 +38,25 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
   const selectedCategory = useFightersStore(
     (state) => state.selectedCategories[pairIndex]
   );
+  const currentFighter = useFightersStore(
+    (state) => state.fightPairs[pairIndex][fighterIndex]
+  );
   const fightersInCategory =
     (fightersData as FightersData)[selectedCategory] ?? [];
   // Filtruje bojovníky na základě vybrané kategorie
   const updateFightPair = useFightersStore((state) => state.updateFightPair);
-  const [selectFighter, setSelectFighter] = useState<Fighter | null>(null);
+  const [selectFighter, setSelectFighter] = useState<Fighter | null>(
+    currentFighter
+  );
 
   const handleSelectFighter = (fighter: Fighter) => {
     setSelectFighter(fighter);
     updateFightPair(pairIndex, fighterIndex, fighter);
   };
+
+  useEffect(() => {
+    setSelectFighter(currentFighter);
+  }, [currentFighter]);
 
   /*   console.log("Selected Category:", selectedCategory);
   console.log("Fighters in Selected Category:", fightersInCategory); */
@@ -60,13 +69,13 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
             variant="outline"
             role="combobox"
             aria-expanded={open}
-            className="w-[300px] justify-between"
+            className="w-[250px] justify-between xs:w-[300px]"
           >
             {selectFighter?.title || "Select fighter..."}
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[300px] bg-white p-0">
+        <PopoverContent className="w-[250px] bg-white p-0 xs:w-[300px]">
           <Command>
             <CommandInput placeholder="Search fighter..." />
             <CommandEmpty>No fighter found.</CommandEmpty>

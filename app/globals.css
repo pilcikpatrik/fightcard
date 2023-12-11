@@ -53,13 +53,13 @@ body {
 }
 
 .f_image_1 {
-  @apply absolute bottom-0 right-3 w-36 md:right-6 md:w-60;
+  @apply absolute bottom-0 right-3 w-28 xs:w-36 md:right-6 md:w-60;
   animation-duration: 300ms;
   animation-fill-mode: forwards;
 }
 
 .f_image_2 {
-  @apply absolute bottom-0 left-3 w-36 md:left-6 md:w-60;
+  @apply absolute bottom-0 left-3 w-28 xs:w-36 md:left-6 md:w-60;
 }
 
 /* Styl pro hover */
@@ -74,7 +74,7 @@ body {
     #000000 0%,
     rgba(188, 71, 255, 0) 100%
   );
-  background: linear-gradient(0deg, #000000 0%, rgba(188, 71, 255, 0) 100%);
+  background: linear-gradient(0deg, #000000 30%, rgba(188, 71, 255, 0) 100%);
 }
 
 .sheet {
