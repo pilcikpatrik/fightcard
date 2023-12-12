@@ -25,6 +25,7 @@ const FightCard = ({
   userId,
   upvotes,
   hasupVoted,
+  views,
 }: {
   fighters: Fighter[];
   itemId: string;
@@ -32,6 +33,7 @@ const FightCard = ({
   userId: string;
   upvotes: number;
   hasupVoted: boolean;
+  views: number;
 }) => {
   // Převod pole fighterů na FighterPair[]
   const fightPairs: FighterPair[] = fighters.reduce(
@@ -99,6 +101,7 @@ const FightCard = ({
         userId={userId}
         upvotes={upvotes}
         hasupVoted={hasupVoted}
+        views={views}
       />
       <div className="bg flex h-full w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20">
         <div className="flex-center flex-col gap-2">

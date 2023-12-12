@@ -34,16 +34,14 @@ const page = async ({ searchParams }: SearchParamsProps) => {
     });
   } else {
     result = {
-      questions: [],
+      cards: [],
       isNext: false,
     };
   }
 
-  const cards = result.cards || [];
-
   return (
     <div className="flex w-full flex-col">
-      <Home savedCards={savedCards} />
+      <Home savedCards={JSON.stringify(savedCards)} />
       <div className="mt-10 flex flex-col items-center justify-center px-10 xl:px-80">
         <div className="mt-10 flex flex-col items-center justify-center gap-5">
           <a
@@ -83,11 +81,11 @@ const page = async ({ searchParams }: SearchParamsProps) => {
           />
         </div>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-5">
-          {cards.length > 0 ? (
-            cards.map((card) => (
+          {result.cards.length > 0 ? (
+            result.cards.map((card) => (
               <PostCard
-                key={card._id}
-                _id={card._id}
+                key={JSON.stringify(card._id)} // Convert ObjectId to string
+                _id={JSON.stringify(card._id)} // Convert ObjectId to string
                 title={card.title}
                 author={card.author}
                 createdAt={card.createdAt}

@@ -27,6 +27,7 @@ const page = async ({ params }: any) => {
         userId={JSON.stringify(mongoUser._id)}
         upvotes={result.upvotes.length}
         hasupVoted={result.upvotes.includes(mongoUser._id)}
+        views={result.views}
       />
     </div>
   );

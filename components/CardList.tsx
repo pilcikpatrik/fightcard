@@ -35,7 +35,7 @@ import {
 interface Props {
   _id: string;
   title: string;
-  createdAt: Date;
+  createdAt: string;
 }
 
 const CardList = ({ _id, title, createdAt }: Props) => {
@@ -66,6 +66,8 @@ const CardList = ({ _id, title, createdAt }: Props) => {
 
   const urlId = JSON.parse(_id);
 
+  const dateTime = new Date(createdAt);
+
   return (
     <div className="flex flex-col gap-2">
       <div className="flex items-center justify-between">
@@ -74,7 +76,7 @@ const CardList = ({ _id, title, createdAt }: Props) => {
             {" "}
             {title.length > 10 ? `${title.substring(0, 10)}...` : title}
           </h3>
-          <p className="text-sm">{getTimestamp(createdAt)}</p>
+          <p className="text-sm">{getTimestamp(dateTime)}</p>
         </div>
         <div className="flex items-center justify-end gap-2">
           <div className="sm:hidden">

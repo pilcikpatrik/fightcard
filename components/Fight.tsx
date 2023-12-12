@@ -65,22 +65,35 @@ const Fight = ({
       <div className="flex flex-col">
         {fightPairs.map((pair, index) => (
           <div key={index} className="flex flex-col-reverse md:flex-col">
-            <div className="fight_gradient flex flex-col items-center gap-5 px-5 pt-10 xs:px-10 md:flex-row md:items-end md:justify-between 2xl:justify-center 2xl:gap-40">
+            <div className="fight_gradient flex flex-col items-center gap-5 px-5 pt-10 xs:px-10 md:flex-row md:items-center md:justify-between 2xl:justify-center 2xl:gap-40">
               {pair.map((fighter, idx) => (
-                <div
-                  key={idx}
-                  className="flex w-full items-end gap-5 md:w-auto"
-                >
-                  {idx % 2 === 0 ? (
-                    <div className="flex w-full flex-col">
-                      <div className="flex items-end justify-start gap-5">
-                        <Image
-                          src={fighter?.imgSrc || defaultImageSrc}
-                          alt={fighter?.title || "Fighter"}
-                          width={300}
-                          height={300}
-                          className="w-28 xs:w-40 lg:w-56 xl:w-72"
-                        />
+                <React.Fragment key={idx}>
+                  <div className="flex w-full items-end gap-5 md:w-auto">
+                    {idx % 2 === 0 ? (
+                      <div className="flex w-full flex-col">
+                        <div className="flex items-end justify-start gap-5">
+                          <Image
+                            src={fighter?.imgSrc || defaultImageSrc}
+                            alt={fighter?.title || "Fighter"}
+                            width={300}
+                            height={300}
+                            className="w-28 xs:w-40 lg:w-56 xl:w-72"
+                          />
+                          <div className="mb-20 lg:mb-32 xl:mb-40">
+                            <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
+                              {fighter?.title || "Unknown"}
+                            </h3>
+                            <p className=" text-sm text-white xs:text-base lg:text-lg">
+                              {fighter?.score || "0-0-0"}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="flex-center sheet w-full bg-yellow-400 p-3 text-white md:hidden">
+                          VS
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="flex w-full items-end justify-end">
                         <div className="mb-20 lg:mb-32 xl:mb-40">
                           <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
                             {fighter?.title || "Unknown"}
@@ -89,31 +102,17 @@ const Fight = ({
                             {fighter?.score || "0-0-0"}
                           </p>
                         </div>
+                        <Image
+                          src={fighter?.imgSrc || defaultImageSrc}
+                          alt={fighter?.title || "Fighter"}
+                          width={300}
+                          height={300}
+                          className="w-28 xs:w-40 lg:w-56 xl:w-72"
+                        />
                       </div>
-                      <div className="flex-center w-full rounded-md bg-yellow-400 p-3 text-white md:hidden">
-                        VS
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="flex w-full items-end justify-end">
-                      <div className="mb-20 lg:mb-32 xl:mb-40">
-                        <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
-                          {fighter?.title || "Unknown"}
-                        </h3>
-                        <p className=" text-sm text-white xs:text-base lg:text-lg">
-                          {fighter?.score || "0-0-0"}
-                        </p>
-                      </div>
-                      <Image
-                        src={fighter?.imgSrc || defaultImageSrc}
-                        alt={fighter?.title || "Fighter"}
-                        width={300}
-                        height={300}
-                        className="w-28 xs:w-40 lg:w-56 xl:w-72"
-                      />
-                    </div>
-                  )}
-                </div>
+                    )}
+                  </div>
+                </React.Fragment>
               ))}
             </div>
             <div className="flex-center bg-white p-5 text-base font-bold xs:text-lg xl:text-2xl">

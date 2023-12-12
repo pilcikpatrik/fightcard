@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+"use client";
+import { useState } from "react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -7,7 +8,7 @@ import CardList from "../CardList";
 const OpenDialog = ({ savedCards }: any) => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredCards = savedCards.filter((card: any) =>
+  const filteredCards = JSON.parse(savedCards).filter((card: any) =>
     card.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
   return (

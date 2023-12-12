@@ -6,19 +6,21 @@ import { formatAndDivideNumber } from "@/lib/utils";
 import { usePathname, useRouter } from "next/navigation";
 import { toast } from "./ui/use-toast";
 import Image from "next/image";
+import { FaRegEye } from "react-icons/fa";
 
 interface Props {
   itemId: string;
   userId: string;
   upvotes: number;
   hasupVoted: boolean;
+  views: number;
 }
 
-const Votes = ({ itemId, userId, upvotes, hasupVoted }: Props) => {
+const Votes = ({ itemId, userId, upvotes, hasupVoted, views }: Props) => {
   const pathname = usePathname();
   const router = useRouter();
 
-  const handleVote = async (action: string) => {
+  const handleVote = async () => {
     if (!userId) {
       return toast({
         title: "Please log in to perform this action",
@@ -47,7 +49,10 @@ const Votes = ({ itemId, userId, upvotes, hasupVoted }: Props) => {
   return (
     <div className="absolute right-0 top-0">
       <div className="flex items-center justify-end gap-2 p-2">
-        <div className="rounded-md bg-black px-3 py-0.5 text-lg text-white">
+        <div
+          onClick={() => handleVote()}
+          className="cursor-pointer rounded-md bg-black px-3 py-0.5 text-lg text-white"
+        >
           <div className="flex-center gap-1.5">
             <Image
               src={
@@ -58,14 +63,20 @@ const Votes = ({ itemId, userId, upvotes, hasupVoted }: Props) => {
               width={18}
               height={18}
               alt="upvote"
-              className="cursor-pointer"
-              onClick={() => handleVote("upvote")}
+              className=""
             />
 
-            <div className="flex-center background-light700_dark400 min-w-[18px] rounded-sm p-1">
-              <p className="subtle-medium text-dark400_light900">
-                {formatAndDivideNumber(upvotes)}
-              </p>
+            <div className="flex-center min-w-[18px] rounded-sm p-1">
+              <p className="">{formatAndDivideNumber(upvotes)}</p>
+            </div>
+          </div>
+        </div>
+        <div className="cursor-pointer rounded-md bg-black px-3 py-0.5 text-lg text-white">
+          <div className="flex-center gap-1.5">
+            <FaRegEye />
+
+            <div className="flex-center min-w-[18px] rounded-sm p-1">
+              <p className="">{formatAndDivideNumber(views)}</p>
             </div>
           </div>
         </div>
