@@ -68,7 +68,7 @@ export async function getSavedCards(params: GetUserCardsParams) {
     // Najde uživatele
     const user = await User.findOne({ clerkId });
     if (!user) {
-      throw new Error("User not found");
+      return;
     }
 
     // Získá pole ID karet z uživatele

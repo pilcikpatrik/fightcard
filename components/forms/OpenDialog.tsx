@@ -8,6 +8,9 @@ import CardList from "../CardList";
 const OpenDialog = ({ savedCards }: any) => {
   const [searchQuery, setSearchQuery] = useState("");
 
+  if (!savedCards) {
+    return;
+  }
   const filteredCards = JSON.parse(savedCards).filter((card: any) =>
     card.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
