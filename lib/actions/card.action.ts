@@ -10,6 +10,7 @@ import {
   EditCardParams,
   GetUserCardsParams,
   GetCardsParams,
+  CardVoteParams,
 } from "./shared.types";
 import User from "@/database/user.model";
 import { FilterQuery } from "mongoose";
@@ -201,5 +202,34 @@ export async function setVisibleCard(params: { cardId: string; path: string }) {
   } catch (error) {
     console.log(error);
     throw error; // It's often a good practice to rethrow the error so the caller knows something went wrong
+  }
+}
+
+export async function upvoteCard(params: CardVoteParams) {
+  try {
+    connectToDatabase();
+
+    const { cardId, userId, hasupVoted, path } = params;
+
+    let updateQuery = {};
+
+    if (hasupVoted) {
+      updateQuery = { $pull: { upvotes: userId } };
+    } else {
+      updateQuery = { $addToSet: { upvotes: userId } };
+    }
+
+    const card = await Card.findByIdAndUpdate(cardId, updateQuery, {
+      new: true,
+    });
+
+    if (!card) {
+      throw new Error("Card not found");
+    }
+
+    revalidatePath(path);
+  } catch (error) {
+    console.log(error);
+    throw error;
   }
 }

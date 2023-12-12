@@ -77,6 +77,12 @@ body {
   background: linear-gradient(0deg, #000000 30%, rgba(188, 71, 255, 0) 100%);
 }
 
+.card_bg {
+  background: #edde5d;
+  background: -webkit-radial-gradient(circle, #edde5d 0%, #f09819 100%);
+  background: radial-gradient(circle, #edde5d 0%, #f09819 100%);
+}
+
 .fight_gradient {
   background: #afafaf;
   background: -webkit-linear-gradient(0deg, #afafaf 0%, #dfdfdf 100%);

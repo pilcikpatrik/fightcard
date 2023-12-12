@@ -5,6 +5,9 @@ import Card from "./Card";
 import Prelims from "./Prelims";
 import EditDelete from "./EditDelete";
 import Link from "next/link";
+import Votes from "./Votes";
+import { Button } from "@/components/ui/button";
+import { BiHomeAlt2 } from "react-icons/bi";
 
 interface Fighter {
   title: string;
@@ -19,10 +22,16 @@ const FightCard = ({
   fighters,
   itemId,
   isAuthor,
+  userId,
+  upvotes,
+  hasupVoted,
 }: {
   fighters: Fighter[];
   itemId: string;
   isAuthor: boolean;
+  userId: string;
+  upvotes: number;
+  hasupVoted: boolean;
 }) => {
   // Převod pole fighterů na FighterPair[]
   const fightPairs: FighterPair[] = fighters.reduce(
@@ -74,7 +83,23 @@ const FightCard = ({
 
   return (
     <div className="relative flex items-center justify-center overflow-hidden">
-      {isAuthor && <EditDelete itemId={itemId} />}
+      {isAuthor ? (
+        <EditDelete itemId={itemId} />
+      ) : (
+        <div className="flex-start absolute right-0 top-0 z-40 flex w-full gap-2 p-2">
+          <Link href="/">
+            <Button className="no-focus bg-black text-lg text-white">
+              <BiHomeAlt2 />
+            </Button>
+          </Link>
+        </div>
+      )}
+      <Votes
+        itemId={itemId}
+        userId={userId}
+        upvotes={upvotes}
+        hasupVoted={hasupVoted}
+      />
       <div className="bg flex h-full w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20">
         <div className="flex-center flex-col gap-2">
           {renderGroup(firstGroup, 0)}

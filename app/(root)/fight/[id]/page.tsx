@@ -25,7 +25,7 @@ const page = async ({ params }: any) => {
         isAuthor={
           JSON.stringify(mongoUser._id) === JSON.stringify(result.author._id)
         }
-        author={JSON.stringify(result.author.name)}
+        author={result.author}
       />
     </div>
   );

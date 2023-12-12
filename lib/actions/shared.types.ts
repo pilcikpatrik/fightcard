@@ -53,3 +53,15 @@ export interface GetCardsParams {
   searchQuery?: string;
   filter?: string;
 }
+
+export interface ViewCardParams {
+  cardId: string;
+  userId: string | undefined;
+}
+
+export interface CardVoteParams {
+  cardId: string;
+  userId: string;
+  hasupVoted: boolean;
+  path: string;
+}

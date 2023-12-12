@@ -34,17 +34,17 @@ const PostCard = ({
   const firstFighter = fighters[0];
   const secondFighter = fighters[1];
   return (
-    <div className="w-[300px] flex-col items-start justify-center space-y-5 rounded-lg border p-10 drop-shadow-md">
+    <div className="w-[300px] flex-col  items-start justify-center space-y-5 rounded-lg border bg-white p-10 drop-shadow-md">
       <div className="flex-start gap-5">
         <Image
           src={author.picture}
           alt={author.name}
           width={36}
-          height={35}
+          height={36}
           className="h-12 w-12 rounded-full"
         />
         <div className="flex flex-col">
-          <span className="text-xs uppercase opacity-50">Created by</span>
+          <span className="text-xs uppercase text-black/60">Created by</span>
           <p className="font-medium">{author.name}</p>
         </div>
       </div>
@@ -52,7 +52,7 @@ const PostCard = ({
         <Link href={`/card/${_id}`}>
           <h2>{title}</h2>
         </Link>
-        <p>{getTimestamp(createdAt)}</p>
+        <p className="text-black/60">{getTimestamp(createdAt)}</p>
       </div>
       <div className="flex-between">
         {firstFighter && (

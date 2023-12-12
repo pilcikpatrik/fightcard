@@ -23,7 +23,12 @@ const Fight = ({
   title: string;
   itemId: string;
   isAuthor: boolean;
-  author: string;
+  author: {
+    _id: string;
+    name: string;
+    picture: string;
+    clerkId: string;
+  };
 }) => {
   const fightPairs: FighterPair[] = fighters.reduce(
     (acc: FighterPair[], fighter, index) => {
@@ -40,15 +45,15 @@ const Fight = ({
       <div className="flex items-center justify-between border-b p-5 md:border-none md:border-neutral-400 2xl:px-80">
         <div className="flex-center gap-3">
           <Image
-            src={defaultImageSrc}
+            src={author.picture}
             alt="profile"
-            width={24}
-            height={24}
+            width={36}
+            height={36}
             className="h-12 w-12 rounded-full"
           />
           <div className="">
-            <span className="text-xs uppercase opacity-50">Created by</span>
-            <p className="font-medium">{JSON.parse(author)}</p>
+            <span className="text-xs uppercase text-black/60">Created by</span>
+            <p className="font-medium">{author.name}</p>
           </div>
         </div>
         <Link href={`/card/${JSON.parse(itemId)}`}>
@@ -67,21 +72,26 @@ const Fight = ({
                   className="flex w-full items-end gap-5 md:w-auto"
                 >
                   {idx % 2 === 0 ? (
-                    <div className="flex items-end justify-start gap-5">
-                      <Image
-                        src={fighter?.imgSrc || defaultImageSrc}
-                        alt={fighter?.title || "Fighter"}
-                        width={300}
-                        height={300}
-                        className="w-28 xs:w-40 lg:w-56 xl:w-72"
-                      />
-                      <div className="mb-20 lg:mb-32 xl:mb-40">
-                        <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
-                          {fighter?.title || "Unknown"}
-                        </h3>
-                        <p className=" text-sm text-white xs:text-base lg:text-lg">
-                          {fighter?.score || "0-0-0"}
-                        </p>
+                    <div className="flex w-full flex-col">
+                      <div className="flex items-end justify-start gap-5">
+                        <Image
+                          src={fighter?.imgSrc || defaultImageSrc}
+                          alt={fighter?.title || "Fighter"}
+                          width={300}
+                          height={300}
+                          className="w-28 xs:w-40 lg:w-56 xl:w-72"
+                        />
+                        <div className="mb-20 lg:mb-32 xl:mb-40">
+                          <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
+                            {fighter?.title || "Unknown"}
+                          </h3>
+                          <p className=" text-sm text-white xs:text-base lg:text-lg">
+                            {fighter?.score || "0-0-0"}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex-center w-full rounded-md bg-yellow-400 p-3 text-white md:hidden">
+                        VS
                       </div>
                     </div>
                   ) : (
