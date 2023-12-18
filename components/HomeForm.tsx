@@ -8,7 +8,7 @@ const HomeForm = ({ savedCards }: any) => {
     <div className="flex-start absolute left-0 top-0 z-40 flex w-full gap-2 p-2">
       <OpenDialog savedCards={savedCards} />
       <Link href="/create-card">
-        <Button className="no-focus btn">New</Button>
+        <Button className="no-focus btn hover_btn">New</Button>
       </Link>
     </div>
   );

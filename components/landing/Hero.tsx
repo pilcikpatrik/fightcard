@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="bg relative flex h-[90vh] w-full items-center justify-center">
+    <div className="bg_home relative flex h-[90vh] w-full items-center justify-center">
       <div className="z-10 flex max-w-[400px] flex-col items-center justify-center gap-5 rounded-lg bg-white p-8 drop-shadow-md sm:p-10 md:max-w-[600px]">
         <Image
           src="/assets/images/oktagonmma.png"

@@ -18,10 +18,24 @@ import {
 import fightersData from "../../data.json";
 import { useFightersStore } from "@/store/fightCardStore";
 
+interface stats {
+  label: string;
+  value: string;
+}
+
 interface Fighter {
   title: string;
-  score: string;
+  nickname: string;
   imgSrc: string;
+  score: string;
+  nationality: string;
+  age: string;
+  height?: string;
+  weight: string;
+  background?: string;
+  gym?: string;
+  result?: string[];
+  stats?: stats[];
 }
 
 interface FightFormProps {
@@ -88,6 +102,7 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
                     handleSelectFighter(fighter);
                     setOpen(false);
                   }}
+                  className="cursor-pointer hover:bg-gray-300/20"
                 >
                   <Check
                     className={cn(

@@ -1,188 +1,3729 @@
 {
   "Heavyweight - 120.2kg/265lbs": [
     {
-      "title": "Karlos Vémola",
-      "score": "36 - 7 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f80625d6-6928-4cb5-8f87-c32a65553e24/cs.1696754441139.png"
+      "title": "Hatef Moeil",
+      "nickname": "\"BOSS\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b7e18852-c265-41aa-8810-850c7547ab46/cs.1700394454870.png",
+      "score": "15 - 4 - 0",
+      "nationality": "DE",
+      "age": "35 let",
+      "height": "193 cm",
+      "weight": "Heavyweight",
+      "background": "MMA",
+      "gym": "UFD GYM",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Patrik Kincl",
-      "score": "27 - 10 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/525cfe03-06f8-4be6-9901-53b7d70ceccd/cs.1698680322424.png"
+      "title": "Przemysław Mysiala",
+      "nickname": "\"THE POLISH BEAR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ccd003d5-fdf4-409b-a982-6b9fdce98de6/cs.1697147981116.png",
+      "score": "24 - 12 - 1",
+      "nationality": "PL",
+      "age": "41 let",
+      "height": "183 cm",
+      "weight": "Heavyweight",
+      "gym": "London Shootfighters",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Vlasto Čepo",
-      "score": "12 - 2 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6d70ba6a-efe5-4968-963d-30ed9a613fd4/cs.1698680323557.png"
+      "title": "Michał Andryszak",
+      "nickname": "\"Longer\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ae6639f5-484c-482e-8b3f-313182ac147b/cs.1692965133770.png",
+      "score": "25 - 10 - 0",
+      "nationality": "PL",
+      "age": "31 let",
+      "height": "195 cm",
+      "weight": "Heavyweight",
+      "gym": "Ankos MMA",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Pavol Langer",
-      "score": "12 - 10 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7b25dcf9-c960-4f82-9c22-c283bb893733/cs.1696799479045.png"
+      "title": "Lazar Todev",
+      "nickname": "\"The Punisher\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/789c6bad-5399-410c-8b3a-2587a3b6c23a/cs.1698163865356.png",
+      "score": "9 - 6 - 0",
+      "nationality": "BG",
+      "height": "187 cm",
+      "weight": "Heavyweight",
+      "background": "Kickbox",
+      "gym": "Tiger Sportakademie",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Attila Végh",
-      "score": "33 - 9 - 2 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3d62b009-5f7b-4c00-983c-400acc86c754/cs.1680207707697.png"
+      "title": "Adam Pałasz",
+      "nickname": "\"ADAŚ Z JAWORA\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/88757210-1815-4305-9a15-8e79768bd277/cs.1696713166577.png",
+      "score": "9 - 2 - 0",
+      "nationality": "PL",
+      "age": "32 let",
+      "height": "196 cm",
+      "weight": "Heavyweight",
+      "background": "Kickbox",
+      "gym": "WCA Fight Team",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Losene Keita",
-      "score": "11 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d4486e5f-265d-4830-b8cb-d2ce0f8fd6fd/cs.1698419581524.png"
+      "title": "Donald Cosić",
+      "nickname": "\"Donko\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/863e766b-7a18-47ff-8ab6-ae4e9e978bea/cs.1680206664690.png",
+      "score": "4 - 1 - 0",
+      "nationality": "HR",
+      "age": "28 let",
+      "height": "185 cm",
+      "weight": "Heavyweight",
+      "background": "Grappling",
+      "gym": "Main gym",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "David Kozma",
-      "score": "32 - 13 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a66177f8-700e-444b-b49a-378bdc1ff9eb/cs.1694898164105.png"
+      "title": "Tadej Dajčman",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d6fe7728-b7aa-4c4a-9e1d-170b528231d7/cs.1680206643768.png",
+      "score": "5 - 3 - 0",
+      "nationality": "SI",
+      "age": "26 let",
+      "height": "188 cm",
+      "weight": "Heavyweight",
+      "background": "Karate",
+      "gym": "Center Samurai MMA Maribor",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Matěj Peňáz",
-      "score": "7 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a63adba9-3b32-43d3-b292-396f5c56a453/cs.1688487882118.png"
+      "title": "Thomas Narmo",
+      "nickname": "\"The Last Viking\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/79033a8b-6f39-4b86-a5a0-5cf53a044b2a/cs.1680206639861.png",
+      "score": "4 - 3 - 1",
+      "nationality": "NO",
+      "age": "27 let",
+      "height": "200 cm",
+      "weight": "Heavyweight",
+      "background": "MMA",
+      "gym": "Novus Academy",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Lucia Szabová",
-      "score": "6 - 0 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/67221a36-4029-454f-9808-0aa74083b607/cs.1696704638178.png"
+      "title": "Kerisson Rezende",
+      "nickname": "\"Baby\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/aae28c03-e189-4482-b57b-8b76ca57a6b1/cs.1680206602304.png",
+      "score": "6 - 4 - 1",
+      "nationality": "BR",
+      "age": "26 let",
+      "height": "193 cm",
+      "weight": "Heavyweight",
+      "background": "Muay Thai",
+      "gym": "ABMT / CHECKMATE BJJ",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Katharina Dalisda",
-      "score": "10 - 3 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/00b41702-007a-45b7-868e-8bbb36d46f3b/cs.1695028351159.png"
+      "title": "Kamil Minda",
+      "nickname": "\"KINGKONG\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d0806451-186e-47df-aab5-c30d4eca124f/cs.1680206511253.png",
+      "score": "7 - 3 - 0",
+      "nationality": "PL",
+      "age": "37 let",
+      "height": "188 cm",
+      "weight": "Heavyweight",
+      "background": "MMA",
+      "gym": "MMA team ELK",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Monika Chochlíková",
-      "score": "3 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bee08c42-2068-4128-abc0-36b193e5649b/cs.1680206552189.png"
+      "title": "Jeremy Kimball",
+      "nickname": "\"The Grizzly\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/9a582a81-408c-4085-a98d-46e73ed40576/cs.1692965411388.png",
+      "score": "19 - 10 - 0",
+      "nationality": "US",
+      "age": "31 let",
+      "height": "185 cm",
+      "weight": "Heavyweight",
+      "background": "MMA",
+      "gym": "Shingitai Slaughterhouse",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Olga Rubin",
-      "score": "9 - 3 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3947bb2d-37f4-4a61-9d8b-5c7062f61e29/cs.1680206637099.png"
+      "title": "Robert Voves",
+      "nickname": "\"Bob\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7564343e-1986-4116-b9f8-10f45d94ad5d/cs.1680206431747.png",
+      "score": "0 - 0 - 0",
+      "nationality": "CZ",
+      "age": "38 let",
+      "height": "203 cm",
+      "weight": "Heavyweight",
+      "background": "MMA",
+      "gym": "Reinders MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Daniel Dittrich",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/5ccc5993-6487-4ae2-8d1c-9bb043a45740/cs.1680206430361.png",
+      "score": "5 - 6 - 0",
+      "nationality": "CZ",
+      "age": "31 let",
+      "height": "187 cm",
+      "weight": "Heavyweight",
+      "background": "Judo",
+      "gym": "Jayman MMA Fighting Systems",
+      "result": [],
+      "stats": []
     }
   ],
   "Light heavyweight - 93kg/205lbs": [
     {
-      "title": "Karlos Vémola",
-      "score": "36 - 7 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f80625d6-6928-4cb5-8f87-c32a65553e24/cs.1696754441139.png"
-    },
-    {
-      "title": "Patrik Kincl",
-      "score": "27 - 10 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/525cfe03-06f8-4be6-9901-53b7d70ceccd/cs.1698680322424.png"
-    },
-    {
-      "title": "Vlasto Čepo",
-      "score": "12 - 2 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6d70ba6a-efe5-4968-963d-30ed9a613fd4/cs.1698680323557.png"
-    },
-    {
       "title": "Pavol Langer",
-      "score": "12 - 10 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7b25dcf9-c960-4f82-9c22-c283bb893733/cs.1696799479045.png"
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7b25dcf9-c960-4f82-9c22-c283bb893733/cs.1696799479045.png",
+      "score": "12 - 10 - 0",
+      "nationality": "SK",
+      "age": "32 let",
+      "height": "196 cm",
+      "weight": "Light heavyweight",
+      "background": "Karate",
+      "gym": "MMA Psycho Team Košice",
+      "result": [],
+      "stats": []
     },
     {
       "title": "Attila Végh",
-      "score": "33 - 9 - 2 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3d62b009-5f7b-4c00-983c-400acc86c754/cs.1680207707697.png"
+      "nickname": "\"Pumukli\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3d62b009-5f7b-4c00-983c-400acc86c754/cs.1680207707697.png",
+      "score": "33 - 9 - 2",
+      "nationality": "SK",
+      "age": "38 let",
+      "height": "189 cm",
+      "weight": "Light heavyweight",
+      "background": "Kempo Karate, MMA",
+      "gym": "SFG",
+      "result": ["L", "W", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "60%"
+        }
+      ]
     },
     {
-      "title": "Losene Keita",
-      "score": "11 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d4486e5f-265d-4830-b8cb-d2ce0f8fd6fd/cs.1698419581524.png"
+      "title": "Miloš Petrášek",
+      "nickname": "\"Meloun\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8ca3296b-47b0-4cda-b246-ec451891ecb5/cs.1680206403134.png",
+      "score": "12 - 7 - 0",
+      "nationality": "CZ",
+      "age": "28 let",
+      "height": "188 cm",
+      "weight": "Light heavyweight",
+      "background": "Grappling a box",
+      "gym": "Reinders MMA",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "David Kozma",
-      "score": "32 - 13 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a66177f8-700e-444b-b49a-378bdc1ff9eb/cs.1694898164105.png"
+      "title": "Steve MacDonald",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b1abb083-92c6-4f29-8691-892c83de5f84/cs.1698163873414.png",
+      "score": "4 - 1 - 0",
+      "nationality": "CA",
+      "height": "188 cm",
+      "weight": "Light heavyweight",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Matěj Peňáz",
-      "score": "7 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a63adba9-3b32-43d3-b292-396f5c56a453/cs.1688487882118.png"
+      "title": "Ruben Wolf",
+      "nickname": "\"The Viking\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bc79546b-bd3e-4849-8558-5a91d3b9a942/cs.1682890105450.png",
+      "score": "12 - 12 - 0",
+      "nationality": "DE",
+      "height": "188 cm",
+      "weight": "Light heavyweight",
+      "background": "BOX",
+      "gym": "GYM 23",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Lucia Szabová",
-      "score": "6 - 0 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/67221a36-4029-454f-9808-0aa74083b607/cs.1696704638178.png"
+      "title": "Dan Vinni",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/5cda45cc-0881-499d-8210-50d18da05387/cs.1698419591384.png",
+      "score": "24 - 18 - 2",
+      "nationality": "GB",
+      "age": "36 let",
+      "height": "188 cm",
+      "weight": "Light heavyweight",
+      "gym": "Team Skynet",
+      "result": ["L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "41%"
+        }
+      ]
     },
     {
-      "title": "Katharina Dalisda",
-      "score": "10 - 3 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/00b41702-007a-45b7-868e-8bbb36d46f3b/cs.1695028351159.png"
+      "title": "Aleksandar Ilič",
+      "nickname": "\"Joker\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e2bac9f9-73c3-4d00-85ef-42811a8a0eb8/cs.1680206676543.png",
+      "score": "15 - 5 - 0",
+      "nationality": "RS",
+      "age": "33 let",
+      "height": "189 cm",
+      "weight": "Light heavyweight",
+      "background": "MMA",
+      "gym": "Fight Company / MMA team Joker",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Monika Chochlíková",
-      "score": "3 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bee08c42-2068-4128-abc0-36b193e5649b/cs.1680206552189.png"
+      "title": "Michał Pasternak",
+      "nickname": "\"WAMPIR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bafa6d83-0f68-4e18-9eb9-8c65fbc365b6/cs.1680206668462.png",
+      "score": "16 - 8 - 0",
+      "nationality": "PL",
+      "age": "38 let",
+      "height": "190 cm",
+      "weight": "Light heavyweight",
+      "background": "BJJ",
+      "gym": "Akademia Sportów Walki Wilanów",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Olga Rubin",
-      "score": "9 - 3 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3947bb2d-37f4-4a61-9d8b-5c7062f61e29/cs.1680206637099.png"
+      "title": "Martin Zawada",
+      "nickname": "\"King Kong\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b826a31d-21c1-493f-a926-bec9c8d77359/cs.1680206658312.png",
+      "score": "29 - 18 - 1",
+      "nationality": "DE",
+      "age": "39 let",
+      "height": "180 cm",
+      "weight": "Light heavyweight",
+      "background": "Thajský box / Luta Livre",
+      "gym": "TEAM ZAWADA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Marcin Lazarz",
+      "nickname": "\"Bane\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c28e1b20-ebe6-4252-8633-81b04a100b20/cs.1680206656079.png",
+      "score": "14 - 9 - 0",
+      "nationality": "PL",
+      "age": "39 let",
+      "height": "190 cm",
+      "weight": "Light heavyweight",
+      "background": "MMA",
+      "gym": "MLA Fight Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Panagiotis Stroumpoulis",
+      "nickname": "\"Hardcore\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7e072e86-ea40-4e54-830c-d4864db41ca3/cs.1680206655551.png",
+      "score": "12 - 8 - 0",
+      "nationality": "GR",
+      "age": "34 let",
+      "height": "183 cm",
+      "weight": "Light heavyweight",
+      "background": "Kickbox",
+      "gym": "Efl Academy Agia Varvara",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Daniel Toledo",
+      "nickname": "\"Jacare\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2a44ca1a-1959-4ce5-a9cc-37d2a0c65ab7/cs.1684604086437.png",
+      "score": "13 - 11 - 0",
+      "nationality": "ES",
+      "age": "36 let",
+      "height": "190 cm",
+      "weight": "Light heavyweight",
+      "background": "Taekwondo",
+      "gym": "LILIUS BARNATT MARTIAL ARTS",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Stephan Pütz",
+      "nickname": "\"T-800\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/16dab817-84ed-46b8-99b7-de796b242f3d/cs.1680206625121.png",
+      "score": "22 - 5 - 0",
+      "nationality": "DE",
+      "age": "34 let",
+      "height": "196 cm",
+      "weight": "Light heavyweight",
+      "background": "Judo",
+      "gym": "MMA Spirit",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Abdoul Sow",
+      "nickname": "\"KEVIN’S JUNIOR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/71235ad9-1267-474c-92eb-6bb119f27883/cs.1680206609162.png",
+      "score": "3 - 4 - 0",
+      "nationality": "IT",
+      "age": "23 let",
+      "height": "190 cm",
+      "weight": "Light heavyweight",
+      "background": "Wrestling",
+      "gym": "Combat lab",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jorick Montagnac",
+      "nickname": "\"Publiuss\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/1a6c748c-8b0f-47af-b11f-146dd1114908/cs.1698163872591.png",
+      "score": "5 - 2 - 0",
+      "nationality": "FR",
+      "age": "30 let",
+      "height": "188 cm",
+      "weight": "Light heavyweight",
+      "background": "Sanda / BOX",
+      "gym": "Mamoudhi",
+      "result": ["W", "L", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "25%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "75%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "70%"
+        }
+      ]
+    },
+    {
+      "title": "Alexander Poppeck",
+      "nickname": "\"Ironside\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/5cb042c4-735a-4adf-bd0d-4398ac612bfe/cs.1687040145310.png",
+      "score": "16 - 5 - 0",
+      "nationality": "DE",
+      "age": "30 let",
+      "height": "190 cm",
+      "weight": "Light heavyweight",
+      "background": "Thajský box",
+      "gym": "MUNICH TOP TEAM / NANOSQUAD mngmt.",
+      "result": ["L", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "33%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "31%"
+        }
+      ]
+    },
+    {
+      "title": "Rafael Xavier",
+      "nickname": "\"Kratos\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/dd73c799-4c2e-4bfb-b6e6-454de48abd4b/cs.1698419590413.png",
+      "score": "13 - 7 - 0",
+      "nationality": "BR",
+      "age": "32 let",
+      "height": "186 cm",
+      "weight": "Light heavyweight",
+      "background": "Muay Thai / BJJ",
+      "gym": "Sayyato Perfomance",
+      "result": ["W", "W", "L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "83%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "88%"
+        }
+      ]
+    },
+    {
+      "title": "Csaba Hocz",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e7e87ed6-370c-4687-a1d9-3e50ce4ead93/cs.1680206557773.png",
+      "score": "7 - 4 - 0",
+      "nationality": "HU",
+      "age": "25 let",
+      "height": "196 cm",
+      "weight": "Light heavyweight",
+      "background": "Grappling",
+      "gym": "CARLSON GRACIE EW",
+      "result": ["L", "L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "72%"
+        }
+      ]
+    },
+    {
+      "title": "Melvin Mané",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/89da134b-6c55-4b2d-99ff-69fcac20dd5e/cs.1681674908640.png",
+      "score": "1 - 1 - 0",
+      "nationality": "CZ",
+      "age": "24 let",
+      "height": "190 cm",
+      "weight": "Light heavyweight",
+      "background": "Muay Thai",
+      "gym": "LANNA GYM",
+      "result": ["W", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry knokautem",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "59%"
+        }
+      ]
+    },
+    {
+      "title": "Daniel Škvor",
+      "nickname": "\"DeeDee\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8bc33f8b-cfb0-4747-8983-8b00264de615/cs.1696347037685.png",
+      "score": "6 - 3 - 0",
+      "nationality": "CZ",
+      "age": "34 let",
+      "height": "194 cm",
+      "weight": "Light heavyweight",
+      "background": "Thajský box",
+      "gym": "Reinders MMA",
+      "result": ["W", "L", "L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "80%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "60%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "75%"
+        }
+      ]
+    },
+    {
+      "title": "Robin Fošum",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b8ef2cda-8026-4b7c-84fb-ae26b88aa895/cs.1681674664223.png",
+      "score": "2 - 1 - 1",
+      "nationality": "CZ",
+      "age": "33 let",
+      "height": "187 cm",
+      "weight": "Light heavyweight",
+      "background": "Kickbox",
+      "gym": "Reinders MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Lukáš Dvořák",
+      "nickname": "\"Fuki\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b245469a-c75b-4fa7-82bc-b9aec3ee96f2/cs.1680206493823.png",
+      "score": "5 - 1 - 0",
+      "nationality": "CZ",
+      "age": "34 let",
+      "height": "185 cm",
+      "weight": "Light heavyweight",
+      "background": "Muay Thai",
+      "gym": "Reinders MMA",
+      "result": ["L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "79%"
+        }
+      ]
+    },
+    {
+      "title": "Jan Gottvald",
+      "nickname": "\"JayJay\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6c89b69d-678a-4cdb-b7c1-b1f6a6e9984f/cs.1680206465098.png",
+      "score": "10 - 3 - 0",
+      "nationality": "CZ",
+      "age": "27 let",
+      "height": "193 cm",
+      "weight": "Light heavyweight",
+      "background": "MMA",
+      "gym": "Jetsaam",
+      "result": ["W", "L", "W"],
+      "stats": [
+        {
+          "label": "Výhry na body",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "83%"
+        }
+      ]
+    },
+    {
+      "title": "Michal Kotalík",
+      "nickname": "\"IronMan\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/dfa4098a-f288-47e7-8773-a5d4e59faa47/cs.1698748766425.png",
+      "score": "6 - 7 - 0",
+      "nationality": "CZ",
+      "age": "28 let",
+      "height": "188 cm",
+      "weight": "Light heavyweight",
+      "background": "Box",
+      "gym": "Shovel's gym",
+      "result": ["L", "L", "L", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "69%"
+        }
+      ]
     }
   ],
   "Middleweight - 83.9kg/185lbs": [
     {
       "title": "Karlos Vémola",
-      "score": "36 - 7 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f80625d6-6928-4cb5-8f87-c32a65553e24/cs.1696754441139.png"
+      "nickname": "\"Terminátor\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f80625d6-6928-4cb5-8f87-c32a65553e24/cs.1696754441139.png",
+      "score": "36 - 7 - 0",
+      "nationality": "CZ",
+      "age": "38 let",
+      "height": "183 cm",
+      "weight": "Middleweight",
+      "background": "Greco-Roman wrestling",
+      "gym": "Reinders MMA",
+      "result": ["W", "W", "L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "58%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "57%"
+        }
+      ]
     },
     {
       "title": "Patrik Kincl",
-      "score": "27 - 10 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/525cfe03-06f8-4be6-9901-53b7d70ceccd/cs.1698680322424.png"
+      "nickname": "\"Inspektor\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/525cfe03-06f8-4be6-9901-53b7d70ceccd/cs.1698680322424.png",
+      "score": "27 - 10 - 0",
+      "nationality": "CZ",
+      "age": "34 let",
+      "height": "180 cm",
+      "weight": "Middleweight",
+      "background": "Judo",
+      "gym": "All Sports Academy",
+      "result": ["W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "33%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "49%"
+        }
+      ]
     },
     {
       "title": "Vlasto Čepo",
-      "score": "12 - 2 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6d70ba6a-efe5-4968-963d-30ed9a613fd4/cs.1698680323557.png"
-    },
-    {
-      "title": "Pavol Langer",
-      "score": "12 - 10 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7b25dcf9-c960-4f82-9c22-c283bb893733/cs.1696799479045.png"
-    },
-    {
-      "title": "Attila Végh",
-      "score": "33 - 9 - 2 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3d62b009-5f7b-4c00-983c-400acc86c754/cs.1680207707697.png"
-    },
-    {
-      "title": "Losene Keita",
-      "score": "11 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d4486e5f-265d-4830-b8cb-d2ce0f8fd6fd/cs.1698419581524.png"
-    },
-    {
-      "title": "David Kozma",
-      "score": "32 - 13 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a66177f8-700e-444b-b49a-378bdc1ff9eb/cs.1694898164105.png"
+      "nickname": "\"EL CHAPO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6d70ba6a-efe5-4968-963d-30ed9a613fd4/cs.1698680323557.png",
+      "score": "12 - 2 - 0",
+      "nationality": "SK",
+      "age": "28 let",
+      "height": "185 cm",
+      "weight": "Middleweight",
+      "background": "Box",
+      "gym": "Spartakus Fight",
+      "result": [],
+      "stats": []
     },
     {
       "title": "Matěj Peňáz",
-      "score": "7 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a63adba9-3b32-43d3-b292-396f5c56a453/cs.1688487882118.png"
+      "nickname": "\"MONEY\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a63adba9-3b32-43d3-b292-396f5c56a453/cs.1688487882118.png",
+      "score": "8 - 1 - 0",
+      "nationality": "CZ",
+      "age": "27 let",
+      "height": "193 cm",
+      "weight": "Middleweight",
+      "background": "Kickbox",
+      "gym": "Hron",
+      "result": ["W", "W", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "88%"
+        },
+        {
+          "label": "Výhry knokautem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "76%"
+        }
+      ]
     },
     {
-      "title": "Lucia Szabová",
-      "score": "6 - 0 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/67221a36-4029-454f-9808-0aa74083b607/cs.1696704638178.png"
+      "title": "Samuel Krištofič",
+      "nickname": "\"Pirát\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e02d5208-cafb-4309-9bff-3e126faa8f58/cs.1690578750377.png",
+      "score": "16 - 6 - 0",
+      "nationality": "SK",
+      "age": "34 let",
+      "height": "185 cm",
+      "weight": "Middleweight",
+      "background": "Muay Thai",
+      "gym": "Spartakus Fight",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Katharina Dalisda",
-      "score": "10 - 3 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/00b41702-007a-45b7-868e-8bbb36d46f3b/cs.1695028351159.png"
+      "title": "Matthew Bonner",
+      "nickname": "\"THE BEAST\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b2c77500-6fae-4c43-bef8-cda5c9b28de5/cs.1699890886431.png",
+      "score": "16 - 9 - 1",
+      "nationality": "GB",
+      "age": "32 let",
+      "height": "188 cm",
+      "weight": "Middleweight",
+      "gym": "Next Generation MMA",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Monika Chochlíková",
-      "score": "3 - 1 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bee08c42-2068-4128-abc0-36b193e5649b/cs.1680206552189.png"
+      "title": "Cihad Akipa",
+      "nickname": "\"PUNISHER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/981b4c6c-c739-4f79-bcc8-09c20487589a/cs.1699890905254.png",
+      "score": "6 - 1 - 0",
+      "nationality": "DE",
+      "age": "27 let",
+      "height": "190 cm",
+      "weight": "Middleweight",
+      "gym": "Nordrhein-Westfalen",
+      "result": [],
+      "stats": []
     },
     {
-      "title": "Olga Rubin",
-      "score": "9 - 3 - 0 (V - P - R)",
-      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3947bb2d-37f4-4a61-9d8b-5c7062f61e29/cs.1680206637099.png"
+      "title": "Zbyněk Vlček",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/4ad0b17e-5112-4118-95d8-b5cc7ec040b7/cs.1690196120372.png",
+      "score": "0 - 0 - 0",
+      "nationality": "CZ",
+      "age": "22 let",
+      "weight": "Middleweight",
+      "background": "JUDO",
+      "gym": "Gorila MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Kerim Engizek",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ea358187-f42c-466e-b9da-2064df2ec078/cs.1698748611767.png",
+      "score": "20 - 4 - 0",
+      "nationality": "TR",
+      "age": "32 let",
+      "height": "183 cm",
+      "weight": "Middleweight",
+      "gym": "UFD",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Matěj Daněk",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c348d75d-d359-4985-91af-1452e9e9f09c/cs.1684603823194.png",
+      "score": "2 - 0 - 0",
+      "nationality": "CZ",
+      "weight": "Middleweight",
+      "gym": "Monster",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Szymon  Broncel",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/cb1935b9-b984-4b85-9a8c-46c0cf5bd9cb/cs.1681674966953.png",
+      "score": "1 - 2 - 0",
+      "nationality": "PL",
+      "age": "29 let",
+      "height": "182 cm",
+      "weight": "Middleweight",
+      "background": "Kickbox",
+      "gym": "Bastion Belchatow",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Lee Chadwick",
+      "nickname": "\"The Butcher\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/dcaef7c1-0155-4620-aa31-162912b40cf6/cs.1698420401352.png",
+      "score": "28 - 19 - 1",
+      "nationality": "GB",
+      "age": "37 let",
+      "height": "183 cm",
+      "weight": "Middleweight",
+      "gym": "Atherton Submission Wrestling",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jorge Bueno",
+      "nickname": "\"JORGINHO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b3e76b25-e13a-45b2-89f3-1c68bda7cb9e/cs.1680206681782.png",
+      "score": "7 - 1 - 0",
+      "nationality": "BR",
+      "age": "33 let",
+      "height": "175 cm",
+      "weight": "Middleweight",
+      "background": "Jiu-jitsu",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Denis Kurdinov",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b93a681d-7540-49f7-8f7d-77d0c792878c/cs.1680206680961.png",
+      "score": "4 - 2 - 1",
+      "nationality": "UA",
+      "age": "26 let",
+      "weight": "Middleweight",
+      "gym": "Honour MMA Academy",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Hojat Khajevand",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/5998d83f-59e1-40ef-89c3-4cb9c0074a80/cs.1687028476815.png",
+      "score": "7 - 3 - 0",
+      "nationality": "DE",
+      "weight": "Middleweight",
+      "background": "Wrestling",
+      "gym": "FIGHTCLUB FREIBURG",
+      "result": ["W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "33%"
+        }
+      ]
+    },
+    {
+      "title": "Ole Magnor",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8d95bf88-e133-4ff7-ae26-6b57602f92e3/cs.1690569711523.png",
+      "score": "8 - 8 - 0",
+      "nationality": "NO",
+      "age": "35 let",
+      "height": "187 cm",
+      "weight": "Middleweight",
+      "background": "Thajský box",
+      "gym": "Novus Academy",
+      "result": ["L", "W", "L", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "54%"
+        }
+      ]
+    },
+    {
+      "title": "Nathan Christián Dzaba",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e14ebcfb-066a-4925-bde9-4aca89df2bf5/cs.1680206667424.png",
+      "score": "0 - 0 - 0",
+      "nationality": "SK",
+      "weight": "Middleweight",
+      "background": "Survivor",
+      "gym": "Spartakus Fight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Giovanni Melillo",
+      "nickname": "\"The Punisher\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2c7b4273-fe92-4742-91ce-523f1de441ef/cs.1684608424590.png",
+      "score": "14 - 9 - 0",
+      "nationality": "IT",
+      "age": "37 let",
+      "height": "181 cm",
+      "weight": "Middleweight",
+      "background": "Judo",
+      "gym": "Aurora MMA",
+      "result": ["L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "94%"
+        }
+      ]
+    },
+    {
+      "title": "Naglis Kanišauskas",
+      "nickname": "\"The Smiling Boy\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/27d3ede1-c9c6-4e1f-884e-18185079c140/cs.1680206652481.png",
+      "score": "5 - 1 - 0",
+      "nationality": "LT",
+      "age": "21 let",
+      "height": "191 cm",
+      "weight": "Middleweight",
+      "background": "Karete",
+      "gym": "Titanic / A-force Klaipėda",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Alexandre Silva",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/871dc98d-f1a8-4654-90a5-904abadb86c2/cs.1680206651846.png",
+      "score": "7 - 3 - 0",
+      "nationality": "BR",
+      "age": "27 let",
+      "height": "190 cm",
+      "weight": "Middleweight",
+      "background": "Karate",
+      "gym": "Team Arena Extreme / Atos Jiu Jitsu",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Cheick Kone",
+      "nickname": "\"Thanos\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/576b5efa-edae-428f-9d02-abfe77ecf548/cs.1680206642401.png",
+      "score": "18 - 12 - 0",
+      "nationality": "CI",
+      "age": "38 let",
+      "height": "188 cm",
+      "weight": "Middleweight",
+      "background": "Muay Thai",
+      "gym": "Team Kone",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Al Matavao",
+      "nickname": "\"Sweetness\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a2ae462e-4295-415f-9a7c-9a95c6984bea/cs.1681673938488.png",
+      "score": "10 - 6 - 0",
+      "nationality": "AS",
+      "age": "28 let",
+      "height": "173 cm",
+      "weight": "Middleweight",
+      "background": "Box",
+      "gym": "Legacy Jiu-Jitsu / Foot Souljahs Muay Thai",
+      "result": ["L", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "82%"
+        }
+      ]
+    },
+    {
+      "title": "Rahmane Abdel Driai",
+      "nickname": "\"Silverback\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/deb7a0cb-d4c2-4e49-a338-5c911701e417/cs.1680206613730.png",
+      "score": "7 - 2 - 0",
+      "nationality": "DZ",
+      "age": "32 let",
+      "height": "183 cm",
+      "weight": "Middleweight",
+      "background": "Box / Wrestling",
+      "gym": "AFC",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Carlos Graca",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/915143e4-1700-4032-90bb-4d6c674f19c7/cs.1680206610334.png",
+      "score": "3 - 1 - 0",
+      "nationality": "PT",
+      "age": "35 let",
+      "height": "186 cm",
+      "weight": "Middleweight",
+      "background": "MMA",
+      "gym": "Manchester Top Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Eric Spicely",
+      "nickname": "\"Zebrinha\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f1311584-5964-4027-96ba-42a0612bcad6/cs.1680206608180.png",
+      "score": "13 - 8 - 0",
+      "nationality": "US",
+      "age": "34 let",
+      "height": "185 cm",
+      "weight": "Middleweight",
+      "background": "BJJ",
+      "gym": "TRISTAR GYM",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Marcin Naruszczka",
+      "nickname": "\"CYBORG\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/94ce5421-d41a-4622-bf59-d80287120cb0/cs.1680206607435.png",
+      "score": "23 - 11 - 2",
+      "nationality": "PL",
+      "age": "38 let",
+      "height": "182 cm",
+      "weight": "Middleweight",
+      "background": "MMA",
+      "gym": "Akademia Sportów Walki Wilanów",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Mateusz Strzelczyk",
+      "nickname": "\"Spider\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/02e7da59-b039-44d1-aaa0-56a2296a08b8/cs.1687034526778.png",
+      "score": "14 - 14 - 1",
+      "nationality": "PL",
+      "age": "32 let",
+      "height": "192 cm",
+      "weight": "Middleweight",
+      "background": "MMA",
+      "gym": "Husaria Truskolasy Fight Club",
+      "result": ["L", "W", "L", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "61%"
+        }
+      ]
+    },
+    {
+      "title": "Thomas Robertsen",
+      "nickname": "\"SAINT\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e105b446-b555-4b8b-879a-b2bbdcad6d7c/cs.1680206561847.png",
+      "score": "9 - 4 - 0",
+      "nationality": "NO",
+      "age": "31 let",
+      "height": "179 cm",
+      "weight": "Middleweight",
+      "background": "Karate",
+      "gym": "SARPSBORG CHI FREE FIGHT MMA",
+      "result": ["W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "42%"
+        }
+      ]
+    },
+    {
+      "title": "Michal Plesník",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/302bf96f-28d4-4d04-8edd-edc6033c997d/cs.1680206559053.png",
+      "score": "3 - 3 - 0",
+      "nationality": "SK",
+      "age": "32 let",
+      "height": "185 cm",
+      "weight": "Middleweight",
+      "background": "Box",
+      "gym": "Spartakus Fight",
+      "result": ["L", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "37%"
+        }
+      ]
+    },
+    {
+      "title": "Patrik Jevický",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/787f7443-70da-40c7-a720-9761de82ce51/cs.1680206547263.png",
+      "score": "2 - 13 - 0",
+      "nationality": "SK",
+      "age": "32 let",
+      "height": "179 cm",
+      "weight": "Middleweight",
+      "background": "MMA",
+      "gym": "Octagon Fighting Academy",
+      "result": ["L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "67%"
+        }
+      ]
+    },
+    {
+      "title": "Zdeněk Polívka",
+      "nickname": "\"GAMEOVER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3c68f084-03a2-402f-b54c-00617bcfac23/cs.1698420401929.png",
+      "score": "9 - 7 - 0",
+      "nationality": "CZ",
+      "age": "24 let",
+      "height": "188 cm",
+      "weight": "Middleweight",
+      "background": "MMA",
+      "gym": "Gorila MMA",
+      "result": ["W", "L", "L", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "33%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "74%"
+        }
+      ]
+    },
+    {
+      "title": "Marek  Mazúch",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/157f78cd-2097-4fb9-b266-531987ce7f12/cs.1696708667651.png",
+      "score": "8 - 2 - 0",
+      "nationality": "SK",
+      "age": "27 let",
+      "weight": "Middleweight",
+      "result": ["W", "W", "L", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry knokautem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "88%"
+        }
+      ]
+    },
+    {
+      "title": "Robert Bryczek",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/72cb2259-5166-4c1d-92d6-de4de8c6fbda/cs.1690578748997.png",
+      "score": "17 - 5 - 0",
+      "nationality": "PL",
+      "age": "31 let",
+      "height": "185 cm",
+      "weight": "Middleweight",
+      "background": "Box",
+      "gym": "ASWW / Impact Bielsko Biala",
+      "result": ["W", "W", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "61%"
+        }
+      ]
+    },
+    {
+      "title": "Branislav Zuzák",
+      "nickname": "\"JOPO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/435e332b-b5c4-467b-a957-0e2956be98a3/cs.1693741035222.png",
+      "score": "6 - 2 - 0",
+      "nationality": "SK",
+      "age": "24 let",
+      "height": "185 cm",
+      "weight": "Middleweight",
+      "gym": "Spartakus Fight",
+      "result": ["L", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Výhry na body",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "32%"
+        }
+      ]
+    },
+    {
+      "title": "Pavel Salčák",
+      "nickname": "\"Salin\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8a7c2604-c15a-46e5-af7e-482b590a4eb5/cs.1680206439134.png",
+      "score": "5 - 6 - 1",
+      "nationality": "CZ",
+      "age": "37 let",
+      "height": "189 cm",
+      "weight": "Middleweight",
+      "background": "Muay Thai",
+      "gym": "Reinders MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Radovan Úškrt",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ca62c90b-8b70-4335-b65e-02d51da853c3/cs.1697147979501.png",
+      "score": "8 - 4 - 0",
+      "nationality": "SK",
+      "age": "31 let",
+      "height": "180 cm",
+      "weight": "Middleweight",
+      "background": "Thajský box",
+      "gym": "OFA",
+      "result": ["W", "L", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "60%"
+        }
+      ]
+    },
+    {
+      "title": "Ondřej Raška",
+      "nickname": "\"Andrés\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/1f9b341c-b447-4ed1-ad93-a1c4c8bd2e87/cs.1698748765436.png",
+      "score": "10 - 8 - 0",
+      "nationality": "CZ",
+      "age": "31 let",
+      "height": "189 cm",
+      "weight": "Middleweight",
+      "background": "MMA",
+      "gym": "JETSAAM GYM",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Tomáš Meliš",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/5f2a8036-a37a-417f-bfd8-73fe22b83f6d/cs.1680206417313.png",
+      "score": "10 - 9 - 2",
+      "nationality": "SK",
+      "age": "35 let",
+      "height": "180 cm",
+      "weight": "Middleweight",
+      "background": "Kickbox",
+      "gym": "Wolf Pride",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jakub  Běle",
+      "nickname": "\"Kuba\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/0f926a9b-5a36-4e67-b7e5-ba12296829b2/cs.1680206415589.png",
+      "score": "6 - 8 - 0",
+      "nationality": "CZ",
+      "age": "27 let",
+      "height": "191 cm",
+      "weight": "Middleweight",
+      "background": "Box",
+      "gym": "Reinders MMA",
+      "result": ["L", "L", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "78%"
+        }
+      ]
+    }
+  ],
+  "Welterweight - 77.1kg/170lbs": [
+    {
+      "title": "David Kozma",
+      "nickname": "\"RŮŽOVÝ PANTER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a66177f8-700e-444b-b49a-378bdc1ff9eb/cs.1694898164105.png",
+      "score": "32 - 13 - 0",
+      "nationality": "CZ",
+      "age": "30 let",
+      "height": "182 cm",
+      "weight": "Welterweight",
+      "background": "Judo",
+      "gym": "PriMMAt",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Christian Eckerlin",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b7aa9a03-8db2-4dad-8558-6b0cbacc2995/cs.1698163866298.png",
+      "score": "15 - 6 - 0",
+      "nationality": "DE",
+      "age": "37 let",
+      "height": "181 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "MMA Spirit & UFD",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Alex Lohoré",
+      "nickname": "\"DA KILLA KING\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8b774b2b-de97-46e3-9752-fd52840a0aef/cs.1698420398337.png",
+      "score": "23 - 10 - 0",
+      "nationality": "FR",
+      "age": "33 let",
+      "height": "185 cm",
+      "weight": "Welterweight",
+      "background": "BOX",
+      "gym": "GB Top Team / Mandala BJJ",
+      "result": ["L", "L", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "55%"
+        }
+      ]
+    },
+    {
+      "title": "Stefano Paternò",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/94297143-1916-40b1-af06-3b2234f5b790/cs.1701682013638.png",
+      "score": "15 - 4 - 1",
+      "nationality": "IT",
+      "age": "28 let",
+      "height": "179 cm",
+      "weight": "Welterweight",
+      "gym": "MMA Atletica Boxe",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Ammari Diedrick",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7d186bb0-0487-45d8-855d-34939ff0a7e1/cs.1700394936610.png",
+      "score": "4 - 2 - 0",
+      "nationality": "GB",
+      "height": "180 cm",
+      "weight": "Welterweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Finn Griessmann",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/02cae1c6-75a4-4829-b5d4-6e8d1f0dd79f/cs.1699963212727.png",
+      "score": "1 - 2 - 0",
+      "nationality": "DE",
+      "weight": "Welterweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Liam Etebar",
+      "nickname": "\"Bad Boy\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/fdfe40f1-d122-4b80-b50a-cb13f88868a4/cs.1684608330047.png",
+      "score": "8 - 3 - 0",
+      "nationality": "GB",
+      "weight": "Welterweight",
+      "gym": "Southcoast MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Marcel Mohamed Grabinski",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6c683e49-5f0d-48b4-9297-8ceb650f9987/cs.1694893176647.png",
+      "score": "23 - 9 - 0",
+      "nationality": "DE",
+      "age": "31 let",
+      "height": "182 cm",
+      "weight": "Welterweight",
+      "gym": "Pride",
+      "result": ["L", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry knokautem",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "25%"
+        }
+      ]
+    },
+    {
+      "title": "Amiran Gogoladze",
+      "nickname": "\"THE SNIPER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e63b61f8-06d2-47c4-b9ee-024eda09b34e/cs.1696708586179.png",
+      "score": "16 - 3 - 0",
+      "nationality": "GE",
+      "age": "25 let",
+      "height": "185 cm",
+      "weight": "Welterweight",
+      "gym": "13 Legion",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Tayo Odunjo",
+      "nickname": "\"XL\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/36094b65-1ddf-4056-beb6-c905a8d05a84/cs.1694886545249.png",
+      "score": "5 - 3 - 0",
+      "nationality": "GB",
+      "height": "185 cm",
+      "weight": "Welterweight",
+      "gym": "Team Wallhead",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Andreas Michailidis",
+      "nickname": "\"The Spartan\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2c583033-a3bc-4fa5-8cb3-c55271793432/cs.1698680325138.png",
+      "score": "16 - 6 - 0",
+      "nationality": "GR",
+      "age": "35 let",
+      "height": "183 cm",
+      "weight": "Welterweight",
+      "background": "Wrestling",
+      "gym": "EFL Academy",
+      "result": ["W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "67%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "33%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "48%"
+        }
+      ]
+    },
+    {
+      "title": "Louis Glismann",
+      "nickname": "\"Spartakus\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/40ae044f-5b08-45e6-b71e-7cac0ff7c109/cs.1694898127160.png",
+      "score": "11 - 3 - 0",
+      "nationality": "DK",
+      "age": "31 let",
+      "height": "180 cm",
+      "weight": "Welterweight",
+      "background": "BJJ",
+      "gym": "Arte Suave",
+      "result": ["L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "40%"
+        }
+      ]
+    },
+    {
+      "title": "Melvin  Van Suijdam",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/097c1b07-d9be-47b7-91fb-66d6fea9ee41/cs.1684615719887.png",
+      "score": "14 - 6 - 0",
+      "nationality": "NL",
+      "age": "34 let",
+      "height": "180 cm",
+      "weight": "Welterweight",
+      "gym": "Days",
+      "result": ["L", "W"],
+      "stats": [
+        {
+          "label": "Výhry na body",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "50%"
+        }
+      ]
+    },
+    {
+      "title": "John Hathaway",
+      "nickname": "\"The Hitman\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/29cc7452-6989-453e-bb4f-bef89daa340b/cs.1687024182029.png",
+      "score": "18 - 3 - 0",
+      "nationality": "GB",
+      "age": "35 let",
+      "height": "188 cm",
+      "weight": "Welterweight",
+      "gym": "LONDON SHOOTFIGHTERS",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Joel dos Santos",
+      "nickname": "\"Tigre\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/eb2871e4-f4c6-4f16-9edf-32e82e5b9af6/cs.1680206680113.png",
+      "score": "16 - 8 - 0",
+      "nationality": "BR",
+      "age": "29 let",
+      "height": "176 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "Clube da Luta / CT Black Brothers",
+      "result": ["L", "L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "59%"
+        }
+      ]
+    },
+    {
+      "title": "James Lewis",
+      "nickname": "\"The Bastard\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2232c181-54d1-4816-b0c4-91fb0ed4bd1f/cs.1698419588158.png",
+      "score": "8 - 5 - 0",
+      "nationality": "GB",
+      "age": "37 let",
+      "height": "183 cm",
+      "weight": "Welterweight",
+      "background": "Muay Thai",
+      "gym": "Blackledge MMA",
+      "result": ["L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "63%"
+        }
+      ]
+    },
+    {
+      "title": "Vladislav Kanchev",
+      "nickname": "\"C-4\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bbe784b4-ba6c-4919-bbb0-ff26f7000697/cs.1690652019972.png",
+      "score": "13 - 7 - 2",
+      "nationality": "BG",
+      "age": "33 let",
+      "height": "177 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "Tiger Sport MMA from Sofia, BG",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Hassan Shaaban",
+      "nickname": "\"Diaz\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bf39bda4-dd8d-4f54-8230-bf6ee890055b/cs.1687020259772.png",
+      "score": "2 - 1 - 0",
+      "nationality": "DE",
+      "age": "21 let",
+      "height": "178 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "UFD",
+      "result": ["W", "W", "L"],
+      "stats": [
+        {
+          "label": "Výhry na body",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "52%"
+        }
+      ]
+    },
+    {
+      "title": "Selim Topuz",
+      "nickname": "\"Lee\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7319ac8b-2d35-4276-8a64-b72cef4f4f0b/cs.1694886544737.png",
+      "score": "6 - 5 - 0",
+      "nationality": "AT",
+      "age": "34 let",
+      "height": "177 cm",
+      "weight": "Welterweight",
+      "background": "Muay Thai",
+      "gym": "Clan of Ronin",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Ibrahim Cholo",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6caecf5b-89a0-4ce5-9187-0b6d858609ab/cs.1680206672905.png",
+      "score": "4 - 2 - 0",
+      "nationality": "DE",
+      "age": "24 let",
+      "height": "173 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "UFD GYM",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Neves Denilson de Oliveira",
+      "nickname": "\"Trator\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e1671aa5-0cf9-43d2-889a-3839242f0523/cs.1680206672248.png",
+      "score": "17 - 10 - 0",
+      "nationality": "BR",
+      "age": "27 let",
+      "height": "177 cm",
+      "weight": "Welterweight",
+      "background": "Kickbox",
+      "gym": "RD Champions",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jaime Cordero",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8ddeb8b4-61b9-47e5-84c7-4ba99184fd61/cs.1696708668490.png",
+      "score": "4 - 2 - 0",
+      "nationality": "DE",
+      "age": "31 let",
+      "height": "180 cm",
+      "weight": "Welterweight",
+      "background": "Muay Thai",
+      "gym": "Elevate",
+      "result": ["L", "W", "W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "67%"
+        },
+        {
+          "label": "Výhry knokautem",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "65%"
+        }
+      ]
+    },
+    {
+      "title": "Ivica Truscek",
+      "nickname": "\"Terror\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/788781af-7619-464a-a736-cfd5e5824ba6/cs.1680206668982.png",
+      "score": "41 - 36 - 0",
+      "nationality": "HR",
+      "age": "39 let",
+      "height": "177 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "American Top Team Zagreb",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Erhan Kartal",
+      "nickname": "\"No Mercy\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3966045a-7a4d-49ff-b07e-028eade9351f/cs.1680206665726.png",
+      "score": "10 - 2 - 0",
+      "nationality": "AT",
+      "age": "30 let",
+      "height": "180 cm",
+      "weight": "Welterweight",
+      "background": "Muay Thai & Kickboxing",
+      "gym": "Ironfist",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "David Zawada",
+      "nickname": "\"Sagat\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/90c58131-2282-49f2-b346-4a78f8fe0bfc/cs.1680206665159.png",
+      "score": "18 - 7 - 0",
+      "nationality": "DE",
+      "age": "31 let",
+      "height": "183 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "UFD GYM",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Max Handanagić",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ced148dd-5632-4f69-a05d-159ff1e2f556/cs.1680206651223.png",
+      "score": "9 - 6 - 1",
+      "nationality": "CZ",
+      "age": "26 let",
+      "height": "181 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "MMA Poděbrady / MPT Fighters",
+      "result": ["W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "72%"
+        }
+      ]
+    },
+    {
+      "title": "Bojan Veličković",
+      "nickname": "\"The Prometheus\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6e24b60c-795f-4185-9187-42920ca194d6/cs.1698680324410.png",
+      "score": "24 - 12 - 2",
+      "nationality": "RS",
+      "age": "34 let",
+      "height": "186 cm",
+      "weight": "Welterweight",
+      "background": "Judo",
+      "gym": "EASTON TRAINING CENTER",
+      "result": ["W", "W", "W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "67%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "56%"
+        }
+      ]
+    },
+    {
+      "title": "Matúš Juráček",
+      "nickname": "\"Slávista\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/29656326-2550-4775-9907-3922498f514c/cs.1680206575069.png",
+      "score": "10 - 3 - 0",
+      "nationality": "CZ",
+      "age": "28 let",
+      "height": "190 cm",
+      "weight": "Welterweight",
+      "background": "BOX",
+      "gym": "Renegade Prague",
+      "result": ["W", "L", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "20%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "80%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "55%"
+        }
+      ]
+    },
+    {
+      "title": "Christian Jungwirth",
+      "nickname": "\"The Kelt\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/30948bd2-b9fe-4a8e-981d-239f6b0c472f/cs.1694898029435.png",
+      "score": "14 - 8 - 0",
+      "nationality": "DE",
+      "age": "35 let",
+      "height": "181 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "Kongs",
+      "result": ["L", "L", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "49%"
+        }
+      ]
+    },
+    {
+      "title": "Ole-Jørgen Mandt Johnsen",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/1295fda8-9f3b-430c-ac9c-004a3ff70963/cs.1680206563017.png",
+      "score": "3 - 1 - 0",
+      "nationality": "NO",
+      "age": "28 let",
+      "height": "181 cm",
+      "weight": "Welterweight",
+      "gym": "Frontline MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "José Antonio Martín Reis",
+      "nickname": "\"Tato Primera\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/da212c97-2664-4d07-87f0-dd71b6b74887/cs.1690574068865.png",
+      "score": "18 - 14 - 0",
+      "nationality": "ES",
+      "age": "31 let",
+      "height": "177 cm",
+      "weight": "Welterweight",
+      "background": "Lucha Canaria",
+      "gym": "CFC Taz La Palma",
+      "result": ["L", "L", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "69%"
+        }
+      ]
+    },
+    {
+      "title": "Václav Holota",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6442a8e6-70f8-4a84-b43d-bb0615b5427d/cs.1682027482382.png",
+      "score": "7 - 1 - 0",
+      "nationality": "CZ",
+      "age": "29 let",
+      "height": "183 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "Reinders MMA",
+      "result": ["W", "W", "W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "62%"
+        }
+      ]
+    },
+    {
+      "title": "Lukáš Eliáš",
+      "nickname": "\"Tongpo\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/bbe172bc-0b1e-4675-b844-0ea2787dfbb2/cs.1699533946845.png",
+      "score": "2 - 0 - 0",
+      "nationality": "SK",
+      "height": "181 cm",
+      "weight": "Welterweight",
+      "gym": "Spartakus Fight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Denis Farkaš",
+      "nickname": "\"Wlk\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6e98f3a1-95f9-49ae-b6d5-c27e25b895c1/cs.1680206525109.png",
+      "score": "3 - 5 - 0",
+      "nationality": "SK",
+      "age": "22 let",
+      "height": "183 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "Spartakus Fight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Leandro Silva",
+      "nickname": "\"APOLLO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/042b6909-a2b5-42eb-a374-8dabe3a72367/cs.1698163867087.png",
+      "score": "28 - 11 - 1",
+      "nationality": "BR",
+      "age": "38 let",
+      "height": "175 cm",
+      "weight": "Welterweight",
+      "gym": "AMERICAN TOP TEAM",
+      "result": ["W", "W", "L", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "20%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "80%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "62%"
+        }
+      ]
+    },
+    {
+      "title": "Kaik Brito",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/97529a67-6737-4914-8488-a7c8e3cbc228/cs.1692278189403.png",
+      "score": "16 - 4 - 0",
+      "nationality": "BR",
+      "age": "25 let",
+      "height": "185 cm",
+      "weight": "Welterweight",
+      "background": "Thajský box / Kickbox",
+      "gym": "Goiânia Brazil  / Black Thai Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Daniel Hromek",
+      "nickname": "\"The ANONYMOUS\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/0f14b3be-326a-4a4c-a314-57c760f5ab89/cs.1698163874181.png",
+      "score": "3 - 3 - 0",
+      "nationality": "SK",
+      "age": "29 let",
+      "height": "187 cm",
+      "weight": "Welterweight",
+      "background": "Kickbox",
+      "gym": "Spartakus Fight",
+      "result": ["W", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "35%"
+        }
+      ]
+    },
+    {
+      "title": "Andrej Kalašnik",
+      "nickname": "\"AK47\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/9730e54f-e8b3-4405-8eb8-dccb43cc62d9/cs.1698163870465.png",
+      "score": "10 - 5 - 0",
+      "nationality": "CZ",
+      "age": "29 let",
+      "height": "189 cm",
+      "weight": "Welterweight",
+      "gym": "Jetsaam",
+      "result": ["L", "L", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "67%"
+        }
+      ]
+    },
+    {
+      "title": "Robert Pukač",
+      "nickname": "\"Diamantový Čávo\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/be0fd4ff-f05e-48a7-a904-771b474f3a55/cs.1696704523618.png",
+      "score": "16 - 12 - 1",
+      "nationality": "SK",
+      "age": "31 let",
+      "height": "180 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "Jiu Jitsu Academy / Corener",
+      "result": ["L", "L", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "71%"
+        }
+      ]
+    },
+    {
+      "title": "Niklas Stolze",
+      "nickname": "\"Green Mask\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7ce87ed5-9c6b-4cba-aa86-eac147e6ce29/cs.1698163871046.png",
+      "score": "13 - 6 - 0",
+      "nationality": "DE",
+      "age": "30 let",
+      "height": "182 cm",
+      "weight": "Welterweight",
+      "background": "Jiu-Jitsu & Kickbox",
+      "gym": "La Onda Fight Club",
+      "result": ["W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "67%"
+        }
+      ]
+    },
+    {
+      "title": "Miroslav Brož",
+      "nickname": "\"Inkvizitor\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/251392cc-48bb-4101-8210-8a31ace0c2c5/cs.1692440867398.png",
+      "score": "16 - 3 - 0",
+      "nationality": "CZ",
+      "age": "34 let",
+      "height": "178 cm",
+      "weight": "Welterweight",
+      "background": "Thaibox",
+      "gym": "Renegade Prague",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Máté Kertész",
+      "nickname": "\"The Cold blooded\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e4725b15-f3dc-483b-8c3c-e343af56892a/cs.1690576003884.png",
+      "score": "14 - 7 - 0",
+      "nationality": "HU",
+      "age": "31 let",
+      "height": "183 cm",
+      "weight": "Welterweight",
+      "background": "Box",
+      "gym": "BSK Crossfight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Gábor Boráros",
+      "nickname": "\"PUNISHER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/73702db0-40f8-4400-8925-c94d5d86123d/cs.1680206414872.png",
+      "score": "20 - 10 - 1",
+      "nationality": "SK",
+      "age": "30 let",
+      "height": "175 cm",
+      "weight": "Welterweight",
+      "background": "MMA",
+      "gym": "OFA / SFG",
+      "result": [],
+      "stats": []
+    }
+  ],
+  "Lightweight - 70.3kg/155lbs": [
+    {
+      "title": "Ivan Buchinger",
+      "nickname": "\"BUKI\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d78b048d-3a8e-4657-b8aa-8d550351673f/cs.1698419583679.png",
+      "score": "41 - 9 - 0",
+      "nationality": "SK",
+      "age": "37 let",
+      "height": "175 cm",
+      "weight": "Lightweight",
+      "background": "Zápas",
+      "gym": "SFG Trnava, EFC Gabcikovo, MMA Spirit",
+      "result": ["L", "W", "W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "75%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "55%"
+        }
+      ]
+    },
+    {
+      "title": "Mago Machaev",
+      "nickname": "\"THE BEAST\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d3497939-f97d-42eb-b986-3f142a487cea/cs.1702292564238.png",
+      "score": "13 - 1 - 0",
+      "nationality": "AT",
+      "age": "24 let",
+      "height": "170 cm",
+      "weight": "Lightweight",
+      "gym": "Soma Fight Club",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Stefano Catacoli",
+      "nickname": "\"THE GHOST\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a0f4e056-d6aa-4cb2-81b1-0be30141b3b4/cs.1701453468195.png",
+      "score": "7 - 1 - 0",
+      "nationality": "GB",
+      "age": "24 let",
+      "height": "183 cm",
+      "weight": "Lightweight",
+      "gym": "Great Britain Top Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Arijan Topallaj",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c93599b1-0f03-4c38-bdfa-475b40088209/cs.1699871433197.png",
+      "score": "6 - 0 - 1",
+      "nationality": "DE",
+      "age": "24 let",
+      "height": "184 cm",
+      "weight": "Lightweight",
+      "gym": "Planet Eater",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Denis Frimpong",
+      "nickname": "\"THE MENACE\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7bfd0061-00a9-433c-b5a5-69486a49ec1b/cs.1698420396038.png",
+      "score": "0 - 2 - 0",
+      "nationality": "IE",
+      "age": "28 let",
+      "height": "188 cm",
+      "weight": "Lightweight",
+      "gym": "Manchester Top Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "George Staines",
+      "nickname": "\"STAR KILLER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c41afd46-f264-4580-9edf-93db5c1e9621/cs.1698420395260.png",
+      "score": "1 - 0 - 0",
+      "nationality": "GB",
+      "age": "23 let",
+      "height": "185 cm",
+      "weight": "Lightweight",
+      "gym": "Hit Squad Hull",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Hascen Neri Gelezi",
+      "nickname": "\"MORNING BREAKFAST\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/183cd3c8-0488-4960-8a54-37b7e696f071/cs.1698420402828.png",
+      "score": "5 - 1 - 0",
+      "nationality": "GB",
+      "height": "183 cm",
+      "weight": "Lightweight",
+      "gym": "Great Britain Top Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Aaron McDonald",
+      "nickname": "\"MACAVELLI\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/4b4cf9dd-be51-454e-95f1-2c1e17221863/cs.1698420403681.png",
+      "score": "0 - 1 - 0",
+      "nationality": "IE",
+      "age": "28 let",
+      "height": "181 cm",
+      "weight": "Lightweight",
+      "gym": "Team Torres Martial Arts",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Akonne Wanliss",
+      "nickname": "\"J3DI\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/fbb18ce3-7656-4655-b6cd-a8d4f97c2fe1/cs.1698420390689.png",
+      "score": "7 - 2 - 0",
+      "nationality": "GB",
+      "height": "184 cm",
+      "weight": "Lightweight",
+      "gym": "Team Renegade BJJ & MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Adrian Kępa",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/04e9e294-b3e3-4c96-a33b-fd6afefdf8ac/cs.1687022191968.png",
+      "score": "11 - 8 - 0",
+      "nationality": "PL",
+      "weight": "Lightweight",
+      "gym": "MMATadores K-CE",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Arthur Lima",
+      "nickname": "\"The Night King\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ec11f671-85b3-4371-a6ed-6754b6b8ee00/cs.1682889845067.png",
+      "score": "10 - 2 - 2",
+      "nationality": "BR",
+      "age": "27 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "BJJ",
+      "gym": "Pitbull Brothers",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Andrew Fisher",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/4d6fe738-2d7b-41ec-8a9c-58e80635d0fc/cs.1687030490136.png",
+      "score": "19 - 10 - 1",
+      "nationality": "GB",
+      "age": "37 let",
+      "height": "178 cm",
+      "weight": "Lightweight",
+      "gym": "TFT MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Shem Rock",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/07864025-003e-4d28-828b-08ddd0e79e31/cs.1698420397401.png",
+      "score": "9 - 1 - 1",
+      "nationality": "IE",
+      "age": "30 let",
+      "height": "183 cm",
+      "weight": "Lightweight",
+      "background": "Brazilské Jiu-Jitsu",
+      "gym": "Next Generation MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Hafeni Nafuka",
+      "nickname": "\"The Namibian Nightmare\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/daaab0b2-1b2d-4107-bfd1-5de059310204/cs.1698419586827.png",
+      "score": "5 - 0 - 0",
+      "nationality": "DE",
+      "age": "19 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "BJJ",
+      "gym": "Fight Fusion",
+      "result": ["W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "67%"
+        }
+      ]
+    },
+    {
+      "title": "Konrad Dyrschka",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/7581e67f-2812-474d-880a-0f01b2c158b0/cs.1698163872010.png",
+      "score": "16 - 2 - 0",
+      "nationality": "DE",
+      "age": "32 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "Wrestling",
+      "gym": "UFD",
+      "result": ["W", "W"],
+      "stats": [
+        {
+          "label": "Výhry na body",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "66%"
+        }
+      ]
+    },
+    {
+      "title": "Simeon Kapuya",
+      "nickname": "\"Mufasa\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8dc81b77-6084-49d1-a1cd-194056513679/cs.1680206677645.png",
+      "score": "1 - 1 - 0",
+      "nationality": "DE",
+      "age": "23 let",
+      "height": "177 cm",
+      "weight": "Lightweight",
+      "background": "Luta Livre",
+      "gym": "Wolfpack Cologne",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Martin Pipek",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/117ac305-e6ec-4f6d-81ff-d32797177414/cs.1680206676999.png",
+      "score": "1 - 1 - 0",
+      "nationality": "CZ",
+      "age": "26 let",
+      "height": "177 cm",
+      "weight": "Lightweight",
+      "gym": "MMA Pdy o.s.",
+      "result": ["L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "59%"
+        }
+      ]
+    },
+    {
+      "title": "Ebrahim Hosseinpour",
+      "nickname": "\"THE BUTCHER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b82dcc6c-9ebb-4f45-a0b4-a2ea547efc11/cs.1698419589489.png",
+      "score": "8 - 7 - 0",
+      "nationality": "IR",
+      "age": "40 let",
+      "height": "182 cm",
+      "weight": "Lightweight",
+      "background": "Sanda",
+      "gym": "Spitfire",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Iamik Furtado",
+      "nickname": "\"LEAO AFRICANO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/dfb67d92-c0f2-454d-a751-a9e5b07491da/cs.1693740670009.png",
+      "score": "7 - 7 - 0",
+      "nationality": "GW",
+      "age": "35 let",
+      "height": "173 cm",
+      "weight": "Lightweight",
+      "gym": "Hybrid Training Center MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Miloš Janičić",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/87bd8600-5b2e-4f25-9a71-40d36fae623f/cs.1680206635788.png",
+      "score": "16 - 3 - 0",
+      "nationality": "ME",
+      "age": "26 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "BJJ",
+      "gym": "CDS Novi Sad / MMA Team Zabjelo",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "David Moon",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/746ca27d-05c2-40b4-9ed7-233aebbaeb40/cs.1680206631431.png",
+      "score": "10 - 6 - 0",
+      "nationality": "CA",
+      "age": "34 let",
+      "height": "183 cm",
+      "weight": "Lightweight",
+      "background": "Taekwondo",
+      "gym": "TRISTAR GYM",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Mickael Lebout",
+      "nickname": "\"RAGNAR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c7f9e1d8-2e3d-4bb1-8a1c-6d6c05f437b8/cs.1680206626883.png",
+      "score": "21 - 11 - 2",
+      "nationality": "FR",
+      "age": "34 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "MMA",
+      "gym": "Team Lebout",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Abou Tounkara",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/44b696e1-b0b6-4fe5-91c1-6483bcfe74c9/cs.1690666593753.png",
+      "score": "10 - 5 - 0",
+      "nationality": "FR",
+      "age": "34 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "gym": "Atch Academy",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Arda Adas",
+      "nickname": "\"Bomaye\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f7ea63f6-2e37-4f5f-99eb-6d55d30dd72e/cs.1680206613136.png",
+      "score": "11 - 7 - 0",
+      "nationality": "DE",
+      "age": "29 let",
+      "height": "183 cm",
+      "weight": "Lightweight",
+      "background": "Japanese Jui Juitsu",
+      "gym": "Spitfire",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Ondřej Petrášek",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/fe0be971-b946-492d-8bc2-a82caf9559df/cs.1690663578374.png",
+      "score": "7 - 2 - 0",
+      "nationality": "CZ",
+      "age": "31 let",
+      "height": "177 cm",
+      "weight": "Lightweight",
+      "background": "Sambo",
+      "gym": "Reinders MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Tomáš Fiala",
+      "nickname": "\"Fidži\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/fa6f2221-8faf-48b4-885b-add2cefba3de/cs.1686130468388.png",
+      "score": "7 - 6 - 0",
+      "nationality": "CZ",
+      "age": "33 let",
+      "height": "182 cm",
+      "weight": "Lightweight",
+      "background": "MMA",
+      "gym": "MMA Monster",
+      "result": ["L", "L", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "66%"
+        }
+      ]
+    },
+    {
+      "title": "Marco Novák",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/0a548012-3a68-49b5-a4e1-9bfad8903145/cs.1698419592860.png",
+      "score": "3 - 1 - 0",
+      "nationality": "SK",
+      "age": "29 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "Muay-Thai",
+      "gym": "Hanuman",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jakub  Bahník",
+      "nickname": "\"BAHŇAS\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b1d6be13-e9da-4270-ba26-a1f2affa9b57/cs.1698420389997.png",
+      "score": "9 - 4 - 0",
+      "nationality": "CZ",
+      "age": "30 let",
+      "height": "183 cm",
+      "weight": "Lightweight",
+      "background": "MMA",
+      "gym": "All Sports Academy ASA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Matouš Kohout",
+      "nickname": "\"MIGHTY ROOSTER\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/06fb3dfc-25ee-43a9-9c6b-2e7046262e8d/cs.1696704524438.png",
+      "score": "9 - 6 - 0",
+      "nationality": "CZ",
+      "age": "31 let",
+      "height": "182 cm",
+      "weight": "Lightweight",
+      "background": "Thajský box",
+      "gym": "Gorila MMA / TKBC Praha",
+      "result": ["W", "L", "W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "33%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "67%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "60%"
+        }
+      ]
+    },
+    {
+      "title": "Mateusz Legierski",
+      "nickname": "\"Dynamite\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/15091479-762e-4714-9abb-f6de9778d7c6/cs.1696713113202.png",
+      "score": "10 - 1 - 0",
+      "nationality": "PL",
+      "age": "26 let",
+      "height": "178 cm",
+      "weight": "Lightweight",
+      "gym": "Octagon Team Cieszyn",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Marek Bartl",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8ce41ae5-1497-4b8b-9e7b-aa21975d203e/cs.1698419587473.png",
+      "score": "11 - 12 - 0",
+      "nationality": "CZ",
+      "age": "30 let",
+      "height": "181 cm",
+      "weight": "Lightweight",
+      "background": "Box",
+      "gym": "OFA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Karol Ryšavý",
+      "nickname": "\"Bomby\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/aedf266f-79ec-48a7-a288-dfd4422ece46/cs.1696713113918.png",
+      "score": "12 - 6 - 0",
+      "nationality": "SK",
+      "age": "28 let",
+      "height": "181 cm",
+      "weight": "Lightweight",
+      "background": "MMA",
+      "gym": "Spartakus Fight",
+      "result": ["L", "W", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "38%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "63%"
+        }
+      ]
+    },
+    {
+      "title": "Samuel Daňko",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/801d4898-dcbb-4f91-aac6-579e9017a3b3/cs.1680206456114.png",
+      "score": "4 - 2 - 0",
+      "nationality": "SK",
+      "weight": "Lightweight",
+      "result": ["L", "L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "70%"
+        }
+      ]
+    },
+    {
+      "title": "Jan Malach",
+      "nickname": "\"KRÁL SEVERU\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/74e26973-9a87-42fa-ac69-f4155551c0b7/cs.1690574150533.png",
+      "score": "15 - 14 - 0",
+      "nationality": "CZ",
+      "age": "31 let",
+      "height": "180 cm",
+      "weight": "Lightweight",
+      "background": "BOX",
+      "gym": "Reinders MMA",
+      "result": ["L", "W", "L", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "65%"
+        }
+      ]
+    },
+    {
+      "title": "Matěj Kuzník",
+      "nickname": "\"Matheus\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8b1aef5d-f708-429c-b455-85698b6ffb5d/cs.1698419588871.png",
+      "score": "18 - 9 - 0",
+      "nationality": "CZ",
+      "age": "28 let",
+      "height": "176 cm",
+      "weight": "Lightweight",
+      "background": "Box & Grappling",
+      "gym": "Reinders MMA",
+      "result": ["L", "L", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "60%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "40%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "59%"
+        }
+      ]
+    },
+    {
+      "title": "Miroslav Štrbák",
+      "nickname": "\"WOLVERINE\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ec6173de-aded-406a-9a0d-bd2c58b59b5f/cs.1680206432841.png",
+      "score": "18 - 10 - 1",
+      "nationality": "SK",
+      "age": "32 let",
+      "height": "178 cm",
+      "weight": "Lightweight",
+      "gym": "OCTAGON FIGHTING ACADEMY",
+      "result": ["L", "W", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "60%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "60%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "68%"
+        }
+      ]
+    },
+    {
+      "title": "Ronald Paradeiser",
+      "nickname": "\"Rony\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/82c8b629-8a28-4f87-8dee-7d903d4ded89/cs.1702373844152.png",
+      "score": "18 - 8 - 0",
+      "nationality": "SK",
+      "age": "26 let",
+      "height": "188 cm",
+      "weight": "Lightweight",
+      "background": "Karate",
+      "gym": "Cvičisko",
+      "result": ["W", "W", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "67%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "42%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "74%"
+        }
+      ]
+    },
+    {
+      "title": "Jan Široký",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ae97ca7b-c7cc-4a1b-9cfb-534438e9da7a/cs.1698419586096.png",
+      "score": "13 - 16 - 0",
+      "nationality": "CZ",
+      "age": "34 let",
+      "height": "170 cm",
+      "weight": "Lightweight",
+      "background": "Box",
+      "gym": "Fighting Club Ostrava",
+      "result": ["L", "W", "L", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "75%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "58%"
+        }
+      ]
+    },
+    {
+      "title": "Jaroslav Jartim",
+      "nickname": "\"Jarda\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3dca4a5f-528f-44c2-a113-1abb5b485609/cs.1680206422007.png",
+      "score": "11 - 10 - 1",
+      "nationality": "CZ",
+      "age": "27 let",
+      "height": "184 cm",
+      "weight": "Lightweight",
+      "gym": "All Sports Academy",
+      "result": ["W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "83%"
+        }
+      ]
+    },
+    {
+      "title": "Michal Nepraš",
+      "nickname": "\"Hrozivá ústřice\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ee14b68d-e8e7-438f-944c-134f9faf411d/cs.1680206420603.png",
+      "score": "5 - 5 - 0",
+      "nationality": "CZ",
+      "age": "28 let",
+      "height": "178 cm",
+      "weight": "Lightweight",
+      "background": "Muay Thai",
+      "gym": "Reinders MMA",
+      "result": ["L", "L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "77%"
+        }
+      ]
+    },
+    {
+      "title": "František Fodor",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/14c73896-8260-4aaf-a668-577eab25faf6/cs.1694886599617.png",
+      "score": "10 - 7 - 0",
+      "nationality": "SK",
+      "age": "32 let",
+      "height": "175 cm",
+      "weight": "Lightweight",
+      "background": "YEE TAO",
+      "gym": "Corener",
+      "result": [],
+      "stats": []
+    }
+  ],
+  "Featherweight - 65.8kg/145lbs": [
+    {
+      "title": "Losene Keita",
+      "nickname": "\"Black Panther\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/d4486e5f-265d-4830-b8cb-d2ce0f8fd6fd/cs.1698419581524.png",
+      "score": "12 - 1 - 0",
+      "nationality": "BE",
+      "age": "25 let",
+      "height": "176 cm",
+      "weight": "Featherweight",
+      "background": "MMA",
+      "gym": "Lamiro Fight Club",
+      "result": ["W", "L", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "71%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "57%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "84%"
+        }
+      ]
+    },
+    {
+      "title": "Kallum Parker",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/acf50361-3e3b-4e86-98c4-9e031340a430/cs.1701949538389.png",
+      "score": "2 - 2 - 0",
+      "nationality": "GB",
+      "age": "23 let",
+      "height": "178 cm",
+      "weight": "Featherweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jake McHugh",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/9873af5d-b2f6-4f8d-aac0-8a9d859950a2/cs.1699625700085.png",
+      "score": "1 - 0 - 0",
+      "nationality": "GB",
+      "age": "22 let",
+      "weight": "Featherweight",
+      "gym": "Next Generation MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Konmon Deh",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/f7f154ea-bfed-48da-a945-a5b5c25aa4ee/cs.1698420400485.png",
+      "score": "14 - 10 - 0",
+      "nationality": "FR",
+      "age": "39 let",
+      "height": "168 cm",
+      "weight": "Featherweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Corey Fry",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/59806398-c26f-452f-a976-3b67b07a97d7/cs.1698163869751.png",
+      "score": "5 - 1 - 0",
+      "nationality": "GB",
+      "weight": "Featherweight",
+      "gym": "North West Fight Academy",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Shoaib Yousaf",
+      "nickname": "\"THE ASSASSIN\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8a22b431-7322-4177-b1f4-89d3b5df504c/cs.1698420399805.png",
+      "score": "11 - 3 - 0",
+      "nationality": "GB",
+      "age": "28 let",
+      "height": "173 cm",
+      "weight": "Featherweight",
+      "gym": "Predators",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Armand Herczeg",
+      "nickname": "\"THE CRANE\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/6f7b19fe-94d6-4c4a-b1e7-7ab486f87a72/cs.1690566543644.png",
+      "score": "0 - 1 - 0",
+      "nationality": "IE",
+      "weight": "Featherweight",
+      "gym": "Sanda MMA Dundalk",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Deniz Ilbay",
+      "nickname": "\"EL PISTOLERO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a83f91fc-d256-4a65-b207-b95d8e1dcd8f/cs.1698163869005.png",
+      "score": "5 - 1 - 0",
+      "nationality": "DE",
+      "age": "28 let",
+      "height": "169 cm",
+      "weight": "Featherweight",
+      "gym": "UFD",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Kim  Thinghaugen",
+      "nickname": "\"Kimbo\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/28601d23-afad-4386-bc46-42ab4531ad26/cs.1684603906765.png",
+      "score": "10 - 7 - 0",
+      "nationality": "NO",
+      "weight": "Featherweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Niko Samsonidse",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ab85f797-15d4-4667-b9dc-a5081d8d23e0/cs.1698419582264.png",
+      "score": "10 - 3 - 0",
+      "nationality": "DE",
+      "age": "28 let",
+      "weight": "Featherweight",
+      "background": "BJJ",
+      "gym": "Sayyato Perfomance",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Samuel Bark",
+      "nickname": "\"Sammon Decker\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c1e72bd6-e48d-4d7e-98b8-5a93c52c5967/cs.1698419585221.png",
+      "score": "9 - 2 - 0",
+      "nationality": "SE",
+      "height": "175 cm",
+      "weight": "Featherweight",
+      "background": "Muay Thai",
+      "gym": "Wolf Fight Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Magomed Kadimagomedov",
+      "nickname": "\"One punch Man\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e16f76df-f9a5-486d-9ad4-262c3ec2c823/cs.1693741363402.png",
+      "score": "5 - 0 - 0",
+      "nationality": "BE",
+      "age": "26 let",
+      "height": "177 cm",
+      "weight": "Featherweight",
+      "gym": "TeamBlackJack",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Ahmed Vila",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c13bf569-dca6-4c99-b9c6-1514bdb2fc81/cs.1684603905909.png",
+      "score": "11 - 4 - 1",
+      "nationality": "BA",
+      "age": "26 let",
+      "height": "177 cm",
+      "weight": "Featherweight",
+      "background": "BJJ",
+      "gym": "MMA Fighter Academy Sarajevo / Starfight centre",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Karol Kutyła",
+      "nickname": "\"The Thai Butcher\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/5a139a1b-68c4-4430-bb36-5f34a0398210/cs.1680206657044.png",
+      "score": "6 - 3 - 0",
+      "nationality": "PL",
+      "age": "26 let",
+      "height": "173 cm",
+      "weight": "Featherweight",
+      "gym": "RKT RADOM",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Radek Roušal",
+      "nickname": "\"Ruchy\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e376ad35-b3d5-4f3a-a58c-2cc51e11ddbd/cs.1698419593739.png",
+      "score": "1 - 0 - 0",
+      "nationality": "CZ",
+      "age": "28 let",
+      "height": "178 cm",
+      "weight": "Featherweight",
+      "background": "Muay Thai",
+      "gym": "Muay Thai Brno",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Mate Sanikidze",
+      "nickname": "\"The NextGen\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/09d863c2-0035-4ea8-a1f9-f33d0812d864/cs.1690671395515.png",
+      "score": "11 - 2 - 0",
+      "nationality": "GE",
+      "age": "24 let",
+      "height": "183 cm",
+      "weight": "Featherweight",
+      "background": "Kūdō",
+      "gym": "Champion Academy",
+      "result": ["W", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "25%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "75%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "64%"
+        }
+      ]
+    },
+    {
+      "title": "Jaroslav Pokorný",
+      "nickname": "\"Jubox\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/a61e343d-6b55-429b-9d86-9304e0ac1e92/cs.1698420396787.png",
+      "score": "16 - 10 - 0",
+      "nationality": "CZ",
+      "age": "37 let",
+      "height": "174 cm",
+      "weight": "Featherweight",
+      "background": "Judo",
+      "gym": "All Sports Academy",
+      "result": ["W", "W", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "50%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "50%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "72%"
+        }
+      ]
+    },
+    {
+      "title": "Janne Elonen-Kulmala",
+      "nickname": "\"Jamba\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e0353797-4881-47e3-8da0-4b70dcdc5f5f/cs.1680206606110.png",
+      "score": "16 - 11 - 1",
+      "nationality": "FI",
+      "age": "32 let",
+      "height": "173 cm",
+      "weight": "Featherweight",
+      "background": "Kickbox",
+      "gym": "Espoon Kehähait (Espoo’s RingSharks)",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Dawid Kareta",
+      "nickname": "\"KANAR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/c5d95dfb-495d-45c2-8792-5916bb8ecff3/cs.1680206596249.png",
+      "score": "4 - 3 - 0",
+      "nationality": "PL",
+      "age": "29 let",
+      "height": "175 cm",
+      "weight": "Featherweight",
+      "background": "Judo",
+      "gym": "Octagon Team Cieszyn",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Vladimír Lengál",
+      "nickname": "\"VLADO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e3249be2-3799-4a98-8dc8-bca00a9983ce/cs.1698419584394.png",
+      "score": "6 - 2 - 0",
+      "nationality": "CZ",
+      "age": "34 let",
+      "height": "176 cm",
+      "weight": "Featherweight",
+      "background": "Box",
+      "gym": "Valetudo RK Znojmo",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Peter Gabal",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/1a18bff7-5479-4fef-abca-a7a90890a757/cs.1681674803207.png",
+      "score": "4 - 3 - 0",
+      "nationality": "CZ",
+      "age": "24 let",
+      "height": "180 cm",
+      "weight": "Featherweight",
+      "background": "MMA",
+      "gym": "Reinders MMA",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Igor Lukačovič",
+      "nickname": "\"RAGNAR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/18edb797-e019-4d5e-a3c5-917bd55b59a3/cs.1693740732108.png",
+      "score": "3 - 6 - 0",
+      "nationality": "SK",
+      "age": "26 let",
+      "height": "177 cm",
+      "weight": "Featherweight",
+      "gym": "Laugaricio combat club",
+      "result": ["L", "L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "19%"
+        }
+      ]
+    },
+    {
+      "title": "Abdelmoumen Mssaate",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/735ab7d1-e3ad-48f9-a90d-d178ae17569c/cs.1680206564393.png",
+      "score": "6 - 4 - 0",
+      "nationality": "FR",
+      "age": "27 let",
+      "height": "175 cm",
+      "weight": "Featherweight",
+      "gym": "LA BONNE ECOLE",
+      "result": ["W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "63%"
+        }
+      ]
+    },
+    {
+      "title": "Tomáš Zajac",
+      "nickname": "\"Krvilačný zajko\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8abd4eb2-41ec-46e3-a4d1-da0095cd7201/cs.1680206553467.png",
+      "score": "4 - 9 - 0",
+      "nationality": "SK",
+      "age": "24 let",
+      "height": "183 cm",
+      "weight": "Featherweight",
+      "gym": "Octagon Fighting Academy",
+      "result": ["L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "57%"
+        }
+      ]
+    },
+    {
+      "title": "Roman Paulus",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e84c6a08-e469-4393-af20-80d581604790/cs.1690654218091.png",
+      "score": "8 - 4 - 0",
+      "nationality": "SK",
+      "age": "23 let",
+      "height": "175 cm",
+      "weight": "Featherweight",
+      "background": "MMA",
+      "gym": "Spartakus Fight",
+      "result": ["L", "W", "L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "17%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "83%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "73%"
+        }
+      ]
+    },
+    {
+      "title": "Jakub Tichota",
+      "nickname": "\"CHIMP\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ef7ed8c1-deaf-4b31-8e3e-8fc26edda47e/cs.1682890309143.png",
+      "score": "5 - 2 - 0",
+      "nationality": "CZ",
+      "age": "22 let",
+      "height": "178 cm",
+      "weight": "Featherweight",
+      "background": "Karate",
+      "gym": "Reinders MMA",
+      "result": ["L", "L", "W", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "60%"
+        },
+        {
+          "label": "Výhry technickým knockoutem",
+          "value": "40%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "81%"
+        }
+      ]
+    },
+    {
+      "title": "Tomáš Linh Le Sy",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/39037b3c-557d-4d6b-9754-1ad96f0b20d6/cs.1680206443103.png",
+      "score": "4 - 2 - 0",
+      "nationality": "CZ",
+      "weight": "Featherweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Tomáš  Kvapil",
+      "nickname": "\"Kvápa\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/1335907e-612f-46d9-ae55-ce0070d5e05b/cs.1680206425571.png",
+      "score": "5 - 2 - 1",
+      "nationality": "CZ",
+      "age": "24 let",
+      "height": "172 cm",
+      "weight": "Featherweight",
+      "gym": "All Sports Academy",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Vojto Barborík",
+      "nickname": "\"NRP\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/402f0af2-6dd4-4fc9-895e-540d28041989/cs.1680206420115.png",
+      "score": "13 - 3 - 0",
+      "nationality": "SK",
+      "age": "29 let",
+      "height": "182 cm",
+      "weight": "Featherweight",
+      "background": "Zápas",
+      "gym": "Octagon Fighting Academy",
+      "result": ["W", "W", "L", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "100%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "84%"
+        }
+      ]
+    },
+    {
+      "title": "Michal Konrád",
+      "nickname": "\"Migel\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/784b617e-fa2b-4242-bbf0-eeaa0c3b9f3f/cs.1698419592145.png",
+      "score": "8 - 11 - 0",
+      "nationality": "CZ",
+      "age": "30 let",
+      "height": "177 cm",
+      "weight": "Featherweight",
+      "background": "Box",
+      "gym": "Gorila MMA",
+      "result": ["L", "L", "L", "L", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "25%"
+        },
+        {
+          "label": "Výhry na body",
+          "value": "75%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "68%"
+        }
+      ]
+    }
+  ],
+  "Bantamweight - 61.2kg/135lbs": [
+    {
+      "title": "Jonas Mågård",
+      "nickname": "\"SHARK\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/ad4e8d90-29ee-4ada-8ed9-211623810133/cs.1690880318082.png",
+      "score": "15 - 6 - 0",
+      "nationality": "DK",
+      "age": "30 let",
+      "height": "175 cm",
+      "weight": "Bantamweight",
+      "background": "MMA",
+      "gym": "Redline TC / Manchester Top Team",
+      "result": ["L", "W", "L", "W", "W"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "67%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "33%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "53%"
+        }
+      ]
+    },
+    {
+      "title": "Nathan Haywood",
+      "nickname": "\"LITTLE RED\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/4b0f1660-5259-4a94-bb34-0eaac9c163b6/cs.1702633820275.png",
+      "score": "3 - 1 - 0",
+      "nationality": "GB",
+      "age": "26 let",
+      "height": "170 cm",
+      "weight": "Bantamweight",
+      "gym": "TFT MMA 'Team Fish Tank'",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Jack Cartwright",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/98077464-1fbf-4a94-b22e-5ba897d698d0/cs.1700477617662.png",
+      "score": "11 - 1 - 0",
+      "nationality": "GB",
+      "age": "29 let",
+      "height": "175 cm",
+      "weight": "Bantamweight",
+      "gym": "SBG Manchester",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Felipe Lima",
+      "nickname": "\"D'OURO\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/696369c5-2260-460b-891d-103e37fda727/cs.1690617849346.png",
+      "score": "12 - 1 - 0",
+      "nationality": "BR",
+      "age": "25 let",
+      "height": "168 cm",
+      "weight": "Bantamweight",
+      "gym": "Allstars Training Center",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Nuno Costa",
+      "nickname": "\"Nuno\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e9dc2a53-5168-49e8-897d-41894486f349/cs.1687025772889.png",
+      "score": "15 - 4 - 1",
+      "nationality": "BR",
+      "age": "35 let",
+      "height": "174 cm",
+      "weight": "Bantamweight",
+      "gym": "Eduardo Machado Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Antun Račić",
+      "nickname": "\"Killer\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/3b81b895-c7d3-46a8-86f3-475ab2639560/cs.1698420394421.png",
+      "score": "27 - 11 - 1",
+      "nationality": "HR",
+      "age": "33 let",
+      "height": "165 cm",
+      "weight": "Bantamweight",
+      "gym": "UFD",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Mikael Silander",
+      "nickname": "\"Hulk\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/e85303e7-ef87-4599-bc16-0605cf4abd72/cs.1680206674949.png",
+      "score": "20 - 10 - 0",
+      "nationality": "FI",
+      "age": "36 let",
+      "height": "170 cm",
+      "weight": "Bantamweight",
+      "background": "Wrestling",
+      "gym": "03 Fight Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Cory Tait",
+      "nickname": "\"Capcom\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2b2ace7a-30b0-4ecb-bd50-9cdf0db1118f/cs.1680206671624.png",
+      "score": "10 - 7 - 0",
+      "nationality": "GB",
+      "age": "34 let",
+      "height": "170 cm",
+      "weight": "Bantamweight",
+      "background": "Taekwondo",
+      "gym": "Great Britain Top Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Ramon Emilio Martínez",
+      "nickname": "\"Cabeza\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/63693264-f923-4806-bed4-09ac40158b85/cs.1680206659845.png",
+      "score": "9 - 9 - 0",
+      "nationality": "DO",
+      "age": "38 let",
+      "height": "175 cm",
+      "weight": "Bantamweight",
+      "background": "Jeet Kune Do",
+      "gym": "Sayyato Perfomance",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Michael Deiga-Scheck",
+      "nickname": "\"Vivo\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/8d90ea50-6fab-4335-a5a2-00e93e98bb15/cs.1690577012896.png",
+      "score": "10 - 5 - 0",
+      "nationality": "BR",
+      "age": "37 let",
+      "height": "180 cm",
+      "weight": "Bantamweight",
+      "background": "Muay Thai",
+      "gym": "Munich Allstars",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Farid Basharat",
+      "nickname": "\"Ferocious\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/4643993c-c3c8-4c64-9d4a-22e9e5f48f52/cs.1680206619830.png",
+      "score": "7 - 0 - 0",
+      "nationality": "AF",
+      "age": "23 let",
+      "height": "173 cm",
+      "weight": "Bantamweight",
+      "background": "MMA",
+      "gym": "London Shootfighters",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Luca Iovine",
+      "nickname": "\"Duke\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/0b52304d-263f-422d-9db9-6a7cff9e9181/cs.1680206594812.png",
+      "score": "18 - 9 - 0",
+      "nationality": "IT",
+      "age": "33 let",
+      "height": "163 cm",
+      "weight": "Bantamweight",
+      "gym": "AMERICAN TOP TEAM ROME",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Konstadin Vasilev Enev",
+      "nickname": "\"Fighter of Light\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/923b1f35-3ffd-4bf2-ba78-e17f18d33849/cs.1680206583815.png",
+      "score": "12 - 10 - 0",
+      "nationality": "BG",
+      "age": "35 let",
+      "height": "168 cm",
+      "weight": "Bantamweight",
+      "gym": "HOPE FIGHT CLUB",
+      "result": ["L"],
+      "stats": [
+        {
+          "label": "Signifikantní údery",
+          "value": "0%"
+        }
+      ]
+    },
+    {
+      "title": "Denis Tripšanský",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2e9c73c5-a595-4ebf-8764-857085c1aa6c/cs.1680206472192.png",
+      "score": "4 - 3 - 1",
+      "nationality": "SK",
+      "weight": "Bantamweight",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Filip Macek",
+      "nickname": "\"Máca\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/b502cbd3-5119-4c9a-98bf-7ae032a177e4/cs.1680206447243.png",
+      "score": "27 - 17 - 1",
+      "nationality": "CZ",
+      "age": "31 let",
+      "height": "172 cm",
+      "weight": "Bantamweight",
+      "background": "Karate",
+      "gym": "Reinders MMA",
+      "result": ["L", "W", "W", "W", "L"],
+      "stats": [
+        {
+          "label": "Procento ukončení",
+          "value": "100%"
+        },
+        {
+          "label": "Výhry submisí",
+          "value": "89%"
+        },
+        {
+          "label": "Signifikantní údery",
+          "value": "65%"
+        }
+      ]
+    }
+  ],
+  "Flyweight - 56.7kg/125lbs": [
+    {
+      "title": "Kiru Sahota",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/42e7f168-d2b0-494b-a16e-2fbf69c81111/cs.1702292411882.png",
+      "score": "10 - 2 - 0",
+      "nationality": "GB",
+      "age": "28 let",
+      "height": "178 cm",
+      "weight": "Flyweight",
+      "gym": "Manchester Top Team",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Pietro Menga",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/2be73c80-a0f8-4633-8c55-fb02983a6b72/cs.1702292497368.png",
+      "score": "14 - 4 - 0",
+      "nationality": "GB",
+      "age": "35 let",
+      "height": "170 cm",
+      "weight": "Flyweight",
+      "gym": "One MMA Academy",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Elias Garcia",
+      "nickname": "\"EL PESCADOR\"",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/672b911c-c51d-4903-99bd-b44f9e7cbc4c/cs.1699301731123.png",
+      "score": "10 - 2 - 0",
+      "nationality": "US",
+      "age": "31 let",
+      "height": "165 cm",
+      "weight": "Flyweight",
+      "gym": "Team Oyama",
+      "result": [],
+      "stats": []
+    },
+    {
+      "title": "Aaron  Aby",
+      "nickname": "",
+      "imgSrc": "https://assets.oktagonmma.com/FIGHTER_PROFILE_IMAGE/78247350-8eaa-4860-b516-4b5adbf7fa80/cs.1698420386634.png",
+      "score": "15 - 8 - 1",
+      "nationality": "GB",
+      "height": "165 cm",
+      "weight": "Flyweight",
+      "gym": "North West Fight Academy",
+      "result": [],
+      "stats": []
     }
   ]
 }

@@ -57,6 +57,15 @@ const SaveDialog = ({ mongoUserId, card, type }: Props) => {
           title: fighter?.title || "Unknown", // Nastaví výchozí titul, pokud je fighter null nebo title není nastavený
           score: fighter?.score || "0-0-0", // Nastaví výchozí skóre, pokud je fighter null nebo score není nastavený
           imgSrc: fighter?.imgSrc || defaultImageSrc, // Nastaví výchozí obrázek, pokud je fighter null nebo imgSrc není nastavený
+          nickname: fighter?.nickname || "",
+          age: fighter?.age || "",
+          height: fighter?.height || "",
+          weight: fighter?.weight || "",
+          background: fighter?.background || "",
+          gym: fighter?.gym || "",
+          nationality: fighter?.nationality || "",
+          result: fighter?.result || [],
+          stats: fighter?.stats || {},
         }));
 
       if (type === "Edit") {

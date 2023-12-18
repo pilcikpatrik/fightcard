@@ -15,8 +15,8 @@ const fights: Fight[] = Array.from({ length: 10 }, (_, i) => ({
 
 const SideBar = () => {
   return (
-    <div className="max-h-[85vh]">
-      <ScrollArea className="h-[100%] w-full py-10">
+    <div className="mt-10">
+      <ScrollArea className="h-full w-full">
         <div className="flex-col space-y-4">
           {fights.map((fight, index) => (
             <div key={fight.title} className="space-y-2">

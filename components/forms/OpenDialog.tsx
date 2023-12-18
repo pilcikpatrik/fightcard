@@ -17,7 +17,7 @@ const OpenDialog = ({ savedCards }: any) => {
   return (
     <div>
       <Dialog>
-        <DialogTrigger className="no-focus btn">Open</DialogTrigger>
+        <DialogTrigger className="no-focus btn hover_btn">Open</DialogTrigger>
         <DialogContent className="max-h-[600px] bg-white px-10 py-16">
           <Input
             className="no-focus"

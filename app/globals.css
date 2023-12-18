@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  border: 1px solid red;
+} */
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -25,7 +29,7 @@ body {
 }
 
 .no-focus {
-  @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
+  @apply focus-visible:ring-0 outline-none focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
 }
 
 .text-xxs {
@@ -34,6 +38,13 @@ body {
 
 .bg {
   background-image: url("/assets/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg_home {
+  background-image: url("/assets/images/poster-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -91,4 +102,21 @@ body {
 
 .sheet {
   clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+}
+
+.oktagon {
+  clip-path: polygon(
+    28% 0%,
+    72% 0%,
+    100% 28%,
+    100% 72%,
+    72% 100%,
+    28% 100%,
+    0% 72%,
+    0% 28%
+  );
+}
+
+.hover_btn {
+  @apply hover:bg-gray-900 transition-all;
 }

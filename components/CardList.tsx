@@ -90,15 +90,30 @@ const CardList = ({ _id, title, createdAt }: Props) => {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-[160px] bg-white">
+              <DropdownMenuContent
+                align="end"
+                className="w-[160px] bg-white p-0"
+              >
                 <Link href={`/card/${urlId}`}>
-                  <DropdownMenuItem>View</DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer focus:bg-gray-300/20">
+                    View
+                  </DropdownMenuItem>
                 </Link>
-                <DropdownMenuItem onClick={handleShare}>Share</DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={handleShare}
+                  className="cursor-pointer focus:bg-gray-300/20"
+                >
+                  Share
+                </DropdownMenuItem>
                 <Link href={`/create-card/${urlId}`}>
-                  <DropdownMenuItem>Edit</DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer focus:bg-gray-300/20">
+                    Edit
+                  </DropdownMenuItem>
                 </Link>
-                <DropdownMenuItem onClick={handleDelete}>
+                <DropdownMenuItem
+                  className="cursor-pointer focus:bg-gray-300/20"
+                  onClick={handleDelete}
+                >
                   Delete
                   <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
                 </DropdownMenuItem>
@@ -107,18 +122,18 @@ const CardList = ({ _id, title, createdAt }: Props) => {
           </div>
           <div className="hidden items-center gap-2 sm:flex">
             <Link href={`/card/${urlId}`}>
-              <Button className="no-focus bg-black text-lg text-white">
+              <Button className="no-focus hover_btn bg-black text-lg text-white">
                 <FaRegEye />
               </Button>
             </Link>
             <Link href={`/create-card/${urlId}`}>
-              <Button className="no-focus bg-black text-lg text-white">
+              <Button className="no-focus hover_btn bg-black text-lg text-white">
                 <BiEdit />
               </Button>
             </Link>
             <AlertDialog>
               <AlertDialogTrigger asChild>
-                <Button className="btn no-focus text-lg">
+                <Button className="btn no-focus hover_btn text-lg">
                   <BiShare />
                 </Button>
               </AlertDialogTrigger>
@@ -130,12 +145,12 @@ const CardList = ({ _id, title, createdAt }: Props) => {
                   </AlertDialogDescription>
                 </AlertDialogHeader>
                 <AlertDialogFooter>
-                  <AlertDialogCancel className="no-focus btn">
+                  <AlertDialogCancel className="no-focus btn hover_btn">
                     Cancel
                   </AlertDialogCancel>
                   <AlertDialogAction
                     onClick={handleShare}
-                    className="no-focus btn"
+                    className="no-focus btn hover_btn"
                   >
                     Continue
                   </AlertDialogAction>
@@ -144,7 +159,7 @@ const CardList = ({ _id, title, createdAt }: Props) => {
             </AlertDialog>
             <AlertDialog>
               <AlertDialogTrigger asChild>
-                <Button className="btn no-focus text-lg">
+                <Button className="btn no-focus hover_btn text-lg">
                   <BiTrash />
                 </Button>
               </AlertDialogTrigger>
@@ -157,12 +172,12 @@ const CardList = ({ _id, title, createdAt }: Props) => {
                   </AlertDialogDescription>
                 </AlertDialogHeader>
                 <AlertDialogFooter>
-                  <AlertDialogCancel className="no-focus btn">
+                  <AlertDialogCancel className="no-focus btn hover_btn">
                     Cancel
                   </AlertDialogCancel>
                   <AlertDialogAction
                     onClick={handleDelete}
-                    className="no-focus btn"
+                    className="no-focus btn hover_btn"
                   >
                     Continue
                   </AlertDialogAction>

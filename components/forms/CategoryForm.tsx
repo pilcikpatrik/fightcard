@@ -61,6 +61,7 @@ const CategoryForm: React.FC<CategoryFormProps> = ({ pairIndex }) => {
                     handleSelectCategory(category);
                     setOpen(false);
                   }}
+                  className="cursor-pointer hover:bg-gray-300/20"
                 >
                   <Check
                     className={cn(

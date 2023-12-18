@@ -5,13 +5,27 @@ import CardForm from "./CardForm";
 import MainEvent from "./MainEvent";
 import Prelims from "./Prelims";
 import { useFightersStore } from "@/store/fightCardStore";
-import SideBar from "./navs/SideBar";
+// import SideBar from "./navs/SideBar";
 import Image from "next/image";
+
+interface stats {
+  label: string;
+  value: string;
+}
 
 interface Fighter {
   title: string;
-  score: string;
+  nickname: string;
   imgSrc: string;
+  score: string;
+  nationality: string;
+  age: string;
+  height?: string;
+  weight: string;
+  background?: string;
+  gym?: string;
+  result?: string[];
+  stats?: stats[];
 }
 
 interface Props {
@@ -25,7 +39,7 @@ type FighterPair = [Fighter | null, Fighter | null];
 
 const CreateFightCard = ({ mongoUserId, cardDetails, type }: Props) => {
   const fightPairs = useFightersStore((state) => state.fightPairs);
-  const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
+  // const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
   const setFightPairs = useFightersStore((state) => state.setFightPairs);
 
   useEffect(() => {
@@ -47,9 +61,10 @@ const CreateFightCard = ({ mongoUserId, cardDetails, type }: Props) => {
     }
   }, [cardDetails, setFightPairs]);
 
-  const toggleSidebar = () => {
+  /*   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
-  };
+  }; */
+
   // Rozdělení fightPairs do tří skupin
   const firstGroup = fightPairs.slice(0, 1);
   const secondGroup = fightPairs.slice(1, 5);
@@ -70,51 +85,53 @@ const CreateFightCard = ({ mongoUserId, cardDetails, type }: Props) => {
   };
 
   return (
-    <div className="relative flex items-center justify-center overflow-hidden">
-      <div
+    <div className="relative flex overflow-hidden">
+      {/*       <div
         className={
           `${
             isSidebarOpen && "xl:flex" // Zobrazit sidebar na velkých obrazovkách, pokud je otevřen
-          } z-30 hidden grow-0 bg-white p-10` // Skrýt sidebar na menších obrazovkách
+          } z-30 hidden min-h-screen grow-0 justify-start bg-white p-10` // Skrýt sidebar na menších obrazovkách
         }
       >
         <SideBar />
-      </div>
+      </div> */}
 
-      <div className="flex-center grow flex-col">
+      <div className="flex-start">
         <CardForm
-          onToggleSidebar={toggleSidebar}
-          isSidebarOpen={isSidebarOpen}
+          // onToggleSidebar={toggleSidebar}
+          // isSidebarOpen={isSidebarOpen}
           mongoUserId={mongoUserId}
           card={cardDetails}
           type={type}
         />
+      </div>
 
-        <div className="bg flex h-full w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20">
-          <div className="flex-center flex-col gap-2">
-            {renderGroup(firstGroup, 0)}
-            <Image
-              src="/assets/images/oktagonmma.png"
-              alt="oktagonmma"
-              width={1450}
-              height={1450}
-              className="absolute overflow-hidden p-5"
-            />
-            <div className="sheet w-20 bg-yellow-400 py-0.5 sm:w-32 md:w-32 md:py-1">
-              <h2 className="text-xxs text-center uppercase text-white sm:text-xs md:text-sm">
-                #Main card
-              </h2>
-            </div>
-
-            {renderGroup(secondGroup, 1)}
-            <div className="sheet w-20 bg-yellow-400 py-0.5 sm:w-32 md:w-32 md:py-1">
-              <h2 className="text-xxs text-center uppercase text-white sm:text-xs md:text-sm">
-                #Prelims
-              </h2>
-            </div>
-            {renderGroup(thirdGroup, 2)}
-            {renderGroup(fourGroup, 3)}
+      <div
+        className={`bg flex h-full w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20`}
+      >
+        <div className="flex-center flex-col gap-2">
+          {renderGroup(firstGroup, 0)}
+          <Image
+            src="/assets/images/oktagonmma.png"
+            alt="oktagonmma"
+            width={1450}
+            height={1450}
+            className="absolute overflow-hidden p-5"
+          />
+          <div className="sheet w-20 bg-yellow-400 py-0.5 sm:w-32 md:w-32 md:py-1">
+            <h2 className="text-xxs text-center uppercase text-white sm:text-xs md:text-sm">
+              #Main card
+            </h2>
           </div>
+
+          {renderGroup(secondGroup, 1)}
+          <div className="sheet w-20 bg-yellow-400 py-0.5 sm:w-32 md:w-32 md:py-1">
+            <h2 className="text-xxs text-center uppercase text-white sm:text-xs md:text-sm">
+              #Prelims
+            </h2>
+          </div>
+          {renderGroup(thirdGroup, 2)}
+          {renderGroup(fourGroup, 3)}
         </div>
       </div>
     </div>

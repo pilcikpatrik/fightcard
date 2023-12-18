@@ -25,13 +25,7 @@ interface CardProps {
   fighters: Fighter[];
 }
 
-const PostCard = ({
-  _id,
-  title,
-  author,
-  createdAt,
-  fighters = [],
-}: CardProps) => {
+const PostCard = ({ _id, title, author, createdAt, fighters }: CardProps) => {
   const fightPairs: FighterPair[] = fighters.reduce(
     (acc: FighterPair[], fighter, index) => {
       if (index % 2 === 0) {
@@ -43,7 +37,7 @@ const PostCard = ({
   );
 
   return (
-    <div className="w-[300px] flex-col items-start  justify-center space-y-5 overflow-y-hidden rounded-lg border bg-white p-10 drop-shadow-md">
+    <div className="w-[300px] flex-col items-start justify-center space-y-5 overflow-y-hidden rounded-lg border bg-white p-10 drop-shadow-md">
       <div className="flex-start gap-5">
         <Image
           src={author.picture}
@@ -54,11 +48,13 @@ const PostCard = ({
         />
         <div className="flex flex-col">
           <span className="text-xs uppercase text-black/60">Created by</span>
-          <p className="font-medium">{author.name}</p>
+          <Link href={`/profile/${author.clerkId}`}>
+            <p className="font-medium">{author.name}</p>
+          </Link>
         </div>
       </div>
       <div className="flex-start flex-col">
-        <Link href={`/card/${JSON.parse(_id)}`}>
+        <Link href={`/card/${_id}`}>
           <h2>{title}</h2>
         </Link>
         <p className="text-black/60">{getTimestamp(createdAt)}</p>

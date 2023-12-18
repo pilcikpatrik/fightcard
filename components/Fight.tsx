@@ -1,13 +1,29 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { CircularProgress } from "@nextui-org/react";
 
 const defaultImageSrc = "https://oktagonmma.com/img/fight-card/arnold.png";
 
+interface stats {
+  label: string;
+  value: string;
+}
+
 interface Fighter {
   title: string;
-  score: string;
+  nickname: string;
   imgSrc: string;
+  score: string;
+  nationality: string;
+  age: string;
+  height?: string;
+  weight: string;
+  background?: string;
+  gym?: string;
+  result?: string[];
+  stats?: stats[];
 }
 
 type FighterPair = [Fighter | null, Fighter | null];
@@ -53,7 +69,9 @@ const Fight = ({
           />
           <div className="">
             <span className="text-xs uppercase text-black/60">Created by</span>
-            <p className="font-medium">{author.name}</p>
+            <Link href={`/profile/${author.clerkId}`}>
+              <p className="font-medium">{author.name}</p>
+            </Link>
           </div>
         </div>
         <Link href={`/card/${JSON.parse(itemId)}`}>
@@ -72,20 +90,159 @@ const Fight = ({
                     {idx % 2 === 0 ? (
                       <div className="flex w-full flex-col">
                         <div className="flex items-end justify-start gap-5">
-                          <Image
-                            src={fighter?.imgSrc || defaultImageSrc}
-                            alt={fighter?.title || "Fighter"}
-                            width={300}
-                            height={300}
-                            className="w-28 xs:w-40 lg:w-56 xl:w-72"
-                          />
+                          <Dialog>
+                            <DialogTrigger
+                              asChild
+                              disabled={
+                                fighter?.age === undefined || !fighter.age
+                              }
+                            >
+                              <Image
+                                src={fighter?.imgSrc || defaultImageSrc}
+                                alt={fighter?.title || "Fighter"}
+                                width={300}
+                                height={300}
+                                className="w-28 cursor-pointer xs:w-40 lg:w-56 xl:w-72"
+                              />
+                            </DialogTrigger>
+                            <DialogContent className="w-full bg-white p-0">
+                              <div className="flex flex-col">
+                                <div className="fight_gradient flex-center gap-5 pt-5">
+                                  <Image
+                                    src={fighter?.imgSrc || defaultImageSrc}
+                                    alt={fighter?.title || "Fighter"}
+                                    width={100}
+                                    height={100}
+                                    className="w-28 md:w-40"
+                                  />
+                                  <div>
+                                    <span className="uppercase text-white">
+                                      {fighter?.nickname}
+                                    </span>
+                                    <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
+                                      {fighter?.title || "Unknown"}
+                                    </h3>
+                                    <p className=" text-sm text-white xs:text-base lg:text-lg">
+                                      {fighter?.score || "0-0-0"}
+                                    </p>
+                                  </div>
+                                </div>
+                                <div className="flex items-start justify-between p-5">
+                                  <div>
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Nationality
+                                      </span>
+                                      <p>{fighter?.nationality}</p>
+                                    </div>
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Age
+                                      </span>
+                                      <p>{fighter?.age}</p>
+                                    </div>
+                                    {fighter?.height && (
+                                      <div>
+                                        <span className="text-xs text-black/60">
+                                          Height
+                                        </span>
+                                        <p>{fighter.height}</p>
+                                      </div>
+                                    )}
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Weight
+                                      </span>
+                                      <p>{fighter?.weight}</p>
+                                    </div>
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Background
+                                      </span>
+                                      <p>{fighter?.background}</p>
+                                    </div>
+
+                                    {fighter?.background && (
+                                      <div>
+                                        <span className="text-xs text-black/60">
+                                          Background
+                                        </span>
+                                        <p>{fighter.background}</p>
+                                      </div>
+                                    )}
+                                    {fighter?.gym && (
+                                      <div>
+                                        <span className="text-xs text-black/60">
+                                          Gym
+                                        </span>
+                                        <p>{fighter.gym}</p>
+                                      </div>
+                                    )}
+                                  </div>
+                                  <div
+                                    className={`${
+                                      (fighter?.stats?.length ?? 0) > 0
+                                        ? "flex"
+                                        : "hidden"
+                                    } flex flex-col justify-start gap-2`}
+                                  >
+                                    {fighter?.stats?.map((stat, index) => (
+                                      <div
+                                        key={index}
+                                        className="flex items-center justify-end gap-3"
+                                      >
+                                        <div className="flex-start">
+                                          {stat.label}:
+                                        </div>
+                                        <div className="flex items-start justify-end">
+                                          <CircularProgress
+                                            key={index}
+                                            size="md"
+                                            value={parseFloat(stat.value)}
+                                            color="warning"
+                                            showValueLabel={true}
+                                          />
+                                        </div>
+                                      </div>
+                                    ))}
+                                    <div className="flex flex-col items-end">
+                                      <span>{`Last ${fighter?.result?.length} fights`}</span>
+                                      <div className="flex-start gap-1">
+                                        {fighter?.result?.map((res, index) => (
+                                          <div
+                                            key={index}
+                                            className="oktagon flex-center h-5 w-5 bg-yellow-400 p-1 text-xs text-white"
+                                          >
+                                            {res}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </DialogContent>
+                          </Dialog>
                           <div className="mb-20 lg:mb-32 xl:mb-40">
+                            <span className="uppercase text-white">
+                              {fighter?.nickname}
+                            </span>
                             <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
                               {fighter?.title || "Unknown"}
                             </h3>
                             <p className=" text-sm text-white xs:text-base lg:text-lg">
                               {fighter?.score || "0-0-0"}
                             </p>
+                            <div className="flex-start mt-1 gap-1">
+                              {fighter?.result?.map((res, index) => (
+                                <div
+                                  key={index}
+                                  className="oktagon flex-center h-5 w-5 bg-yellow-400 p-1 text-xs text-white"
+                                >
+                                  {res}
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </div>
                         <div className="flex-center sheet w-full bg-yellow-400 p-3 text-white md:hidden">
@@ -93,8 +250,11 @@ const Fight = ({
                         </div>
                       </div>
                     ) : (
-                      <div className="flex w-full items-end justify-end">
+                      <div className="flex w-full items-end justify-end gap-5">
                         <div className="mb-20 lg:mb-32 xl:mb-40">
+                          <span className="uppercase text-white">
+                            {fighter?.nickname}
+                          </span>
                           <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
                             {fighter?.title || "Unknown"}
                           </h3>
@@ -102,21 +262,144 @@ const Fight = ({
                             {fighter?.score || "0-0-0"}
                           </p>
                         </div>
-                        <Image
-                          src={fighter?.imgSrc || defaultImageSrc}
-                          alt={fighter?.title || "Fighter"}
-                          width={300}
-                          height={300}
-                          className="w-28 xs:w-40 lg:w-56 xl:w-72"
-                        />
+                        <Dialog>
+                          <DialogTrigger asChild>
+                            <Image
+                              src={fighter?.imgSrc || defaultImageSrc}
+                              alt={fighter?.title || "Fighter"}
+                              width={300}
+                              height={300}
+                              className="w-28 cursor-pointer xs:w-40 lg:w-56 xl:w-72"
+                            />
+                          </DialogTrigger>
+                          <DialogContent className="w-full bg-white p-0">
+                            <div className="flex flex-col">
+                              <div className="fight_gradient flex-center gap-5 pt-5">
+                                <Image
+                                  src={fighter?.imgSrc || defaultImageSrc}
+                                  alt={fighter?.title || "Fighter"}
+                                  width={100}
+                                  height={100}
+                                  className="w-28 md:w-40"
+                                />
+                                <div>
+                                  <span className="uppercase text-white">
+                                    {fighter?.nickname}
+                                  </span>
+                                  <h3 className="text-base font-bold xs:text-lg lg:text-2xl">
+                                    {fighter?.title || "Unknown"}
+                                  </h3>
+                                  <p className=" text-sm text-white xs:text-base lg:text-lg">
+                                    {fighter?.score || "0-0-0"}
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="flex items-start justify-between p-5">
+                                <div>
+                                  <div>
+                                    <span className="text-xs text-black/60">
+                                      Nationality
+                                    </span>
+                                    <p>{fighter?.nationality}</p>
+                                  </div>
+                                  <div>
+                                    <span className="text-xs text-black/60">
+                                      Age
+                                    </span>
+                                    <p>{fighter?.age}</p>
+                                  </div>
+                                  {fighter?.height && (
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Height
+                                      </span>
+                                      <p>{fighter.height}</p>
+                                    </div>
+                                  )}
+                                  <div>
+                                    <span className="text-xs text-black/60">
+                                      Weight
+                                    </span>
+                                    <p>{fighter?.weight}</p>
+                                  </div>
+                                  <div>
+                                    <span className="text-xs text-black/60">
+                                      Background
+                                    </span>
+                                    <p>{fighter?.background}</p>
+                                  </div>
+
+                                  {fighter?.background && (
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Background
+                                      </span>
+                                      <p>{fighter.background}</p>
+                                    </div>
+                                  )}
+                                  {fighter?.gym && (
+                                    <div>
+                                      <span className="text-xs text-black/60">
+                                        Gym
+                                      </span>
+                                      <p>{fighter.gym}</p>
+                                    </div>
+                                  )}
+                                </div>
+                                <div
+                                  className={`${
+                                    (fighter?.stats?.length ?? 0) > 0
+                                      ? "flex"
+                                      : "hidden"
+                                  } flex flex-col justify-start gap-2`}
+                                >
+                                  {fighter?.stats?.map((stat, index) => (
+                                    <div
+                                      key={index}
+                                      className="flex items-center justify-end gap-3"
+                                    >
+                                      <div className="flex-start">
+                                        {stat.label}:
+                                      </div>
+                                      <div className="flex items-start justify-end">
+                                        <CircularProgress
+                                          key={index}
+                                          size="md"
+                                          value={parseFloat(stat.value)}
+                                          color="warning"
+                                          showValueLabel={true}
+                                        />
+                                      </div>
+                                    </div>
+                                  ))}
+                                  <div className="flex flex-col items-end">
+                                    <span>{`Last ${fighter?.result?.length} fights`}</span>
+                                    <div className="flex-start gap-1">
+                                      {fighter?.result?.map((res, index) => (
+                                        <div
+                                          key={index}
+                                          className="oktagon flex-center h-5 w-5 bg-yellow-400 p-1 text-xs text-white"
+                                        >
+                                          {res}
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </DialogContent>
+                        </Dialog>
                       </div>
                     )}
                   </div>
                 </React.Fragment>
               ))}
             </div>
-            <div className="flex-center bg-white p-5 text-base font-bold xs:text-lg xl:text-2xl">
-              {pair[0]?.title || "Unknown"} vs {pair[1]?.title || "Unknown"}
+            <div className="flex-center gap-5 bg-white p-5 text-base font-bold xs:text-lg xl:text-2xl">
+              <span className="">{pair[0]?.title || "Unknown"}</span>
+              <span className="text-yellow-400">vs</span>
+              <span className="">{pair[1]?.title || "Unknown"}</span>
             </div>
           </div>
         ))}

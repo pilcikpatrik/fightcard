@@ -1,12 +1,26 @@
 import { Schema, models, model, Document } from "mongoose";
 
+interface stats {
+  label: string;
+  value: string;
+}
+
 export interface ICard extends Document {
   title: string;
   description: string;
   fighters: {
     title: string;
-    score: string;
+    nickname: string;
     imgSrc: string;
+    score: string;
+    nationality: string;
+    age: string;
+    height: string;
+    weight: string;
+    background: string;
+    gym: string;
+    result: string[];
+    stats: stats[];
   }[];
   views: number;
   upvotes: Schema.Types.ObjectId[];
@@ -21,8 +35,22 @@ const CardSchema = new Schema({
   fighters: [
     {
       title: String,
-      score: String,
+      nickname: String,
       imgSrc: String,
+      score: String,
+      nationality: String,
+      age: String,
+      height: String,
+      weight: String,
+      background: String,
+      gym: String,
+      result: [String],
+      stats: [
+        {
+          label: String,
+          value: String,
+        },
+      ],
     },
   ],
   views: { type: Number, default: 0 },

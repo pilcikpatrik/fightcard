@@ -33,7 +33,7 @@ const Pagination = ({ pageNumber, isNext }: Props) => {
       <Button
         disabled={pageNumber === 1}
         onClick={() => handleNavigation("prev")}
-        className="btn"
+        className="btn hover_btn"
       >
         <p className="text-white">Prev</p>
       </Button>
@@ -43,7 +43,7 @@ const Pagination = ({ pageNumber, isNext }: Props) => {
       <Button
         disabled={!isNext}
         onClick={() => handleNavigation("next")}
-        className="btn"
+        className="btn hover_btn"
       >
         <p className="text-white">Next</p>
       </Button>

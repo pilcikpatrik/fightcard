@@ -1,9 +1,23 @@
 import create from "zustand";
 
+interface stats {
+  label: string;
+  value: string;
+}
+
 interface Fighter {
   title: string;
-  score: string;
+  nickname: string;
   imgSrc: string;
+  score: string;
+  nationality: string;
+  age: string;
+  height?: string;
+  weight: string;
+  background?: string;
+  gym?: string;
+  result?: string[];
+  stats?: stats[];
 }
 
 type FighterPair = [Fighter | null, Fighter | null];
