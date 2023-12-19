@@ -70,7 +70,7 @@ body {
 }
 
 .f_image_2 {
-  @apply absolute bottom-0 left-3 w-28 xs:w-36 md:left-6 md:w-60;
+  @apply absolute bottom-0 left-[18px] sm:left-3 w-28 xs:w-36 md:left-6 md:w-60;
 }
 
 /* Styl pro hover */
@@ -118,5 +118,5 @@ body {
 }
 
 .hover_btn {
-  @apply hover:bg-gray-900 transition-all;
+  @apply hover:no-underline;
 }

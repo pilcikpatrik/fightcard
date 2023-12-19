@@ -28,6 +28,9 @@ const page = async ({ params }: any) => {
         upvotes={result.upvotes.length}
         hasupVoted={result.upvotes.includes(mongoUser._id)}
         views={result.views}
+        picture={result.author.picture}
+        clerkId={result.author.clerkId}
+        isVisible={result.isVisible}
       />
     </div>
   );

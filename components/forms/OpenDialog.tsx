@@ -14,6 +14,7 @@ const OpenDialog = ({ savedCards }: any) => {
   const filteredCards = JSON.parse(savedCards).filter((card: any) =>
     card.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
   return (
     <div>
       <Dialog>
@@ -26,14 +27,21 @@ const OpenDialog = ({ savedCards }: any) => {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           <ScrollArea className="max-h-80">
-            {filteredCards.map((card: any) => (
-              <CardList
-                key={card._id}
-                _id={JSON.stringify(card._id)}
-                title={card.title}
-                createdAt={card.createdAt}
-              />
-            ))}
+            {filteredCards
+              .sort(
+                (a: any, b: any) =>
+                  new Date(b.createdAt).getTime() -
+                  new Date(a.createdAt).getTime()
+              ) // Seřazení karet
+              .map((card: any) => (
+                <CardList
+                  key={card._id}
+                  _id={JSON.stringify(card._id)}
+                  title={card.title}
+                  createdAt={card.createdAt}
+                  isVisible={card.isVisible}
+                />
+              ))}
           </ScrollArea>
         </DialogContent>
       </Dialog>

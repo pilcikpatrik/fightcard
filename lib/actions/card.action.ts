@@ -77,7 +77,7 @@ export async function getSavedCards(params: GetUserCardsParams) {
     // Provede dotaz na získání specifických informací o kartách
     const savedCards = await Card.find({
       _id: { $in: savedCardIds },
-    }).select("_id title createdAt");
+    }).select("_id title createdAt isVisible");
 
     return savedCards;
   } catch (error) {

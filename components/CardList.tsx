@@ -36,9 +36,10 @@ interface Props {
   _id: string;
   title: string;
   createdAt: string;
+  isVisible: boolean;
 }
 
-const CardList = ({ _id, title, createdAt }: Props) => {
+const CardList = ({ _id, title, createdAt, isVisible }: Props) => {
   const pathname = usePathname();
   const router = useRouter();
   const { toast } = useToast();
@@ -68,10 +69,12 @@ const CardList = ({ _id, title, createdAt }: Props) => {
 
   const dateTime = new Date(createdAt);
 
+  console.log(isVisible);
+
   return (
     <div className="flex flex-col gap-2">
-      <div className="flex items-center justify-between">
-        <div className="flex-start flex-col">
+      <div className="flex items-center justify-between p-2">
+        <div className="flex flex-col items-start justify-center">
           <h3 className="font-bold">
             {" "}
             {title.length > 10 ? `${title.substring(0, 10)}...` : title}
@@ -99,12 +102,15 @@ const CardList = ({ _id, title, createdAt }: Props) => {
                     View
                   </DropdownMenuItem>
                 </Link>
-                <DropdownMenuItem
-                  onClick={handleShare}
-                  className="cursor-pointer focus:bg-gray-300/20"
-                >
-                  Share
-                </DropdownMenuItem>
+                <div className={`${!isVisible ? "flex" : "hidden"}`}>
+                  <DropdownMenuItem
+                    onClick={handleShare}
+                    className="cursor-pointer focus:bg-gray-300/20"
+                  >
+                    Share
+                  </DropdownMenuItem>
+                </div>
+
                 <Link href={`/create-card/${urlId}`}>
                   <DropdownMenuItem className="cursor-pointer focus:bg-gray-300/20">
                     Edit
@@ -132,7 +138,10 @@ const CardList = ({ _id, title, createdAt }: Props) => {
               </Button>
             </Link>
             <AlertDialog>
-              <AlertDialogTrigger asChild>
+              <AlertDialogTrigger
+                asChild
+                className={isVisible ? "hidden" : "flex"}
+              >
                 <Button className="btn no-focus hover_btn text-lg">
                   <BiShare />
                 </Button>

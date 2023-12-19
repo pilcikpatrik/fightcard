@@ -20,28 +20,23 @@ const HomePageFilters = [
 const page = async ({ searchParams }: SearchParamsProps) => {
   const { userId } = auth();
 
-  if (!userId) return <Hero />;
-
-  const savedCards = await getSavedCards({ clerkId: userId });
-
-  let result;
-
+  let savedCards: any[] = []; // Initialize as an empty array
   if (userId) {
-    result = await getCards({
-      searchQuery: searchParams.q,
-      filter: searchParams.filter,
-      page: searchParams.page ? +searchParams.page : 1,
-    });
-  } else {
-    result = {
-      cards: [],
-      isNext: false,
-    };
+    const fetchedCards = await getSavedCards({ clerkId: userId });
+    if (fetchedCards) {
+      savedCards = fetchedCards;
+    }
   }
+
+  const result = await getCards({
+    searchQuery: searchParams.q,
+    filter: searchParams.filter,
+    page: searchParams.page ? +searchParams.page : 1,
+  });
 
   return (
     <div className="flex w-full flex-col">
-      <Home savedCards={JSON.stringify(savedCards)} />
+      {userId ? <Home savedCards={JSON.stringify(savedCards)} /> : <Hero />}
       <div className="mt-10 flex flex-col items-center justify-center px-10 xl:px-80">
         <div className="mt-10 flex flex-col items-center justify-center gap-5">
           <Info title="Jedeme bombyyy" />
@@ -67,6 +62,9 @@ const page = async ({ searchParams }: SearchParamsProps) => {
                 author={card.author}
                 createdAt={card.createdAt}
                 fighters={card.fighters}
+                views={card.views}
+                upvotes={card.upvotes.length}
+                clerkId={card.author.clerkId}
               />
             ))
           ) : (

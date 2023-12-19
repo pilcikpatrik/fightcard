@@ -26,6 +26,9 @@ const FightCard = ({
   upvotes,
   hasupVoted,
   views,
+  picture,
+  clerkId,
+  isVisible,
 }: {
   fighters: Fighter[];
   itemId: string;
@@ -34,6 +37,9 @@ const FightCard = ({
   upvotes: number;
   hasupVoted: boolean;
   views: number;
+  picture: string;
+  clerkId: string;
+  isVisible: boolean;
 }) => {
   // Převod pole fighterů na FighterPair[]
   const fightPairs: FighterPair[] = fighters.reduce(
@@ -85,24 +91,28 @@ const FightCard = ({
 
   return (
     <div className="relative flex items-center justify-center overflow-hidden">
-      {isAuthor ? (
-        <EditDelete itemId={itemId} />
-      ) : (
-        <div className="flex-start absolute right-0 top-0 z-40 flex w-full gap-2 p-2">
-          <Link href="/">
-            <Button className="no-focus bg-black text-lg text-white">
-              <BiHomeAlt2 />
-            </Button>
-          </Link>
-        </div>
-      )}
       <Votes
         itemId={itemId}
         userId={userId}
         upvotes={upvotes}
         hasupVoted={hasupVoted}
         views={views}
+        picture={picture}
+        clerkId={clerkId}
       />
+      {isAuthor ? (
+        <EditDelete itemId={itemId} isVisible={isVisible} />
+      ) : (
+        <div className="absolute right-0 top-0">
+          <div className="flex-start gap-2 p-2">
+            <Link href="/">
+              <Button className="no-focus bg-black text-lg text-white">
+                <BiHomeAlt2 />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      )}
       <div className="bg flex h-full w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20">
         <div className="flex-center flex-col gap-2">
           {renderGroup(firstGroup, 0)}

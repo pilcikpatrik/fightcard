@@ -65,17 +65,17 @@ const Fight = ({
             alt="profile"
             width={36}
             height={36}
-            className="h-12 w-12 rounded-full"
+            className="h-8 w-8 rounded-full xs:h-12 xs:w-12"
           />
           <div className="">
             <span className="text-xs uppercase text-black/60">Created by</span>
             <Link href={`/profile/${author.clerkId}`}>
-              <p className="font-medium">{author.name}</p>
+              <p className="text-sm font-medium xs:text-base">{author.name}</p>
             </Link>
           </div>
         </div>
         <Link href={`/card/${JSON.parse(itemId)}`}>
-          <h2 className="text-base font-semibold uppercase xs:text-base xl:text-lg">
+          <h2 className="text-sm font-semibold uppercase xs:text-base xl:text-lg">
             {title}
           </h2>
         </Link>
@@ -105,14 +105,14 @@ const Fight = ({
                                 className="w-28 cursor-pointer xs:w-40 lg:w-56 xl:w-72"
                               />
                             </DialogTrigger>
-                            <DialogContent className="w-full bg-white p-0">
+                            <DialogContent className="w-full overflow-hidden bg-white p-0">
                               <div className="flex flex-col">
                                 <div className="fight_gradient flex-center gap-5 pt-5">
                                   <Image
                                     src={fighter?.imgSrc || defaultImageSrc}
                                     alt={fighter?.title || "Fighter"}
-                                    width={100}
-                                    height={100}
+                                    width={200}
+                                    height={200}
                                     className="w-28 md:w-40"
                                   />
                                   <div>
@@ -133,33 +133,35 @@ const Fight = ({
                                       <span className="text-xs text-black/60">
                                         Nationality
                                       </span>
-                                      <p>{fighter?.nationality}</p>
+                                      <p className="text-sm sm:text-base">
+                                        {fighter?.nationality}
+                                      </p>
                                     </div>
                                     <div>
                                       <span className="text-xs text-black/60">
                                         Age
                                       </span>
-                                      <p>{fighter?.age}</p>
+                                      <p className="text-sm sm:text-base">
+                                        {fighter?.age}
+                                      </p>
                                     </div>
                                     {fighter?.height && (
                                       <div>
                                         <span className="text-xs text-black/60">
                                           Height
                                         </span>
-                                        <p>{fighter.height}</p>
+                                        <p className="text-sm sm:text-base">
+                                          {fighter.height}
+                                        </p>
                                       </div>
                                     )}
                                     <div>
                                       <span className="text-xs text-black/60">
                                         Weight
                                       </span>
-                                      <p>{fighter?.weight}</p>
-                                    </div>
-                                    <div>
-                                      <span className="text-xs text-black/60">
-                                        Background
-                                      </span>
-                                      <p>{fighter?.background}</p>
+                                      <p className="text-sm sm:text-base">
+                                        {fighter?.weight}
+                                      </p>
                                     </div>
 
                                     {fighter?.background && (
@@ -167,7 +169,9 @@ const Fight = ({
                                         <span className="text-xs text-black/60">
                                           Background
                                         </span>
-                                        <p>{fighter.background}</p>
+                                        <p className="text-sm sm:text-base">
+                                          {fighter.background}
+                                        </p>
                                       </div>
                                     )}
                                     {fighter?.gym && (
@@ -175,7 +179,9 @@ const Fight = ({
                                         <span className="text-xs text-black/60">
                                           Gym
                                         </span>
-                                        <p>{fighter.gym}</p>
+                                        <p className="text-sm sm:text-base">
+                                          {fighter.gym}
+                                        </p>
                                       </div>
                                     )}
                                   </div>
@@ -191,7 +197,7 @@ const Fight = ({
                                         key={index}
                                         className="flex items-center justify-end gap-3"
                                       >
-                                        <div className="flex-start">
+                                        <div className="flex-start text-sm sm:text-base">
                                           {stat.label}:
                                         </div>
                                         <div className="flex items-start justify-end">
@@ -206,7 +212,7 @@ const Fight = ({
                                       </div>
                                     ))}
                                     <div className="flex flex-col items-end">
-                                      <span>{`Last ${fighter?.result?.length} fights`}</span>
+                                      <span className="text-sm sm:text-base">{`Last ${fighter?.result?.length} fights`}</span>
                                       <div className="flex-start gap-1">
                                         {fighter?.result?.map((res, index) => (
                                           <div
@@ -223,7 +229,7 @@ const Fight = ({
                               </div>
                             </DialogContent>
                           </Dialog>
-                          <div className="mb-20 lg:mb-32 xl:mb-40">
+                          <div className="mb-12 sm:mb-20 lg:mb-32 xl:mb-40">
                             <span className="uppercase text-white">
                               {fighter?.nickname}
                             </span>
@@ -233,7 +239,7 @@ const Fight = ({
                             <p className=" text-sm text-white xs:text-base lg:text-lg">
                               {fighter?.score || "0-0-0"}
                             </p>
-                            <div className="flex-start mt-1 gap-1">
+                            {/*                             <div className="flex-start mt-1 gap-1">
                               {fighter?.result?.map((res, index) => (
                                 <div
                                   key={index}
@@ -242,7 +248,7 @@ const Fight = ({
                                   {res}
                                 </div>
                               ))}
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         <div className="flex-center sheet w-full bg-yellow-400 p-3 text-white md:hidden">
@@ -251,7 +257,7 @@ const Fight = ({
                       </div>
                     ) : (
                       <div className="flex w-full items-end justify-end gap-5">
-                        <div className="mb-20 lg:mb-32 xl:mb-40">
+                        <div className="mb-12 sm:mb-20 lg:mb-32 xl:mb-40">
                           <span className="uppercase text-white">
                             {fighter?.nickname}
                           </span>
@@ -272,14 +278,14 @@ const Fight = ({
                               className="w-28 cursor-pointer xs:w-40 lg:w-56 xl:w-72"
                             />
                           </DialogTrigger>
-                          <DialogContent className="w-full bg-white p-0">
+                          <DialogContent className="w-full overflow-hidden bg-white p-0">
                             <div className="flex flex-col">
                               <div className="fight_gradient flex-center gap-5 pt-5">
                                 <Image
                                   src={fighter?.imgSrc || defaultImageSrc}
                                   alt={fighter?.title || "Fighter"}
-                                  width={100}
-                                  height={100}
+                                  width={200}
+                                  height={200}
                                   className="w-28 md:w-40"
                                 />
                                 <div>
@@ -300,33 +306,35 @@ const Fight = ({
                                     <span className="text-xs text-black/60">
                                       Nationality
                                     </span>
-                                    <p>{fighter?.nationality}</p>
+                                    <p className="text-sm sm:text-base">
+                                      {fighter?.nationality}
+                                    </p>
                                   </div>
                                   <div>
                                     <span className="text-xs text-black/60">
                                       Age
                                     </span>
-                                    <p>{fighter?.age}</p>
+                                    <p className="text-sm sm:text-base">
+                                      {fighter?.age}
+                                    </p>
                                   </div>
                                   {fighter?.height && (
                                     <div>
                                       <span className="text-xs text-black/60">
                                         Height
                                       </span>
-                                      <p>{fighter.height}</p>
+                                      <p className="text-sm sm:text-base">
+                                        {fighter.height}
+                                      </p>
                                     </div>
                                   )}
                                   <div>
                                     <span className="text-xs text-black/60">
                                       Weight
                                     </span>
-                                    <p>{fighter?.weight}</p>
-                                  </div>
-                                  <div>
-                                    <span className="text-xs text-black/60">
-                                      Background
-                                    </span>
-                                    <p>{fighter?.background}</p>
+                                    <p className="text-sm sm:text-base">
+                                      {fighter?.weight}
+                                    </p>
                                   </div>
 
                                   {fighter?.background && (
@@ -334,7 +342,9 @@ const Fight = ({
                                       <span className="text-xs text-black/60">
                                         Background
                                       </span>
-                                      <p>{fighter.background}</p>
+                                      <p className="text-sm sm:text-base">
+                                        {fighter.background}
+                                      </p>
                                     </div>
                                   )}
                                   {fighter?.gym && (
@@ -342,7 +352,9 @@ const Fight = ({
                                       <span className="text-xs text-black/60">
                                         Gym
                                       </span>
-                                      <p>{fighter.gym}</p>
+                                      <p className="text-sm sm:text-base">
+                                        {fighter.gym}
+                                      </p>
                                     </div>
                                   )}
                                 </div>
@@ -358,7 +370,7 @@ const Fight = ({
                                       key={index}
                                       className="flex items-center justify-end gap-3"
                                     >
-                                      <div className="flex-start">
+                                      <div className="flex-start text-sm sm:text-base">
                                         {stat.label}:
                                       </div>
                                       <div className="flex items-start justify-end">
@@ -373,7 +385,7 @@ const Fight = ({
                                     </div>
                                   ))}
                                   <div className="flex flex-col items-end">
-                                    <span>{`Last ${fighter?.result?.length} fights`}</span>
+                                    <span className="text-sm sm:text-base">{`Last ${fighter?.result?.length} fights`}</span>
                                     <div className="flex-start gap-1">
                                       {fighter?.result?.map((res, index) => (
                                         <div
@@ -396,7 +408,7 @@ const Fight = ({
                 </React.Fragment>
               ))}
             </div>
-            <div className="flex-center gap-5 bg-white p-5 text-base font-bold xs:text-lg xl:text-2xl">
+            <div className="flex-center gap-5 bg-white p-5 text-sm font-bold xs:text-lg xl:text-2xl">
               <span className="">{pair[0]?.title || "Unknown"}</span>
               <span className="text-yellow-400">vs</span>
               <span className="">{pair[1]?.title || "Unknown"}</span>

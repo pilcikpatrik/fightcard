@@ -131,7 +131,6 @@ const SaveDialog = ({ mongoUserId, card, type }: Props) => {
                   >
                     Save
                   </Button>
-                  <Button className="no-focus btn">Close</Button>
                 </div>
               </form>
             </Form>

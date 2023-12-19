@@ -47,6 +47,12 @@ export const useFightersStore = create<FightersState>((set) => ({
 
   updateFightPair: (pairIndex, fighterIndex, fighter) =>
     set((state) => {
+      // Kontrola, zda již fighter není vybrán v jiném páru
+      if (state.fightPairs.some((pair) => pair.includes(fighter))) {
+        alert("This fighter has already been selected in another pair.");
+        return { ...state };
+      }
+
       const updatedPairs = [...state.fightPairs];
       const updatedPair = [...updatedPairs[pairIndex]];
       updatedPair[fighterIndex] = fighter;

@@ -28,7 +28,7 @@ const CategoryForm: React.FC<CategoryFormProps> = ({ pairIndex }) => {
     (state) => state.selectedCategories[pairIndex]
   );
   const selectCategory = useFightersStore((state) => state.selectCategory);
-  const categories = Object.keys(fightersData);
+  const categories = ["Free weight", ...Object.keys(fightersData)];
 
   const handleSelectCategory = (category: string) => {
     selectCategory(pairIndex, category);

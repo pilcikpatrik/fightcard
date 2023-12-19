@@ -12,20 +12,25 @@ const Hero = () => {
           alt="oktagonmma"
           width={300}
           height={300}
+          className="w-40 md:w-60"
         />
-        <h1 className="text-center text-2xl font-bold uppercase">
+        <h1 className="text-center text-base font-bold uppercase md:text-2xl">
           Create and configure your own FIGHT CARD
         </h1>
-        <p className="text-center">
+        <p className="text-center text-xs md:text-sm">
           Buil your dream OKTAGON FIGHTCARD and share it with others. Let us
           know what fights you would like to see.
         </p>
-        <div className="flex flex-col items-center justify-center gap-3 xs:flex-row">
+        <div className="flex items-center justify-center gap-3">
           <Link href="/sign-in">
-            <Button className="no-focus bg-black text-white">Sign in</Button>
+            <Button className="no-focus w-full bg-black text-white md:w-auto">
+              Sign in
+            </Button>
           </Link>
           <Link href="/sign-up">
-            <Button className="no-focus bg-black text-white">Sign up</Button>
+            <Button className="no-focus w-full bg-black text-white md:w-auto">
+              Sign up
+            </Button>
           </Link>
         </div>
       </div>

@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/popover";
 import fightersData from "../../data.json";
 import { useFightersStore } from "@/store/fightCardStore";
+import { useToast } from "@/components/ui/use-toast";
 
 interface stats {
   label: string;
@@ -48,6 +49,7 @@ interface FightersData {
 }
 
 const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
+  const { toast } = useToast();
   const [open, setOpen] = useState(false);
   const selectedCategory = useFightersStore(
     (state) => state.selectedCategories[pairIndex]
@@ -56,7 +58,10 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
     (state) => state.fightPairs[pairIndex][fighterIndex]
   );
   const fightersInCategory =
-    (fightersData as FightersData)[selectedCategory] ?? [];
+    selectedCategory === "Free weight"
+      ? Object.values(fightersData).flat()
+      : (fightersData as FightersData)[selectedCategory] ?? [];
+
   // Filtruje bojovníky na základě vybrané kategorie
   const updateFightPair = useFightersStore((state) => state.updateFightPair);
   const [selectFighter, setSelectFighter] = useState<Fighter | null>(
@@ -64,6 +69,17 @@ const FightForm: React.FC<FightFormProps> = ({ pairIndex, fighterIndex }) => {
   );
 
   const handleSelectFighter = (fighter: Fighter) => {
+    // Získání všech aktuálních fightPairs
+    const fightPairs = useFightersStore.getState().fightPairs;
+
+    // Kontrola, zda již fighter není vybrán v jiném páru
+    if (fightPairs.some((pair) => pair.includes(fighter))) {
+      toast({
+        description: "This fighter is already on card.",
+      });
+      return;
+    }
+
     setSelectFighter(fighter);
     updateFightPair(pairIndex, fighterIndex, fighter);
   };

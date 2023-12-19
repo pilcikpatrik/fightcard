@@ -7,6 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { toast } from "./ui/use-toast";
 import Image from "next/image";
 import { FaRegEye } from "react-icons/fa";
+import Link from "next/link";
 
 interface Props {
   itemId: string;
@@ -14,9 +15,19 @@ interface Props {
   upvotes: number;
   hasupVoted: boolean;
   views: number;
+  picture: string;
+  clerkId: string;
 }
 
-const Votes = ({ itemId, userId, upvotes, hasupVoted, views }: Props) => {
+const Votes = ({
+  itemId,
+  userId,
+  upvotes,
+  hasupVoted,
+  views,
+  picture,
+  clerkId,
+}: Props) => {
   const pathname = usePathname();
   const router = useRouter();
 
@@ -47,8 +58,19 @@ const Votes = ({ itemId, userId, upvotes, hasupVoted, views }: Props) => {
   }, [itemId, userId, pathname, router]);
 
   return (
-    <div className="absolute right-0 top-0">
+    <div className="absolute left-0 top-0">
       <div className="flex items-center justify-end gap-2 p-2">
+        <Link href={`/profile/${clerkId}`}>
+          <div className="rounded-full bg-gradient-to-r from-[#edde5d] to-[#f09819] p-[1px] brightness-90 contrast-150">
+            <Image
+              src={picture}
+              alt="profile"
+              width={36}
+              height={36}
+              className="rounded-full"
+            />
+          </div>
+        </Link>
         <div
           onClick={() => handleVote()}
           className="cursor-pointer rounded-md bg-black px-3 py-0.5 text-lg text-white"
@@ -74,7 +96,6 @@ const Votes = ({ itemId, userId, upvotes, hasupVoted, views }: Props) => {
         <div className="cursor-pointer rounded-md bg-black px-3 py-0.5 text-lg text-white">
           <div className="flex-center gap-1.5">
             <FaRegEye />
-
             <div className="flex-center min-w-[18px] rounded-sm p-1">
               <p className="">{formatAndDivideNumber(views)}</p>
             </div>
