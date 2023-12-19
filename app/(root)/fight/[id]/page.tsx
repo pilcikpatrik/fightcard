@@ -16,15 +16,15 @@ const page = async ({ params }: any) => {
 
   const itemId = result._id;
 
+  const isAuthor = mongoUser && mongoUser._id === result.author._id;
+
   return (
     <div className=" w-full">
       <Fight
         fighters={result.fighters}
         itemId={JSON.stringify(itemId)}
         title={result.title}
-        isAuthor={
-          JSON.stringify(mongoUser._id) === JSON.stringify(result.author._id)
-        }
+        isAuthor={isAuthor}
         author={result.author}
       />
     </div>

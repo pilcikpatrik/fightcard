@@ -16,17 +16,21 @@ const page = async ({ params }: any) => {
 
   const itemId = result._id;
 
+  const isAuthor = mongoUser && mongoUser._id === result.author._id;
+
+  const userId = mongoUser ? JSON.stringify(mongoUser._id) : "";
+
+  const hasUpVoted = mongoUser ? result.upvotes.includes(mongoUser._id) : false;
+
   return (
     <div className="flex w-full flex-col">
       <FightCard
         fighters={result.fighters}
         itemId={JSON.stringify(itemId)}
-        isAuthor={
-          JSON.stringify(mongoUser._id) === JSON.stringify(result.author._id)
-        }
-        userId={JSON.stringify(mongoUser._id)}
+        isAuthor={isAuthor}
+        userId={userId}
         upvotes={result.upvotes.length}
-        hasupVoted={result.upvotes.includes(mongoUser._id)}
+        hasupVoted={hasUpVoted}
         views={result.views}
         picture={result.author.picture}
         clerkId={result.author.clerkId}
