@@ -16,7 +16,10 @@ const page = async ({ params }: any) => {
 
   const itemId = result._id;
 
-  const isAuthor = mongoUser && mongoUser._id === result.author._id;
+  const isAuthor =
+    mongoUser &&
+    result.author &&
+    mongoUser._id.toString() === result.author._id.toString();
 
   const userId = mongoUser ? JSON.stringify(mongoUser._id) : "";
 
