@@ -130,4 +130,6 @@ _::-webkit-full-page-media,
 _:future,
 :root .safari_only {
   overflow-x: clip;
+  overflow-x: hidden;
+  overflow-y: visible;
 }

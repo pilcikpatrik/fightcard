@@ -8,7 +8,6 @@ import Link from "next/link";
 import Votes from "./Votes";
 import { Button } from "@/components/ui/button";
 import { BiHomeAlt2 } from "react-icons/bi";
-import Info from "./Info";
 
 interface Fighter {
   title: string;
@@ -114,9 +113,6 @@ const FightCard = ({
           </div>
         </div>
       )}
-      <div className="absolute left-1/2 top-14 flex w-full -translate-x-1/2">
-        <Info title="Click on fighters to display details" />
-      </div>
       <div className="bg flex h-full w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20">
         <div className="flex-center flex-col gap-2">
           {renderGroup(firstGroup, 0)}
