@@ -12,7 +12,7 @@ const page = async () => {
   const mongoUser = await getUserById({ userId });
 
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex min-h-screen w-full flex-col">
       <CreateFightCard mongoUserId={JSON.stringify(mongoUser?._id)} />
     </div>
   );

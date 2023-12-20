@@ -26,7 +26,7 @@ const page = async ({ params }: any) => {
   const hasUpVoted = mongoUser ? result.upvotes.includes(mongoUser._id) : false;
 
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex min-h-screen w-full flex-col">
       <FightCard
         fighters={result.fighters}
         itemId={JSON.stringify(itemId)}

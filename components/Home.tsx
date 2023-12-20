@@ -9,7 +9,7 @@ const Home = ({ savedCards }: any) => {
         <HomeForm savedCards={savedCards} />
       </div>
 
-      <div className="bg_home flex h-[90vh] w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20"></div>
+      <div className="bg_home flex min-h-screen w-full grow flex-col items-center justify-center gap-2 px-10 pt-10 md:px-20"></div>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const page = async ({ params }: any) => {
   const result = await getCardById({ cardId: params.id });
 
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex min-h-screen w-full flex-col">
       <CreateFightCard
         type="Edit"
         mongoUserId={JSON.stringify(mongoUser?._id)}
