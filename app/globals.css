@@ -129,5 +129,5 @@ body {
 _::-webkit-full-page-media,
 _:future,
 :root .safari_only {
-  overflow-x: hidden;
+  overflow-x: clip;
 }

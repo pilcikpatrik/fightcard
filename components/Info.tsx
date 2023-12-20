@@ -8,7 +8,7 @@ interface Props {
 const Info = ({ title }: Props) => {
   return (
     <a className="mx-auto rounded-full bg-gradient-to-r from-[#edde5d] to-[#f09819] p-[1px] brightness-90 contrast-150 focus:outline-none dark:brightness-125 dark:contrast-100 sm:block">
-      <div className="group relative overflow-hidden rounded-full bg-white/80 px-3 py-1 duration-300 hover:pr-9 dark:bg-black/80">
+      <div className="group relative overflow-hidden rounded-full bg-zinc-700 px-3 py-1 duration-300 hover:pr-9">
         <span className="select-none bg-gradient-to-r from-[#edde5d] to-[#f09819] bg-clip-text text-transparent">
           <svg
             className="mr-1 inline-block h-4 w-4 fill-[#edde5d]"
