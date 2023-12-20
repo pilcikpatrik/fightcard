@@ -97,7 +97,7 @@ const PostCard = ({
                 <DropdownMenuTrigger asChild>
                   <Button
                     variant="ghost"
-                    className="data-[state=open]:bg-muted flex h-8 w-8 p-0 md:hidden"
+                    className="data-[state=open]:bg-muted flex h-8 w-8 p-0"
                   >
                     <BiDotsVerticalRounded className="h-4 w-4" />
                     <span className="sr-only">Open menu</span>

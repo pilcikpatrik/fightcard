@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { CircularProgress } from "@nextui-org/react";
+import Info from "./Info";
 
 const defaultImageSrc = "https://oktagonmma.com/img/fight-card/arnold.png";
 
@@ -58,6 +59,9 @@ const Fight = ({
 
   return (
     <div className="relative w-full flex-col">
+      <div className="absolute left-1/2 top-40 flex w-full -translate-x-1/2 xs:top-44 md:top-28">
+        <Info title="Click on fighter to display details" />
+      </div>
       <div className="flex items-center justify-between border-b p-5 md:border-none md:border-neutral-400 2xl:px-80">
         <div className="flex-center gap-3">
           <Image
@@ -102,7 +106,7 @@ const Fight = ({
                                 alt={fighter?.title || "Fighter"}
                                 width={300}
                                 height={300}
-                                className="w-28 cursor-pointer xs:w-40 lg:w-56 xl:w-72"
+                                className="z-10 w-28 cursor-pointer xs:w-40 lg:w-56 xl:w-72"
                               />
                             </DialogTrigger>
                             <DialogContent className="w-full overflow-hidden bg-white p-0">

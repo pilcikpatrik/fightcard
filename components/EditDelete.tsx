@@ -17,6 +17,7 @@ import {
   BiEdit,
   BiHomeAlt2,
   BiDotsVerticalRounded,
+  BiShare,
 } from "react-icons/bi";
 import { deleteCard, setVisibleCard } from "@/lib/actions/card.action";
 import { useRouter, usePathname } from "next/navigation";
@@ -91,6 +92,35 @@ const EditDelete = ({ itemId, isVisible }: Props) => {
                 <AlertDialogAction
                   onClick={handleDelete}
                   className="no-focus btn"
+                >
+                  Continue
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
+          <AlertDialog>
+            <AlertDialogTrigger
+              asChild
+              className={isVisible ? "hidden" : "flex"}
+            >
+              <Button className="btn no-focus hover_btn text-lg">
+                <BiShare />
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent className="bg-white">
+              <AlertDialogHeader>
+                <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  This action will publish your FightCard.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel className="no-focus btn hover_btn">
+                  Cancel
+                </AlertDialogCancel>
+                <AlertDialogAction
+                  onClick={handleShare}
+                  className="no-focus btn hover_btn"
                 >
                   Continue
                 </AlertDialogAction>

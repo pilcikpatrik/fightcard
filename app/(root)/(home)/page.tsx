@@ -64,7 +64,7 @@ const page = async ({ searchParams }: SearchParamsProps) => {
                 fighters={card.fighters}
                 views={card.views}
                 upvotes={card.upvotes.length}
-                clerkId={card.author.clerkId}
+                clerkId={userId}
               />
             ))
           ) : (

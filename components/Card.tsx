@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ pair }) => {
   const [fighterOne, fighterTwo] = pair;
 
   return (
-    <div className="relative z-0 flex h-[110px] w-[70px] overflow-x-clip border-2 border-white bg-yellow-400 xs:h-28 xs:w-20 md:h-48 md:w-32 lg:h-56 lg:w-36">
+    <div className="safari_only relative z-0 flex h-[110px] w-[70px] overflow-x-clip border-2 border-white bg-yellow-400 xs:h-28 xs:w-20 md:h-48 md:w-32 lg:h-56 lg:w-36">
       <Image
         src={getFighterImage(fighterOne)}
         alt={getFighterSurname(fighterOne)}

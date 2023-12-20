@@ -18,7 +18,7 @@ const NavContent = () => {
   const pathname = usePathname();
 
   return (
-    <section className="flex h-full flex-col gap-2 pt-16">
+    <section className="flex h-full flex-col gap-2 pt-5">
       {sidebarLinks.map((item) => {
         const isActive =
           (pathname.includes(item.route) && item.route.length > 1) ||
@@ -63,7 +63,17 @@ const Navbar = () => {
             <SheetTrigger asChild>
               <BiMenu />
             </SheetTrigger>
-            <SheetContent side="right" className="bg-white pb-40">
+            <SheetContent side="right" className="bg-white pb-48 pt-10">
+              <SheetClose asChild>
+                <div className="flex-center">
+                  <Image
+                    src="/assets/images/oktagonmma.png"
+                    alt="oktagonmma"
+                    width={200}
+                    height={200}
+                  />
+                </div>
+              </SheetClose>
               <SheetClose asChild>
                 <NavContent />
               </SheetClose>

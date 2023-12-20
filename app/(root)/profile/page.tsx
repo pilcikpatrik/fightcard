@@ -20,7 +20,21 @@ interface URLProps {
 
 const page = async ({ params, searchParams }: URLProps) => {
   const { userId: clerkId } = auth();
-  const userInfo = await getUserInfo({ userId: params.id });
+
+  // Ensure clerkId is not null. If it is, handle the case appropriately.
+  if (!clerkId) {
+    // Redirect to login or show an error message
+    return <div>Please log in to view this page</div>;
+  }
+
+  // Use params.id if available, otherwise use clerkId
+  const userIdToFetch = params.id || clerkId;
+
+  const userInfo = await getUserInfo({ userId: userIdToFetch });
+
+  if (!userInfo) {
+    return <div>User not found</div>;
+  }
 
   return (
     <div className="flex w-full flex-col items-center justify-center px-5 xl:px-80">
@@ -53,7 +67,7 @@ const page = async ({ params, searchParams }: URLProps) => {
         <SignedIn>
           {clerkId === userInfo.user.clerkId && (
             <>
-              <Link href={`/`}>
+              <Link href={`/profile`}>
                 <Button className="no-focus hidden bg-black text-lg text-white md:flex">
                   <BiEdit />
                 </Button>
@@ -69,7 +83,7 @@ const page = async ({ params, searchParams }: URLProps) => {
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-[160px] bg-white">
-                  <Link href={`/profile`}>
+                  <Link href="/profile">
                     <DropdownMenuItem className="cursor-pointer focus:bg-gray-300/20">
                       Edit
                     </DropdownMenuItem>

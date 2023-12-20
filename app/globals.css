@@ -120,3 +120,14 @@ body {
 .hover_btn {
   @apply hover:no-underline;
 }
+
+.clip-side-overflow {
+  clip-path: inset(0);
+  z-index: 1; /* Adjust as necessary for your layout */
+}
+
+_::-webkit-full-page-media,
+_:future,
+:root .safari_only {
+  overflow-x: hidden;
+}
