@@ -61,7 +61,9 @@ const Navbar = () => {
         <div className="flex-center cursor-pointer text-2xl text-white">
           <Sheet>
             <SheetTrigger asChild>
-              <BiMenu />
+              <div className="text-2xl text-white">
+                <BiMenu />
+              </div>
             </SheetTrigger>
             <SheetContent side="right" className="bg-white pb-48 pt-10">
               <SheetClose asChild>

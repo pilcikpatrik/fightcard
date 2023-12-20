@@ -190,7 +190,7 @@ const Fight = ({
                                       (fighter?.stats?.length ?? 0) > 0
                                         ? "flex"
                                         : "hidden"
-                                    } flex flex-col justify-start gap-2`}
+                                    } flex flex-col items-end justify-start gap-2 pl-2.5`}
                                   >
                                     {fighter?.stats?.map((stat, index) => (
                                       <div

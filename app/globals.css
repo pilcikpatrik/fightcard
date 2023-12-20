@@ -64,7 +64,7 @@ body {
 }
 
 .f_image_1 {
-  @apply absolute bottom-0 right-3 w-28 xs:w-36 md:right-6 md:w-60;
+  @apply absolute bottom-0 right-3 w-28 xs:w-36 md:right-6 md:w-60 -top-3;
   animation-duration: 300ms;
   animation-fill-mode: forwards;
 }
@@ -132,4 +132,12 @@ _:future,
   overflow-x: clip;
   overflow-x: hidden;
   overflow-y: visible;
+}
+
+_::-webkit-full-page-media,
+_:future,
+:root .f_image_1 {
+  @apply absolute bottom-0 right-3 w-28 xs:w-36 md:right-6 md:w-60 top-0;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
 }

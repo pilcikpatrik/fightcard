@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ pair }) => {
         alt={getFighterSurname(fighterOne)}
         width={150}
         height={150}
-        className="f_image_1 relative -top-3"
+        className="f_image_1 relative"
       />
       <Image
         src={getFighterImage(fighterTwo)}
